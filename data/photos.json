@@ -101,7 +101,7 @@
     "url": "https://www.rspb.org.uk/birds-and-wildlife/bullfinch",
     "credit": {
       "filePage": "https://commons.wikimedia.org/wiki/File:Bullfinch_male.jpg",
-      "author": "Francis C. Franklin",
+      "author": "© Francis C. Franklin",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bullfinch_male.jpg"
@@ -130,5 +130,137 @@
     },
     "acquired": "2026-11-20",
     "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+  },
+  {
+    "id": "BH-0007",
+    "file": "mandarin-duck.webp",
+    "name": "鸳鸯",
+    "en": "Mandarin Duck",
+    "latin": "Aix galericulata",
+    "order": "雁形目",
+    "family": "鸭科",
+    "aliases": "鴛鴦",
+    "note": "雄鸟在繁殖季有一对橙色的帆状羽毛。雌鸟通体灰褐，眼周的浅色环向后延伸。",
+    "source": "英国皇家鸟类保护协会",
+    "url": "https://www.rspb.org.uk/birds-and-wildlife/mandarin-duck",
+    "credit": {
+      "author": "© Francis C. Franklin",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Pair_of_mandarin_ducks.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Pair_of_mandarin_ducks.jpg/960px-Pair_of_mandarin_ducks.jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+  },
+  {
+    "id": "BH-0008",
+    "file": "swallow.webp",
+    "name": "家燕",
+    "en": "Barn Swallow",
+    "latin": "Hirundo rustica",
+    "order": "雀形目",
+    "family": "燕科",
+    "aliases": "家燕 燕子",
+    "note": "成鸟额头和喉部呈栗红色，尾羽分叉。飞行时可以留意细长的外侧尾羽。",
+    "source": "英国皇家鸟类保护协会",
+    "url": "https://www.rspb.org.uk/birds-and-wildlife/swallow",
+    "credit": {
+      "author": "Andreas Trepte, www.avi-fauna.info",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Rauchschwalbe_Hirundo_rustica.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Rauchschwalbe_Hirundo_rustica.jpg/960px-Rauchschwalbe_Hirundo_rustica.jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+  },
+  {
+    "id": "BH-0009",
+    "file": "grey-heron.webp",
+    "name": "苍鹭",
+    "en": "Grey Heron",
+    "latin": "Ardea cinerea",
+    "order": "鹈形目",
+    "family": "鹭科",
+    "aliases": "蒼鷺",
+    "note": "体羽以灰色为主，长颈、长腿，常在浅水中静候猎物。飞起时，颈部会缩成弯曲的形状。",
+    "source": "英国皇家鸟类保护协会",
+    "url": "https://www.rspb.org.uk/birds-and-wildlife/grey-heron",
+    "credit": {
+      "author": "Giacomo Cimino",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Il_pescatore_solitario.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Il_pescatore_solitario.jpg/960px-Il_pescatore_solitario.jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+  },
+  {
+    "id": "BH-0010",
+    "file": "tree-sparrow.webp",
+    "name": "树麻雀",
+    "en": "Eurasian Tree Sparrow",
+    "latin": "Passer montanus",
+    "order": "雀形目",
+    "family": "雀科",
+    "aliases": "树麻雀 麻雀 樹麻雀",
+    "note": "栗色头顶和白颊上的黑斑是辨识要点。雌雄外形相近。",
+    "source": "英国皇家鸟类保护协会",
+    "url": "https://www.rspb.org.uk/birds-and-wildlife/tree-sparrow",
+    "credit": {
+      "author": "Laitche",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tree_Sparrow_August_2007_Osaka_Japan.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tree_Sparrow_August_2007_Osaka_Japan.jpg/960px-Tree_Sparrow_August_2007_Osaka_Japan.jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+  },
+  {
+    "id": "BH-0011",
+    "file": "little-grebe.webp",
+    "name": "小䴙䴘",
+    "en": "Little Grebe",
+    "latin": "Tachybaptus ruficollis",
+    "order": "䴙䴘目",
+    "family": "䴙䴘科",
+    "aliases": "小鸊鷉 小鸊鷈 小辟鹈 小鷿鷈",
+    "note": "小型潜水鸟，短嘴，身形圆，尾部很短。繁殖羽的颊和颈侧呈栗色，嘴角可见浅色斑。",
+    "source": "英国皇家鸟类保护协会",
+    "url": "https://www.rspb.org.uk/birds-and-wildlife/little-grebe",
+    "credit": {
+      "author": "Andreas Trepte, www.avi-fauna.info",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Little_grebe_Zwergtaucher.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Little_grebe_Zwergtaucher.jpg/960px-Little_grebe_Zwergtaucher.jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+  },
+  {
+    "id": "BH-0012",
+    "file": "robin.webp",
+    "name": "欧亚鸲",
+    "en": "European Robin",
+    "latin": "Erithacus rubecula",
+    "order": "雀形目",
+    "family": "鹟科",
+    "aliases": "歐亞鴝 知更鸟 知更鳥 欧亚知更鸟",
+    "note": "成鸟脸部和前胸为橙红色，背部偏褐。幼鸟带有斑点，还未长出橙红色胸羽。",
+    "source": "英国皇家鸟类保护协会",
+    "url": "https://www.rspb.org.uk/birds-and-wildlife/robin",
+    "credit": {
+      "author": "© Francis C. Franklin",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Erithacus_rubecula_with_cocked_head.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Erithacus_rubecula_with_cocked_head.jpg/960px-Erithacus_rubecula_with_cocked_head.jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
   }
 ]
