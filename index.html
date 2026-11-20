@@ -4,21 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f6f3ea">
-  <meta name="description" content="浏览真实的鸟类摄影，按中文名、英文名、学名或分类检索世界鸟类档案。">
+  <meta name="description" data-en-content="Explore bird photography and search the world checklist by Chinese, English or scientific name and taxonomy." content="浏览真实的鸟类摄影，按中文名、英文名、学名或分类检索世界鸟类档案。">
   <title>鸟类档案馆</title>
   <link rel="icon" type="image/png" href="assets/seal.png">
-  <link rel="stylesheet" href="assets/site.css?v=2">
-  <script type="module" src="assets/app.js?v=2"></script>
+  <link rel="stylesheet" href="assets/site.css?v=3">
+  <script type="module" src="assets/app.js?v=3"></script>
 </head>
 <body>
-  <a class="skip-link" href="#content">跳到主要内容</a>
+  <a class="skip-link" data-en="Skip to main content" href="#content">跳到主要内容</a>
   <header class="masthead">
     <div class="shell head-inner">
-      <a class="brand" href="#gallery" data-nav><span class="seal" aria-hidden="true"><span>羽</span></span><span>鸟类档案馆</span></a>
-      <nav class="primary-nav" aria-label="馆内导航">
-        <a href="#gallery" data-nav data-section="gallery">影像总览</a>
-        <a href="#checklist" data-nav data-section="checklist">全球名录</a>
+      <a class="brand" href="#gallery" data-nav><span class="seal" aria-hidden="true"><span>羽</span></span><span data-en="Bird Archive">鸟类档案馆</span></a>
+      <nav class="primary-nav" aria-label="馆内导航" data-en-aria="Main navigation">
+        <a href="#gallery" data-nav data-section="gallery" data-en="Photo gallery">影像总览</a>
+        <a href="#checklist" data-nav data-section="checklist" data-en="World checklist">全球名录</a>
       </nav>
+      <div class="language-picker" role="group" aria-label="界面语言" data-en-aria="Interface language">
+        <button type="button" id="lang-zh" data-lang="zh" lang="zh-CN" aria-pressed="true">中文</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" id="lang-en" data-lang="en" lang="en" aria-pressed="false">English</button>
+      </div>
     </div>
   </header>
   <main id="content" class="shell" tabindex="-1">
@@ -26,9 +31,9 @@
       <div class="catalog-head">
         <div class="heading-group"><h1 id="browse-title">馆藏影像</h1><span id="total" class="total"></span></div>
         <form id="search-form" role="search">
-          <label for="query" class="sr-only">检索鸟种</label>
+          <label for="query" data-en="Find a bird" class="sr-only">检索鸟种</label>
           <span class="search-icon" aria-hidden="true"></span>
-          <input id="query" type="search" placeholder="搜索鸟名、别名或学名" autocomplete="off">
+          <input id="query" type="search" data-en-placeholder="Search bird names or scientific names" placeholder="搜索鸟名、别名或学名" autocomplete="off">
         </form>
       </div>
       <div class="collection-info" id="collection-info"></div>
@@ -36,25 +41,26 @@
         <span class="index-label" id="index-label">按目浏览</span>
         <div id="paper-tabs" class="paper-tabs" role="group" aria-labelledby="index-label"></div>
         <div class="select-group" id="taxonomy" hidden>
-          <label><span>目</span><select id="order" aria-label="按目筛选"></select></label>
-          <label><span>科</span><select id="family" aria-label="按科筛选"></select></label>
+          <label><span data-en="Order">目</span><select id="order" aria-label="按目筛选" data-en-aria="Filter by order"></select></label>
+          <label><span data-en="Family">科</span><select id="family" aria-label="按科筛选" data-en-aria="Filter by family"></select></label>
+          <label id="photo-filter" hidden><span data-en="Photos">影像</span><select id="media" aria-label="按照片收录情况筛选" data-en-aria="Filter by photo coverage"><option value="" data-en="All records">全部档案</option><option value="with" data-en="With photos">已有实拍</option><option value="missing" data-en="Awaiting photos">照片待补</option></select></label>
         </div>
-        <button class="text-button reset" id="reset" type="button" hidden>清除筛选</button>
+        <button class="text-button reset" id="reset" data-en="Clear filters" type="button" hidden>清除筛选</button>
       </div>
       <p id="status" class="sr-only" aria-live="polite"></p>
-      <div id="results" aria-label="物种列表"></div>
-      <nav id="pager" class="pager" aria-label="结果分页" hidden>
-        <button id="previous" class="line-button" type="button">上一页</button>
+      <div id="results" data-en-aria="Species list" aria-label="物种列表"></div>
+      <nav id="pager" class="pager" aria-label="结果分页" data-en-aria="Results pagination" hidden>
+        <button id="previous" data-en="Previous" class="line-button" type="button">上一页</button>
         <span id="page-number"></span>
-        <button id="next" class="line-button" type="button">下一页</button>
+        <button id="next" data-en="Next" class="line-button" type="button">下一页</button>
       </nav>
     </section>
     <section id="record" aria-labelledby="record-title" hidden></section>
-    <noscript><p>请启用 JavaScript，以浏览图库、检索名录或打开物种档案。</p></noscript>
+    <noscript><p>请启用 JavaScript，以浏览图库、检索名录或打开物种档案。</p><p lang="en">Enable JavaScript to browse photographs, search the checklist and open species records.</p></noscript>
   </main>
-  <footer class="shell footer"><span>鸟类档案馆</span><button id="sources-button" class="text-button" type="button">资料与授权</button></footer>
+  <footer class="shell footer"><span data-en="Bird Archive">鸟类档案馆</span><button id="sources-button" data-en="Sources and licenses" class="text-button" type="button">资料与授权</button></footer>
   <dialog id="sources-dialog" aria-labelledby="sources-title">
-    <div class="dialog-head"><h2 id="sources-title">资料与授权</h2><button id="close-sources" class="line-button" type="button" autofocus>关闭</button></div>
+    <div class="dialog-head"><h2 id="sources-title" data-en="Sources and licenses">资料与授权</h2><button id="close-sources" data-en="Close" class="line-button" type="button" autofocus>关闭</button></div>
     <div id="sources-content"></div>
   </dialog>
 </body>

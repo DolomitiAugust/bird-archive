@@ -1,0 +1,939 @@
+﻿Species ID,Chinese name,English name,Scientific name,Order,Family,Missing material
+avibase-23D44844,灰脸穴䳍,Slaty-masked Tinamou,Crypturellus resonans,Tinamiformes,Tinamidae,Encyclopedia excerpt
+avibase-F5F9A63F,灰喉穴䳍,Tepui Tinamou,Crypturellus ptaritepui,Tinamiformes,Tinamidae,Photograph
+avibase-45EE168A,锈栗穴䳍,Rusty Tinamou,Crypturellus brevirostris,Tinamiformes,Tinamidae,Photograph
+avibase-26D1CE28,斑穴䳍,Barred Tinamou,Crypturellus casiquiare,Tinamiformes,Tinamidae,Photograph
+avibase-2ED97B54,乔科穴䳍,Choco Tinamou,Crypturellus kerriae,Tinamiformes,Tinamidae,Photograph
+avibase-E4AA60C7,毛里求斯雁,Mauritius Sheldgoose,Alopochen mauritiana,Anseriformes,Anatidae,Photograph
+avibase-10D0AD82,留尼旺雁,Reunion Sheldgoose,Alopochen kervazoi,Anseriformes,Anatidae,Photograph
+avibase-B2EEE0EA,冠麻鸭,Crested Shelduck,Tadorna cristata,Anseriformes,Anatidae,Photograph
+avibase-80897D19,拉布拉多鸭,Labrador Duck,Camptorhynchus labradorius,Anseriformes,Anatidae,Photograph
+avibase-EDDA42ED,奧克蘭秋沙鴨,New Zealand Merganser,Mergus australis,Anseriformes,Anatidae,Photograph
+avibase-8D0294E1,粉头鸭,Pink-headed Duck,Rhodonessa caryophyllacea,Anseriformes,Anatidae,Photograph
+avibase-B52611C1,阿岛鸭,Amsterdam Wigeon,Mareca marecula,Anseriformes,Anatidae,Photograph
+avibase-08F2BBC6,毛里裘斯鴨,Mascarene Teal,Anas theodori,Anseriformes,Anatidae,Photograph
+avibase-49888E04,黑嘴营冢雉,Black-billed Brushturkey,Talegalla fuscirostris,Galliformes,Megapodiidae,Encyclopedia excerpt
+avibase-638C9A70,冠冢雉,Waigeo Brushturkey,Aepypodius bruijnii,Galliformes,Megapodiidae,Photograph
+avibase-69BBDE32,波利冢雉,Tongan Megapode,Megapodius pritchardii,Galliformes,Megapodiidae,Photograph
+avibase-333D3213,阿拉戈盔嘴雉,Alagoas Curassow,Mitu mitu,Galliformes,Cracidae,Photograph
+avibase-0E67D7FC,黑顶林鹑,Tacarcuna Wood Quail,Odontophorus dialeucos,Galliformes,Odontophoridae,Photograph
+avibase-826B36EC,长嘴山鹑,Long-billed Partridge,Rhizothera longirostris,Galliformes,Phasianidae,Photograph
+avibase-1F5998BC,杜利特山长嘴山鹑,Dulit Partridge,Rhizothera dulitensis,Galliformes,Phasianidae,Photograph
+avibase-E11585DB,林鹧鸪,Latham's Francolin,Peliperdix lathami,Galliformes,Phasianidae,Encyclopedia excerpt
+avibase-FF5BAE30,高地环颈鹧鸪,Moorland Francolin,Scleroptila psilolaema,Galliformes,Phasianidae,Encyclopedia excerpt
+avibase-21616639,灰翅环颈鹧鸪,Grey-winged Francolin,Scleroptila afra,Galliformes,Phasianidae,Encyclopedia excerpt
+avibase-AE1B3497,怀氏鹧鸪,Whyte's Francolin,Scleroptila whytei,Galliformes,Phasianidae,"Photograph, Encyclopedia excerpt"
+avibase-8004C7E5,凤头鹧鸪,Crested Francolin,Ortygornis sephaena,Galliformes,Phasianidae,Encyclopedia excerpt
+avibase-48E3A389,新西兰鹌鹑,New Zealand Quail,Coturnix novaezelandiae,Galliformes,Phasianidae,Photograph
+avibase-1EDD86FF,喜马拉雅鹑,Himalayan Quail,Ophrysia superciliosa,Galliformes,Phasianidae,Photograph
+avibase-19031FF7,阿萨姆丛鹑,Manipur Bush Quail,Perdicula manipurensis,Galliformes,Phasianidae,Photograph
+avibase-D40CAF0C,喀麦隆彩鹧鸪,Mount Cameroon Spurfowl,Pternistis camerunensis,Galliformes,Phasianidae,"Photograph, Encyclopedia excerpt"
+avibase-A7002FF6,纳塔尔彩鹧鸪,Natal Spurfowl,Pternistis natalensis,Galliformes,Phasianidae,Encyclopedia excerpt
+avibase-3EAF578D,黄嘴彩鹧鸪,Heuglin's Spurfowl,Pternistis icterorhynchus,Galliformes,Phasianidae,Encyclopedia excerpt
+avibase-6EB4D5DE,红眶彩鹧鸪,Clapperton's Spurfowl,Pternistis clappertoni,Galliformes,Phasianidae,Encyclopedia excerpt
+avibase-16E62DC4,德氏小鸊鷉,Alaotra Grebe,Tachybaptus rufolavatus,Podicipediformes,Podicipedidae,Photograph
+avibase-5B2C899D,阿提特蘭鷿鷈,Atitlan Grebe,Podilymbus gigas,Podicipediformes,Podicipedidae,Photograph
+avibase-A62CBDD6,哥倫比亞鷿鷈,Colombian Grebe,Podiceps andinus,Podicipediformes,Podicipedidae,Photograph
+avibase-7B86087B,红额马岛鹃,Red-fronted Coua,Coua reynaudii,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-CBAC0BBC,德拉氏馬島鵑,Snail-eating Coua,Coua delalandei,Cuculiformes,Cuculidae,Photograph
+avibase-CC72DA7A,红胸马岛鹃,Red-breasted Coua,Coua serriana,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-AFAACBF6,杂色鸦鹃,White-necked Coucal,Centropus ateralbus,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-2FC6E4CC,比岛鸦鹃,Biak Coucal,Centropus chalybeus,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-741223A5,大鸦鹃,Ivory-billed Coucal,Centropus menbeki,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-A3CDA02C,苏拉鸦鹃,Bay Coucal,Centropus celebensis,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-27F3C2C3,巨鸦鹃,Goliath Coucal,Centropus goliath,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-D4162FE4,小黑鸦鹃,Black-billed Coucal,Centropus bernsteini,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-C3BD8307,明打威地鹃,Mentawai Malkoha,Phaenicophaeus oeneicaudus,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-A515DB77,火红嘴地鹃,Yellow-billed Malkoha,Rhamphococcyx calyorhynchus,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-AD251783,圣赫勒拿杜鹃,St. Helena Cuckoo,Nannococcyx psix,Cuculiformes,Cuculidae,Photograph
+avibase-AD3C4F31,铜翅金鹃,White-eared Bronze Cuckoo,Chalcites meyerii,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-195E5FE7,所罗门杜鹃,Solomons Brush Cuckoo,Cacomantis addendus,Cuculiformes,Cuculidae,Photograph
+avibase-6E88A00E,马努斯杜鹃,Manus Brush Cuckoo,Cacomantis blandus,Cuculiformes,Cuculidae,Photograph
+avibase-B8D42059,长尾鹃,Barred Long-tailed Cuckoo,Cercococcyx montanus,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-1D90D496,摩鹿加乌鹃,Moluccan Drongo-Cuckoo,Surniculus musschenbroeki,Cuculiformes,Cuculidae,Encyclopedia excerpt
+avibase-78A432E0,本南鹰鹃,Penan Hawk-Cuckoo,Hierococcyx tiganada,Cuculiformes,Cuculidae,Photograph
+avibase-1652D541,紫翅地鸠,Purple-winged Ground Dove,Paraclaravis geoffroyi,Columbiformes,Columbidae,Photograph
+avibase-F7DED186,凤头长尾鸠,Crested Cuckoo-Dove,Reinwardtoena crassirostris,Columbiformes,Columbidae,Photograph
+avibase-D14CE6AB,白脸蕉鸠,White-faced Cuckoo-Dove,Turacoena manadensis,Columbiformes,Columbidae,Encyclopedia excerpt
+avibase-D1923633,苏拉威西鹃鸠,Sulawesi Cuckoo-Dove,Macropygia albicapilla,Columbiformes,Columbidae,Photograph
+avibase-2BB91092,羅島藍鳩,Rodrigues Pigeon,Nesoenas rodericanus,Columbiformes,Columbidae,Photograph
+avibase-33D2620F,琉球银斑黑鸽,Ryukyu Wood Pigeon,Columba jouyi,Columbiformes,Columbidae,Photograph
+avibase-0EFF2CA3,小笠原雜色林鴿,Bonin Wood Pigeon,Columba versicolor,Columbiformes,Columbidae,Photograph
+avibase-3C0E1CD4,黄腿鸽,Yellow-legged Pigeon,Columba pallidiceps,Columbiformes,Columbidae,Photograph
+avibase-6676140F,松巴绿鸠,Sumba Green Pigeon,Treron teysmannii,Columbiformes,Columbidae,Encyclopedia excerpt
+avibase-6EB63FA4,帝汶绿鸠,Timor Green Pigeon,Treron psittaceus,Columbiformes,Columbidae,Photograph
+avibase-ADE5FE2C,棕耳褐果鸠,Tawitawi Brown Dove,Phapitreron cinereiceps,Columbiformes,Columbidae,Photograph
+avibase-6505921E,民岛鸡鸠,Mindoro Bleeding-heart,Gallicolumba platenae,Columbiformes,Columbidae,Photograph
+avibase-521FCF00,塔维鸡鸠,Sulu Bleeding-heart,Gallicolumba menagei,Columbiformes,Columbidae,Photograph
+avibase-0165D38B,栗顶孤鸠,New Britain Bronzewing,Henicophaps foersteri,Columbiformes,Columbidae,Photograph
+avibase-8832822E,塔岛鸡鸠,Tanna Ground Dove,Pampusana ferruginea,Columbiformes,Columbidae,"Photograph, Encyclopedia excerpt"
+avibase-71BE72FC,厚嘴鸡鸠,Thick-billed Ground Dove,Pampusana salamonis,Columbiformes,Columbidae,"Photograph, Encyclopedia excerpt"
+avibase-8D0BB075,诺福克鸡鸠,Norfolk Ground Dove,Pampusana norfolkensis,Columbiformes,Columbidae,"Photograph, Encyclopedia excerpt"
+avibase-75D098B5,索羅門冕鴿,Choiseul Pigeon,Microgoura meeki,Columbiformes,Columbidae,Photograph
+avibase-6551B257,紫胸凤冠鸠,Scheepmaker's Crowned Pigeon,Goura scheepmakeri,Columbiformes,Columbidae,Photograph
+avibase-987DE55E,齿嘴鸠,Tooth-billed Pigeon,Didunculus strigirostris,Columbiformes,Columbidae,Photograph
+avibase-DEF95927,渡渡鸟,Dodo,Raphus cucullatus,Columbiformes,Columbidae,Photograph
+avibase-2FC54A50,羅德里格斯渡渡鳥,Rodrigues Solitaire,Pezophaps solitaria,Columbiformes,Columbidae,Photograph
+avibase-6E8B492E,斑點绿鸠,Spotted Green Pigeon,Caloenas maculata,Columbiformes,Columbidae,"Photograph, Encyclopedia excerpt"
+avibase-A9994B26,红喉皇鸠,Mindoro Imperial Pigeon,Ducula mindorensis,Columbiformes,Columbidae,Photograph
+avibase-16485EEB,恩岛皇鸠,Enggano Imperial Pigeon,Ducula oenothorax,Columbiformes,Columbidae,Encyclopedia excerpt
+avibase-BE8566B0,毛里求斯蓝鸠,Mauritius Blue Pigeon,Alectroenas nitidissimus,Columbiformes,Columbidae,Photograph
+avibase-15C0303A,里氏果鸠,Negros Fruit Dove,Ptilinopus arcanus,Columbiformes,Columbidae,Photograph
+avibase-77EDD972,瘤鼻果鸠,Knob-billed Fruit Dove,Ptilinopus insolitus,Columbiformes,Columbidae,Encyclopedia excerpt
+avibase-B526D1AE,赤鬃果鸠,Red-moustached Fruit Dove,Ptilinopus mercierii,Columbiformes,Columbidae,Photograph
+avibase-8F99953C,麦氏栗秧鸡,Mayr's Forest Rail,Rallicula mayri,Gruiformes,Sarothruridae,"Photograph, Encyclopedia excerpt"
+avibase-32CE9C63,栗头侏秧鸡,Chestnut-headed Flufftail,Sarothrura lugens,Gruiformes,Sarothruridae,"Photograph, Encyclopedia excerpt"
+avibase-E3A4AF84,细嘴侏秧鸡,Slender-billed Flufftail,Sarothrura watersi,Gruiformes,Sarothruridae,Encyclopedia excerpt
+avibase-F7E6722E,沼泽秧鸡,Zapata Rail,Mustelirallus cerverai,Gruiformes,Rallidae,Photograph
+avibase-807F142A,红翅林秧鸡,Red-winged Wood Rail,Aramides calopterus,Gruiformes,Rallidae,Photograph
+avibase-7881EDFF,留尼汪秧鸡,Reunion Rail,Dryolimnas augusti,Gruiformes,Rallidae,Photograph
+avibase-3DC77A87,红秧鸡,Red Rail,Aphanapteryx bonasia,Gruiformes,Rallidae,Photograph
+avibase-EAA2FCBD,羅德里格斯秧雞,Rodrigues Rail,Erythromachus leguati,Gruiformes,Rallidae,Photograph
+avibase-FFFAC0E6,大查岛秧鸡,Hawkins's Rail,Diaphorapteryx hawkinsi,Gruiformes,Rallidae,"Photograph, Encyclopedia excerpt"
+avibase-11CBD603,,St. Helena Rail,Aphanocrex podarces,Gruiformes,Rallidae,"Photograph, Chinese name, Encyclopedia excerpt"
+avibase-350C5D1E,阿森松秧鸡,Ascension Crake,Mundia elpenor,Gruiformes,Rallidae,Photograph
+avibase-F7CE0777,褐斑秧鸡,Brown-banded Rail,Lewinia mirifica,Gruiformes,Rallidae,Photograph
+avibase-2BE28F60,华氏秧鸡,Invisible Rail,Gallirallus wallacii,Gruiformes,Rallidae,Photograph
+avibase-C3A12025,新喀里多尼亚秧鸡,New Caledonian Rail,Gallirallus lafresnayanus,Gruiformes,Rallidae,Photograph
+avibase-6872F033,塔希提岛红嘴秧鸡,Tahiti Rail,Gallirallus pacificus,Gruiformes,Rallidae,Photograph
+avibase-CB21BCEA,查塔姆島秧雞,Chatham Rail,Gallirallus modestus,Gruiformes,Rallidae,"Photograph, Encyclopedia excerpt"
+avibase-F175515D,斑翅秧雞,Bar-winged Rail,Gallirallus poecilopterus,Gruiformes,Rallidae,"Photograph, Encyclopedia excerpt"
+avibase-2215EBD4,獃秧雞,Dieffenbach's Rail,Gallirallus dieffenbachii,Gruiformes,Rallidae,Photograph
+avibase-8E3F31AB,关岛秧鸡,Guam Rail,Gallirallus owstoni,Gruiformes,Rallidae,Photograph
+avibase-0C903B9A,威克島秧雞,Wake Island Rail,Gallirallus wakensis,Gruiformes,Rallidae,Photograph
+avibase-B24640E2,萨摩亚水鸡,Samoan Woodhen,Gallinula pacifica,Gruiformes,Rallidae,Photograph
+avibase-81D7CF63,圣岛骨顶,Makira Woodhen,Gallinula silvestris,Gruiformes,Rallidae,Photograph
+avibase-75F40338,特瑞斯坦水鸡,Tristan Moorhen,Gallinula nesiotis,Gruiformes,Rallidae,Photograph
+avibase-358AF9D9,馬斯卡林瓣蹼鷸,Mascarene Coot,Fulica newtonii,Gruiformes,Rallidae,Photograph
+avibase-FFC0A02E,馬克薩斯水雞,Marquesan Swamphen,Porphyrio paepae,Gruiformes,Rallidae,Photograph
+avibase-1A365A3F,新不列颠紫水鸡,White Swamphen,Porphyrio albus,Gruiformes,Rallidae,Photograph
+avibase-027313B6,短翅水雞,North Island Takahe,Porphyrio mantelli,Gruiformes,Rallidae,Photograph
+avibase-B25D90D3,圣岛苦恶鸟,St. Helena Crake,Zapornia astrictocarpus,Gruiformes,Rallidae,"Photograph, Encyclopedia excerpt"
+avibase-FC472EB7,夏威夷秧鸡,Hawaiian Rail,Zapornia sandwichensis,Gruiformes,Rallidae,Photograph
+avibase-B60D85A9,塔希提田鸡,Tahiti Crake,Zapornia nigra,Gruiformes,Rallidae,"Photograph, Encyclopedia excerpt"
+avibase-9DAE5526,库岛田鸡,Kosrae Crake,Zapornia monasa,Gruiformes,Rallidae,"Photograph, Encyclopedia excerpt"
+avibase-D74FDD2D,加那利黑蛎鹬,Canary Islands Oystercatcher,Haematopus meadewaldoi,Charadriiformes,Haematopodidae,Photograph
+avibase-12216EF6,爪哇麦鸡,Javan Lapwing,Vanellus macropterus,Charadriiformes,Charadriidae,Photograph
+avibase-FB9305DB,极北杓鹬,Eskimo Curlew,Numenius borealis,Charadriiformes,Scolopacidae,Photograph
+avibase-7A35DE81,细嘴杓鹬,Slender-billed Curlew,Numenius tenuirostris,Charadriiformes,Scolopacidae,Photograph
+avibase-6D3CC1FB,新几内亚丘鹬,New Guinea Woodcock,Scolopax rosenbergii,Charadriiformes,Scolopacidae,Encyclopedia excerpt
+avibase-49C57A6B,摩鹿加丘鹬,Moluccan Woodcock,Scolopax rochussenii,Charadriiformes,Scolopacidae,Photograph
+avibase-8DE52990,南岛沙锥,South Island Snipe,Coenocorypha iredalei,Charadriiformes,Scolopacidae,"Photograph, Encyclopedia excerpt"
+avibase-36D14881,北岛沙锥,North Island Snipe,Coenocorypha barrierensis,Charadriiformes,Scolopacidae,"Photograph, Encyclopedia excerpt"
+avibase-750C014A,西斑翅鹬,Prairie Willet,Tringa inornata,Charadriiformes,Scolopacidae,"Photograph, Encyclopedia excerpt"
+avibase-F51DBA0D,圣诞岛矶鹬,Kiritimati Sandpiper,Prosobonia cancellata,Charadriiformes,Scolopacidae,"Photograph, Encyclopedia excerpt"
+avibase-750808C3,大溪地磯鷸,Tahiti Sandpiper,Prosobonia leucoptera,Charadriiformes,Scolopacidae,Photograph
+avibase-F1D2DE72,莫岛矶鹬,Moorea Sandpiper,Prosobonia ellisi,Charadriiformes,Scolopacidae,"Photograph, Encyclopedia excerpt"
+avibase-8517D68D,沃氏三趾鹑,Luzon Buttonquail,Turnix worcesteri,Charadriiformes,Turnicidae,Photograph
+avibase-0D9258BF,黄胸三趾鹑,Buff-breasted Buttonquail,Turnix olivii,Charadriiformes,Turnicidae,Photograph
+avibase-ABB5B3B0,新喀三趾鹑,New Caledonian Buttonquail,Turnix novaecaledoniae,Charadriiformes,Turnicidae,Photograph
+avibase-29D50ED5,栗颈走鸻,Three-banded Courser,Rhinoptilus cinctus,Charadriiformes,Glareolidae,Encyclopedia excerpt
+avibase-B21AF428,黄颈灰燕鸻,Grey Pratincole,Glareola cinerea,Charadriiformes,Glareolidae,Encyclopedia excerpt
+avibase-57D2F32E,大海雀,Great Auk,Pinguinus impennis,Charadriiformes,Alcidae,Photograph
+avibase-7BE70E1F,加岛叉尾海燕,Wedge-rumped Storm Petrel,Hydrobates tethys,Procellariiformes,Hydrobatidae,Encyclopedia excerpt
+avibase-6FC4B715,瓜达卢佩叉尾海燕,Guadalupe Storm Petrel,Hydrobates macrodactylus,Procellariiformes,Hydrobatidae,Photograph
+avibase-ED16EA1F,小圣赫勒拿岛海燕,Olson's Petrel,Bulweria bifax,Procellariiformes,Procellariidae,Photograph
+avibase-54D9B4DB,斐济鹱,Fiji Petrel,Pseudobulweria macgillivrayi,Procellariiformes,Procellariidae,Photograph
+avibase-6F4BBFE2,亚南极鹱,Subantarctic Shearwater,Puffinus elegans,Procellariiformes,Procellariidae,Encyclopedia excerpt
+avibase-4D3C7770,布氏鹱,Bryan's Shearwater,Puffinus bryani,Procellariiformes,Procellariidae,Photograph
+avibase-8B2FD890,牙买加圆尾鹱,Jamaican Petrel,Pterodroma caribbaea,Procellariiformes,Procellariidae,Photograph
+avibase-DC04FCD9,大聖赫勒拿島海燕,St. Helena Petrel,Pterodroma rupinarum,Procellariiformes,Procellariidae,"Photograph, Encyclopedia excerpt"
+avibase-F7CFAA5D,白令鸬,Spectacled Cormorant,Urile perspicillatus,Suliformes,Phalacrocoracidae,Photograph
+avibase-7947E603,黑喉鸬鹚,Socotra Cormorant,Phalacrocorax nigrogularis,Suliformes,Phalacrocoracidae,Encyclopedia excerpt
+avibase-14762870,留尼旺孤鴿,Reunion Ibis,Threskiornis solitarius,Pelecaniformes,Threskiornithidae,Photograph
+avibase-051759B5,新西兰苇鳽,New Zealand Bittern,Botaurus novaezelandiae,Pelecaniformes,Ardeidae,"Photograph, Encyclopedia excerpt"
+avibase-CEFC0BD6,百慕大鬼鸮,Bermuda Night Heron,Nyctanassa carcinocatactes,Pelecaniformes,Ardeidae,"Photograph, Encyclopedia excerpt"
+avibase-015572BE,阿森松夜鹭,Ascension Night Heron,Nycticorax olsoni,Pelecaniformes,Ardeidae,"Photograph, Encyclopedia excerpt"
+avibase-22DE8CD0,留岛夜鹭,Reunion Night Heron,Nycticorax duboisi,Pelecaniformes,Ardeidae,Photograph
+avibase-9BF54783,罗德里格斯夜鹭,Rodrigues Night Heron,Nycticorax megacephalus,Pelecaniformes,Ardeidae,Photograph
+avibase-36F142BD,毛里求斯夜苍鹭,Mauritius Night Heron,Nycticorax mauritianus,Pelecaniformes,Ardeidae,Photograph
+avibase-EB1EC6B4,新喀毛腿夜鹰,New Caledonian Nightjar,Eurostopodus exul,Caprimulgiformes,Caprimulgidae,Photograph
+avibase-07D22CB7,委内瑞拉夜鹰,Roraiman Nightjar,Tepuiornis whitelyi,Caprimulgiformes,Caprimulgidae,Photograph
+avibase-EB7EE121,卡宴夜鹰,Cayenne Nightjar,Setopagis maculosa,Caprimulgiformes,Caprimulgidae,Photograph
+avibase-056B71D3,托氏夜鹰,Todd's Nightjar,Setopagis heterura,Caprimulgiformes,Caprimulgidae,Photograph
+avibase-07EC934E,牙买加夜鹰,Jamaican Poorwill,Siphonorhis americana,Caprimulgiformes,Caprimulgidae,Photograph
+avibase-E93A0F33,乌夜鹰,Sombre Nightjar,Caprimulgus fraenatus,Caprimulgiformes,Caprimulgidae,Encyclopedia excerpt
+avibase-D1D9B619,德氏夜鹰,Donaldson Smith's Nightjar,Caprimulgus donaldsoni,Caprimulgiformes,Caprimulgidae,Encyclopedia excerpt
+avibase-4B58353A,普氏夜鹰,Prigogine's Nightjar,Caprimulgus prigoginei,Caprimulgiformes,Caprimulgidae,Photograph
+avibase-7D6D30A3,新喀裸鼻鸱,New Caledonian Owlet-nightjar,Aegotheles savesi,Aegotheliformes,Aegothelidae,Photograph
+avibase-27853C12,华氏裸鼻鸱,Wallace's Owlet-nightjar,Aegotheles wallacii,Aegotheliformes,Aegothelidae,Encyclopedia excerpt
+avibase-A2A0B21A,弗格克裸鼻鸱,Vogelkop Owlet-nightjar,Aegotheles affinis,Aegotheliformes,Aegothelidae,Encyclopedia excerpt
+avibase-5FF84E4E,卡里穆伊裸鼻鸱,Karimui Owlet-nightjar,Aegotheles terborghi,Aegotheliformes,Aegothelidae,Photograph
+avibase-DD9CB478,白额黑雨燕,White-fronted Swift,Cypseloides storeri,Apodiformes,Apodidae,Encyclopedia excerpt
+avibase-4CB38AE8,白腹针尾雨燕,Cassin's Spinetail,Neafrapus cassini,Apodiformes,Apodidae,Encyclopedia excerpt
+avibase-4B79BD9A,黑针尾雨燕,Black Spinetail,Telacanthura melanopygia,Apodiformes,Apodidae,Encyclopedia excerpt
+avibase-B0A0EA81,马岛雨燕,Madagascar Spinetail,Zoonavena grandidieri,Apodiformes,Apodidae,Encyclopedia excerpt
+avibase-B414537B,灰尾雨燕,Ashy-tailed Swift,Chaetura andrei,Apodiformes,Apodidae,Photograph
+avibase-11507BB3,布氏雨燕,Bradfield's Swift,Apus bradfieldi,Apodiformes,Apodidae,Encyclopedia excerpt
+avibase-239F660C,怀氏金丝燕,Whitehead's Swiftlet,Aerodramus whiteheadi,Apodiformes,Apodidae,Photograph
+avibase-31CA6790,裸腿金丝燕,Bare-legged Swiftlet,Aerodramus nuditarsus,Apodiformes,Apodidae,Photograph
+avibase-49FEFB24,麦氏金丝燕,Mayr's Swiftlet,Aerodramus orientalis,Apodiformes,Apodidae,Photograph
+avibase-10591B00,巴布亚金丝燕,Three-toed Swiftlet,Aerodramus papuensis,Apodiformes,Apodidae,Photograph
+avibase-12F472A3,伊莎毛腿蜂鸟,Gorgeted Puffleg,Eriocnemis isabellae,Apodiformes,Trochilidae,Photograph
+avibase-CD3CA2CC,彩毛腿蜂鸟,Colorful Puffleg,Eriocnemis mirabilis,Apodiformes,Trochilidae,Photograph
+avibase-250E2A41,绿喉毛腿蜂鸟,Turquoise-throated Puffleg,Eriocnemis godini,Apodiformes,Trochilidae,Photograph
+avibase-E6180714,剪尾蜂鸟,Scissor-tailed Hummingbird,Hylonympha macrocerca,Apodiformes,Trochilidae,Photograph
+avibase-E77089BB,铜色刺尾蜂鸟,Letitia's Thorntail,Discosura letitiae,Apodiformes,Trochilidae,Photograph
+avibase-8AEB9777,北巨蜂鸟,Northern Giant Hummingbird,Patagona peruviana,Apodiformes,Trochilidae,Photograph
+avibase-DA7DAB3E,辉喉煌蜂鸟,Glow-throated Hummingbird,Selasphorus ardens,Apodiformes,Trochilidae,Photograph
+avibase-10787A38,布雷氏翠蜂鸟,Brace's Emerald,Riccordia bracei,Apodiformes,Trochilidae,"Photograph, Encyclopedia excerpt"
+avibase-727A9FFC,奇里翠蜂鸟,Chiribiquete Emerald,Chlorostilbon olivaresi,Apodiformes,Trochilidae,Photograph
+avibase-786A881C,黄胸刀翅蜂鸟,Buff-breasted Sabrewing,Campylopterus duidae,Apodiformes,Trochilidae,Photograph
+avibase-1F14F0A8,笑鸮,Laughing Owl,Ninox albifacies,Strigiformes,Strigidae,Encyclopedia excerpt
+avibase-9564C804,俾斯麦鹰鸮,New Ireland Boobook,Ninox variegata,Strigiformes,Strigidae,Photograph
+avibase-E553A88E,百慕大棕榈鬼鸮,Bermuda Saw-whet Owl,Aegolius gradyi,Strigiformes,Strigidae,"Photograph, Encyclopedia excerpt"
+avibase-20687BEA,所罗门鹰鸮,West Solomons Owl,Athene jacquinoti,Strigiformes,Strigidae,Photograph
+avibase-EAFBF060,伯州鸺鹠,Pernambuco Pygmy Owl,Glaucidium mooreorum,Strigiformes,Strigidae,Photograph
+avibase-1EF140AD,栗翅鸺鹠,Javan Owlet,Glaucidium castanopterum,Strigiformes,Strigidae,Encyclopedia excerpt
+avibase-AFD0411D,艾伯鸺鹠,Albertine Owlet,Glaucidium albertinum,Strigiformes,Strigidae,Photograph
+avibase-55EE7DEF,明岛领角鸮,Mentawai Scops Owl,Otus mentawi,Strigiformes,Strigidae,Encyclopedia excerpt
+avibase-96AC0528,民岛角鸮,Mindoro Scops Owl,Otus mindorensis,Strigiformes,Strigidae,Photograph
+avibase-8FE1266A,摩鹿加角鸮,Moluccan Scops Owl,Otus magicus,Strigiformes,Strigidae,Encyclopedia excerpt
+avibase-DCE22075,苏拉威西角鸮,Sulawesi Scops Owl,Otus manadensis,Strigiformes,Strigidae,Encyclopedia excerpt
+avibase-07BB7971,锡奥角鸮,Siau Scops Owl,Otus siaoensis,Strigiformes,Strigidae,Photograph
+avibase-CD22C7D7,栗角鸮,Simeulue Scops Owl,Otus umbra,Strigiformes,Strigidae,Encyclopedia excerpt
+avibase-42F88785,留尼汪角鸮,Reunion Scops Owl,Otus grucheti,Strigiformes,Strigidae,"Photograph, Encyclopedia excerpt"
+avibase-180ED7CC,罗岛角鸮,Rodrigues Scops Owl,Otus murivorus,Strigiformes,Strigidae,"Photograph, Encyclopedia excerpt"
+avibase-653134CC,毛里求斯角鸮,Mauritius Scops Owl,Otus sauzieri,Strigiformes,Strigidae,"Photograph, Encyclopedia excerpt"
+avibase-B2F5D6C7,帕拉莫雕鸮,Paramo Horned Owl,Bubo nigrescens,Strigiformes,Strigidae,Photograph
+avibase-8E62406F,热带雕鸮,Tropical Horned Owl,Bubo nacurutu,Strigiformes,Strigidae,Photograph
+avibase-733CBE2A,弗氏雕鸮,Fraser's Eagle-Owl,Ketupa poensis,Strigiformes,Strigidae,Encyclopedia excerpt
+avibase-AFF21113,横斑雕鸮,Shelley's Eagle-Owl,Ketupa shelleyi,Strigiformes,Strigidae,Photograph
+avibase-3BB302BC,毛腿渔鸮,Northern Fish Owl,Ketupa doerriesi,Strigiformes,Strigidae,"Photograph, Encyclopedia excerpt"
+avibase-B028452B,古巴钩嘴鸢,Cuban Kite,Chondrohierax wilsonii,Accipitriformes,Accipitridae,Photograph
+avibase-827AE888,尼岛蛇雕,Great Nicobar Serpent Eagle,Spilornis klossi,Accipitriformes,Accipitridae,Encyclopedia excerpt
+avibase-68BF920B,短尾雀鹰,New Britain Sparrowhawk,Tachyspiza brachyura,Accipitriformes,Accipitridae,Photograph
+avibase-466CC533,拟雀鹰,Imitator Goshawk,Tachyspiza imitator,Accipitriformes,Accipitridae,Photograph
+avibase-B202721E,灰头鹰,New Britain Goshawk,Tachyspiza princeps,Accipitriformes,Accipitridae,Photograph
+avibase-EA787A01,兰灰雀鹰,Slaty-mantled Goshawk,Tachyspiza luteoschistacea,Accipitriformes,Accipitridae,Photograph
+avibase-0C9E322E,栗肩鹰,Chestnut-shouldered Goshawk,Erythrotriorchis buergersi,Accipitriformes,Accipitridae,"Photograph, Encyclopedia excerpt"
+avibase-99AEACE1,百慕大鹰,Bermuda Hawk,Bermuteo avivorus,Accipitriformes,Accipitridae,"Photograph, Encyclopedia excerpt"
+avibase-3EC85674,圣赫勒拿岛戴胜,St. Helena Hoopoe,Upupa antaios,Bucerotiformes,Upupidae,Photograph
+avibase-53D72911,红弯嘴犀鸟,Red-billed Dwarf Hornbill,Lophoceros camurus,Bucerotiformes,Bucerotidae,Encyclopedia excerpt
+avibase-235F0000,灰嘴弯嘴犀鸟,Pale-billed Hornbill,Lophoceros pallidirostris,Bucerotiformes,Bucerotidae,Encyclopedia excerpt
+avibase-2624054E,棕顶佛法僧,Purple Roller,Coracias naevius,Coraciiformes,Coraciidae,Encyclopedia excerpt
+avibase-30238523,蓝领蜂虎,Böhm's Bee-eater,Merops boehmi,Coraciiformes,Meropidae,Encyclopedia excerpt
+avibase-E5BDBE96,危地马拉翠鴗,Guatemalan Motmot,Momotus castaneiceps,Coraciiformes,Momotidae,"Photograph, Encyclopedia excerpt"
+avibase-0C0CF67B,桑岛小三趾翠鸟,Sangihe Dwarf Kingfisher,Ceyx sangirensis,Coraciiformes,Alcedinidae,Photograph
+avibase-E8585335,瓜岛三趾翠鸟,Guadalcanal Dwarf Kingfisher,Ceyx nigromaxilla,Coraciiformes,Alcedinidae,Photograph
+avibase-55DAB8DF,马努斯三趾翠鸟,Manus Dwarf Kingfisher,Ceyx dispar,Coraciiformes,Alcedinidae,Photograph
+avibase-86DEADF3,北所罗门三趾翠鸟,North Solomons Dwarf Kingfisher,Ceyx meeki,Coraciiformes,Alcedinidae,Photograph
+avibase-389A5E98,奥比岛仙翡翠,Obi Paradise Kingfisher,Tanysiptera obiensis,Coraciiformes,Alcedinidae,Photograph
+avibase-CA53E1E6,罗塞岛仙翡翠,Rossel Paradise Kingfisher,Tanysiptera rosseliana,Coraciiformes,Alcedinidae,Photograph
+avibase-54BD3B93,摩罗泰仙翡翠,Morotai Paradise Kingfisher,Tanysiptera doris,Coraciiformes,Alcedinidae,Photograph
+avibase-25D0F7FC,安汶仙翡翠,Amboyna Paradise Kingfisher,Tanysiptera nais,Coraciiformes,Alcedinidae,Photograph
+avibase-088D24B7,哈岛仙翡翠,Halmahera Paradise Kingfisher,Tanysiptera margarethae,Coraciiformes,Alcedinidae,Photograph
+avibase-803B79B9,须翡翠,Moustached Kingfisher,Actenoides bougainvillei,Coraciiformes,Alcedinidae,Photograph
+avibase-E0FFD6C7,赭腹翡翠,Ochre-bellied Kingfisher,Syma ochracea,Coraciiformes,Alcedinidae,Photograph
+avibase-37921A66,深蓝翡翠,Ultramarine Kingfisher,Todiramphus leucopygius,Coraciiformes,Alcedinidae,Encyclopedia excerpt
+avibase-209FFC49,小岛翡翠,Islet Kingfisher,Todiramphus colonus,Coraciiformes,Alcedinidae,Encyclopedia excerpt
+avibase-2A5A8428,褐喉拟啄木鸟,Brown-throated Barbet,Psilopogon corvinus,Piciformes,Megalaimidae,Encyclopedia excerpt
+avibase-685CA6D9,黄胸拟啄木鸟,Yellow-breasted Barbet,Trachyphonus margaritatus,Piciformes,Lybiidae,Encyclopedia excerpt
+avibase-EEA161A8,点斑小拟啄木鸟,Speckled Tinkerbird,Pogoniulus scolopaceus,Piciformes,Lybiidae,Encyclopedia excerpt
+avibase-3E3AFB25,红额拟啄木鸟,Red-fronted Barbet,Tricholaema diademata,Piciformes,Lybiidae,Encyclopedia excerpt
+avibase-F1CCA0AA,斑胁拟啄木鸟,Spot-flanked Barbet,Tricholaema lacrymosa,Piciformes,Lybiidae,Encyclopedia excerpt
+avibase-F03BE6C3,黑喉拟啄木鸟,Black-throated Barbet,Tricholaema melanocephala,Piciformes,Lybiidae,Encyclopedia excerpt
+avibase-724266B4,褐胸拟啄木鸟,Brown-breasted Barbet,Pogonornis melanopterus,Piciformes,Lybiidae,Encyclopedia excerpt
+avibase-7E9EAE09,怀氏巨嘴鸟,Tepui Toucanet,Aulacorhynchus whitelianus,Piciformes,Ramphastidae,Photograph
+avibase-7884F0D6,尖嘴蜜䴕,Cassin's Honeybird,Prodotiscus insignis,Piciformes,Indicatoridae,Encyclopedia excerpt
+avibase-AD7BD37A,中非响蜜䴕,Zenker's Honeyguide,Melignomon zenkeri,Piciformes,Indicatoridae,Photograph
+avibase-C9DFE942,姬响蜜䴕,Dwarf Honeyguide,Indicator pumilio,Piciformes,Indicatoridae,Encyclopedia excerpt
+avibase-4373396F,西非响蜜䴕,Willcocks's Honeyguide,Indicator willcocksi,Piciformes,Indicatoridae,Encyclopedia excerpt
+avibase-D2718676,喀麦隆啄木鸟,Tullberg's Woodpecker,Campethera tullbergi,Piciformes,Picidae,Encyclopedia excerpt
+avibase-BA63C545,蒙巴萨啄木鸟,Mombasa Woodpecker,Campethera mombassica,Piciformes,Picidae,Encyclopedia excerpt
+avibase-D0951D61,百慕大扑翅鴷,Bermuda Flicker,Colaptes oceanicus,Piciformes,Picidae,"Photograph, Encyclopedia excerpt"
+avibase-DA98191C,瑰麗啄木鸟,Splendid Woodpecker,Campephilus splendens,Piciformes,Picidae,Photograph
+avibase-4D0B7931,帝啄木鸟,Imperial Woodpecker,Campephilus imperialis,Piciformes,Picidae,Photograph
+avibase-86E7578A,象牙嘴啄木鸟,Ivory-billed Woodpecker,Campephilus principalis,Piciformes,Picidae,Photograph
+avibase-55751EC2,爪哇金背啄木鸟,Javan Flameback,Chrysocolaptes strictus,Piciformes,Picidae,Encyclopedia excerpt
+avibase-8AEE3731,苏禄啄木鸟,Sulu Pygmy Woodpecker,Yungipicus ramsayi,Piciformes,Picidae,Photograph
+avibase-97461F73,铅色林隼,Plumbeous Forest Falcon,Micrastur plumbeus,Falconiformes,Falconidae,Photograph
+avibase-38DF393D,瓜达卢长腿兀鹰,Guadalupe Caracara,Caracara lutosa,Falconiformes,Falconidae,Photograph
+avibase-F9A74DD9,留岛隼,Reunion Kestrel,Falco duboisi,Falconiformes,Falconidae,"Photograph, Encyclopedia excerpt"
+avibase-7328A120,卡卡啄羊鸚鵡,Norfolk Kaka,Nestor productus,Psittaciformes,Strigopidae,Photograph
+avibase-7F285393,特普伊鹦哥,Tepui Parrotlet,Nannopsittaca panychlora,Psittaciformes,Psittacidae,Photograph
+avibase-6DCCF66C,绿松石金刚鹦鹉,Glaucous Macaw,Anodorhynchus glaucus,Psittaciformes,Psittacidae,Photograph
+avibase-FB8F32C3,小蓝金刚鹦鹉,Spix's Macaw,Cyanopsitta spixii,Psittaciformes,Psittacidae,Photograph
+avibase-A5504B38,古巴红鹦鹉,Cuban Macaw,Ara tricolor,Psittaciformes,Psittacidae,"Photograph, Encyclopedia excerpt"
+avibase-759ED874,波多黎各鸚哥,Puerto Rican Parakeet,Psittacara maugei,Psittaciformes,Psittacidae,"Photograph, Encyclopedia excerpt"
+avibase-785A9333,黄胸侏鹦鹉,Meek's Pygmy Parrot,Micropsitta meeki,Psittaciformes,Psittaculidae,Photograph
+avibase-003D8AAD,苏禄扇尾鹦鹉,Blue-winged Racket-tail,Prioniturus verticalis,Psittaciformes,Psittaculidae,Photograph
+avibase-915FD1E2,汤加红胁绿鹦鹉,Oceanic Eclectus,Eclectus infectus,Psittaciformes,Psittaculidae,"Photograph, Encyclopedia excerpt"
+avibase-E8895935,塔宁巴红胁绿鹦鹉,Tanimbar Eclectus,Eclectus riedeli,Psittaciformes,Psittaculidae,Photograph
+avibase-441F544D,马斯卡林鹦鹉,Mascarene Parrot,Mascarinus mascarinus,Psittaciformes,Psittaculidae,"Photograph, Encyclopedia excerpt"
+avibase-8C3CD124,毛里求斯鹦鹉,Broad-billed Parrot,Lophopsittacus mauritianus,Psittaciformes,Psittaculidae,Photograph
+avibase-FE2288F2,腐屍鸚鵡,Rodrigues Parrot,Necropsittacus rodricanus,Psittaciformes,Psittaculidae,Photograph
+avibase-C38EDB84,蓝背鹦鹉,Blue-backed Parrot,Tanygnathus everetti,Psittaciformes,Psittaculidae,Photograph
+avibase-20F87A8D,毛里求斯灰鹦鹉,Mascarene Grey Parakeet,Psittacula bensoni,Psittaciformes,Psittaculidae,"Photograph, Encyclopedia excerpt"
+avibase-C7B5B804,牛頓鸚鵡,Newton's Parakeet,Psittacula exsul,Psittaciformes,Psittaculidae,Photograph
+avibase-2C828882,塞舌爾綠鸚鵡,Seychelles Parakeet,Psittacula wardi,Psittaciformes,Psittaculidae,Photograph
+avibase-F4A6C191,羞怯鹦鹉,Modest Tiger Parrot,Psittacella modesta,Psittaciformes,Psittaculidae,Encyclopedia excerpt
+avibase-0C4E73C1,社會島鸚鵡,Raiatea Kakariki,Cyanoramphus ulietanus,Psittaciformes,Psittaculidae,Photograph
+avibase-4AA6F2A7,黑额鹦鹉,Black-fronted Kakariki,Cyanoramphus zealandicus,Psittaciformes,Psittaculidae,Photograph
+avibase-CE21EA2E,绿额短尾鹦鹉,Bismarck Hanging Parrot,Loriculus tener,Psittaciformes,Psittaculidae,Photograph
+avibase-E6439BAF,暗颊果鹦鹉,Dusky-cheeked Fig Parrot,Nannopsittacus melanogenia,Psittaciformes,Psittaculidae,Encyclopedia excerpt
+avibase-87106A2C,黑额果鹦鹉,Black-fronted Fig Parrot,Nannopsittacus nigrifrons,Psittaciformes,Psittaculidae,"Photograph, Encyclopedia excerpt"
+avibase-D8E36335,巴布亚吸蜜鹦鹉,West Papuan Lorikeet,Charmosyna papou,Psittaciformes,Psittaculidae,Encyclopedia excerpt
+avibase-7013D232,飘带尾鹦鹉,Stella's Lorikeet,Charmosyna stellae,Psittaciformes,Psittaculidae,Encyclopedia excerpt
+avibase-7B5F311D,贵妃鹦鹉,Duchess Lorikeet,Vini margarethae,Psittaciformes,Psittaculidae,Photograph
+avibase-431B9646,红颏鹦鹉,Red-chinned Lorikeet,Vini rubrigularis,Psittaciformes,Psittaculidae,Photograph
+avibase-DDC46661,新喀蓝额鹦鹉,New Caledonian Lorikeet,Vini diadema,Psittaciformes,Psittaculidae,Photograph
+avibase-DF94576F,米氏鹦鹉,Meek's Lorikeet,Vini meeki,Psittaciformes,Psittaculidae,Photograph
+avibase-5DDF8ABA,棕榈鹦鹉,Palm Lorikeet,Vini palmarum,Psittaciformes,Psittaculidae,Photograph
+avibase-586A8C9B,红喉鹦鹉,Red-throated Lorikeet,Vini amabilis,Psittaciformes,Psittaculidae,Photograph
+avibase-3106EC1A,白枕鹦鹉,White-naped Lory,Lorius albidinucha,Psittaciformes,Psittaculidae,Photograph
+avibase-174E5BDB,斯蒂芬島異鷯,Lyall's Wren,Traversia lyalli,Passeriformes,Acanthisittidae,"Photograph, Encyclopedia excerpt"
+avibase-9232F027,新西兰丛异鹩,Bushwren,Xenicus longipes,Passeriformes,Acanthisittidae,Photograph
+avibase-A7772291,伊洛瓦底阔嘴鸟,Ayeyarwady Broadbill,Cymbirhynchus affinis,Passeriformes,Eurylaimidae,Photograph
+avibase-098E40F1,灰眉丝冠鸟,Grey-lored Broadbill,Serilophus rubropygius,Passeriformes,Eurylaimidae,Encyclopedia excerpt
+avibase-8142EBD5,路易八色鸫,Louisiade Pitta,Erythropitta meeki,Passeriformes,Pittidae,Photograph
+avibase-19D5681E,美丽八色鸫,Superb Pitta,Pitta superba,Passeriformes,Pittidae,Photograph
+avibase-1717C993,特普伊娇鹟,Orange-bellied Manakin,Lepidothrix suavissima,Passeriformes,Pipridae,Photograph
+avibase-8B9C1238,白尾蒂泰霸鹟,White-tailed Tityra,Tityra leucura,Passeriformes,Tityridae,Photograph
+avibase-9AD71DF9,姬伞鸟,Kinglet Calyptura,Calyptura cristata,Passeriformes,Tyrannidae,Photograph
+avibase-D7CE89D5,褐额侏霸鹟,Hazel-fronted Pygmy Tyrant,Pseudotriccus simplex,Passeriformes,Tyrannidae,Photograph
+avibase-52BBDAD6,黑顶小霸鹟,Black-capped Tyrannulet,Tyranniscus nigrocapillus,Passeriformes,Tyrannidae,Encyclopedia excerpt
+avibase-46D82A7E,考卡无须小霸鹟,Cauca Beardless Tyrannulet,Camptostoma caucae,Passeriformes,Tyrannidae,"Photograph, Encyclopedia excerpt"
+avibase-BE600B9D,太平洋无须小霸鹟,Pacific Beardless Tyrannulet,Camptostoma sclateri,Passeriformes,Tyrannidae,"Photograph, Encyclopedia excerpt"
+avibase-BBA2A39A,委内瑞拉无须小霸鹟,Venezuelan Beardless Tyrannulet,Camptostoma pusillum,Passeriformes,Tyrannidae,"Photograph, Encyclopedia excerpt"
+avibase-664FBC82,巴拿马无须小霸鹟,Panama Beardless Tyrannulet,Camptostoma flaviventre,Passeriformes,Tyrannidae,"Photograph, Encyclopedia excerpt"
+avibase-B73AE5D5,亚马逊无须小霸鹟,Amazonian Beardless Tyrannulet,Camptostoma napaeum,Passeriformes,Tyrannidae,"Photograph, Encyclopedia excerpt"
+avibase-ACAE7551,黄腹霸鹟,Lemon-bellied Tufted Flycatcher,Mitrephanes aurantiiventris,Passeriformes,Tyrannidae,"Photograph, Encyclopedia excerpt"
+avibase-83F07C79,黑胸食蚊鸟,Black-breasted Gnateater,Conopophaga snethlageae,Passeriformes,Conopophagidae,Encyclopedia excerpt
+avibase-662DB38F,黄喉蚁鹩,Yellow-throated Antwren,Myrmotherula ambigua,Passeriformes,Thamnophilidae,Photograph
+avibase-69BFD823,南美蚁鹩,Rio Suno Antwren,Myrmotherula sunensis,Passeriformes,Thamnophilidae,Photograph
+avibase-AD84BFB2,里约蚁鹩,Rio de Janeiro Antwren,Myrmotherula fluminensis,Passeriformes,Thamnophilidae,Photograph
+avibase-1CBE36EF,,Streak-fronted Antshrike,Sakesphorus pulchellus,Passeriformes,Thamnophilidae,"Photograph, Chinese name, Encyclopedia excerpt"
+avibase-1154B900,灰脸裸眼蚁鸟,Pale-faced Bare-eye,Phlegopsis borbae,Passeriformes,Thamnophilidae,Photograph
+avibase-FFB6037B,灰颈蚁鸫,Grey-naped Antpitta,Grallaria griseonucha,Passeriformes,Grallariidae,Photograph
+avibase-1585B1C0,委内瑞拉蚁鸫,Tachira Antpitta,Grallaria chthonia,Passeriformes,Grallariidae,Photograph
+avibase-D9973A40,卡哈蚁鸫,Cajamarca Antpitta,Grallaria cajamarcae,Passeriformes,Grallariidae,Photograph
+avibase-9E50CABF,南美蚁鸫,Elusive Antpitta,Grallaria eludens,Passeriformes,Grallariidae,Photograph
+avibase-FDE3FE01,黑喉隐窜鸟,Black-throated Huet-huet,Pteroptochos tarnii,Passeriformes,Rhinocryptidae,Encyclopedia excerpt
+avibase-9258D9BB,白翅窜鸟,White-winged Tapaculo,Scytalopus krabbei,Passeriformes,Rhinocryptidae,Photograph
+avibase-71CF5120,帕拉窜鸟,Paramillo Tapaculo,Scytalopus canus,Passeriformes,Rhinocryptidae,Photograph
+avibase-DC8FE9A9,淡喉窜鸟,Tacarcuna Tapaculo,Scytalopus panamensis,Passeriformes,Rhinocryptidae,Photograph
+avibase-CAA64CEB,梅里达窜鸟,Merida Tapaculo,Scytalopus meridanus,Passeriformes,Rhinocryptidae,Photograph
+avibase-F38472F6,纯色窜鸟,Unicolored Tapaculo,Scytalopus unicolor,Passeriformes,Rhinocryptidae,Photograph
+avibase-796D73FB,棕额蚁鸫,Rufous-fronted Antthrush,Formicarius rufifrons,Passeriformes,Formicariidae,Photograph
+avibase-3BB6EA56,黑冠蚁鸫,Black-hooded Antthrush,Formicarius destructus,Passeriformes,Formicariidae,Encyclopedia excerpt
+avibase-1A3D8BED,白喉斑尾雀,White-throated Barbtail,Premnoplex tatei,Passeriformes,Furnariidae,Photograph
+avibase-EE612071,马氏树猎雀,Cryptic Treehunter,Cichlocolaptes mazarbarnetti,Passeriformes,Furnariidae,Photograph
+avibase-6CCCB10A,诺氏拾叶雀,Alagoas Foliage-gleaner,Philydor novaesi,Passeriformes,Furnariidae,"Photograph, Encyclopedia excerpt"
+avibase-612F60B6,点斑拾叶雀,Guttulate Foliage-gleaner,Syndactyla guttulata,Passeriformes,Furnariidae,Photograph
+avibase-9F89BDB8,赭额棘尾雀,Ochre-browed Thistletail,Asthenes coryi,Passeriformes,Furnariidae,Photograph
+avibase-4700E3C0,维卡山棘尾雀,Vilcabamba Thistletail,Asthenes vilcabambae,Passeriformes,Furnariidae,Photograph
+avibase-9686AA8F,短嘴旋木雀,Papuan Treecreeper,Cormobates placens,Passeriformes,Climacteridae,Encyclopedia excerpt
+avibase-A188556A,贝氏辉亭鸟,Fire-maned Bowerbird,Sericulus bakeri,Passeriformes,Ptilonorhynchidae,Photograph
+avibase-F6FFF57D,纹园丁鸟,Streaked Bowerbird,Amblyornis subalaris,Passeriformes,Ptilonorhynchidae,Photograph
+avibase-E3562196,黄额园丁鸟,Golden-fronted Bowerbird,Amblyornis flavifrons,Passeriformes,Ptilonorhynchidae,Photograph
+avibase-B1E93CFF,坎氏细尾鹩莺,Campbell's Fairywren,Chenorhamphus campbelli,Passeriformes,Maluridae,Photograph
+avibase-7C18F120,灰头噪刺莺,Green-backed Gerygone,Gerygone chloronota,Passeriformes,Acanthizidae,Encyclopedia excerpt
+avibase-05E1D079,沼泽噪刺莺,Large-billed Gerygone,Gerygone magnirostris,Passeriformes,Acanthizidae,Encyclopedia excerpt
+avibase-C1F1EBF7,褐胸噪刺莺,Brown-breasted Gerygone,Gerygone ruficollis,Passeriformes,Acanthizidae,Encyclopedia excerpt
+avibase-D7A97007,豪勋爵岛噪刺莺,Lord Howe Gerygone,Gerygone insularis,Passeriformes,Acanthizidae,"Photograph, Encyclopedia excerpt"
+avibase-BCF9128E,新几内亚噪刺莺,Grey Thornbill,Acanthiza cinerea,Passeriformes,Acanthizidae,Encyclopedia excerpt
+avibase-87E8A565,巴布亚刺嘴莺,New Guinea Thornbill,Acanthiza murina,Passeriformes,Acanthizidae,Encyclopedia excerpt
+avibase-E60E9E28,山刺嘴莺,Mountain Thornbill,Acanthiza katherina,Passeriformes,Acanthizidae,Encyclopedia excerpt
+avibase-4D64891A,蓝灰刺嘴莺,Slaty-backed Thornbill,Acanthiza robustirostris,Passeriformes,Acanthizidae,Encyclopedia excerpt
+avibase-FA91B53C,中山鼠莺,Bicolored Scrubwren,Aethomyias nigrorufus,Passeriformes,Acanthizidae,Photograph
+avibase-C9FE7134,褐色丝刺莺,Tasmanian Scrubwren,Sericornis humilis,Passeriformes,Acanthizidae,Encyclopedia excerpt
+avibase-957638DE,长须寻蜜鸟,Long-bearded Honeyeater,Melionyx princeps,Passeriformes,Meliphagidae,Photograph
+avibase-5B865C89,铅色嗜蜜鸟,Leaden Honeyeater,Ptiloprora plumbea,Passeriformes,Meliphagidae,"Photograph, Encyclopedia excerpt"
+avibase-C1665D2D,绿纹嗜蜜鸟,Yellowish-streaked Honeyeater,Ptiloprora meekiana,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-08196575,红背嗜蜜鸟,Rufous-backed Honeyeater,Ptiloprora guisei,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-44C4C8B5,麦氏嗜蜜鸟,Mayr's Honeyeater,Ptiloprora mayri,Passeriformes,Meliphagidae,Photograph
+avibase-93334974,黑背嗜蜜鸟,Grey-streaked Honeyeater,Ptiloprora perstriata,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-0C7BD256,布岛盗蜜鸟,Bougainville Honeyeater,Stresemannia bougainvillei,Passeriformes,Meliphagidae,Photograph
+avibase-4BAD0A39,黄喉直嘴吸蜜鸟,Olive Straightbill,Timeliopsis fulvigula,Passeriformes,Meliphagidae,"Photograph, Encyclopedia excerpt"
+avibase-44C8D624,红脸饮蜜鸟,Wattled Smoky Honeyeater,Melipotes carolae,Passeriformes,Meliphagidae,Photograph
+avibase-25F5A3A8,辉饮蜜鸟,Spangled Honeyeater,Melipotes ater,Passeriformes,Meliphagidae,"Photograph, Encyclopedia excerpt"
+avibase-304DE3C6,横斑澳蜜鸟,Barred Honeyeater,Gliciphila undulata,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-9AA8B692,查塔姆吸蜜鳥,Chatham Islands Bellbird,Anthornis melanocephala,Passeriformes,Meliphagidae,Photograph
+avibase-8B89A812,绿褐吸蜜鸟,Plain Honeyeater,Pinarostola ixoides,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-5F44043D,长嘴摄蜜鸟,Long-billed Myzomela,Myzomela longirostris,Passeriformes,Meliphagidae,Photograph
+avibase-E98DDFE9,灰摄蜜鸟,Ashy Myzomela,Myzomela cineracea,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-AE5588B1,红喉摄蜜鸟,Ruby-throated Myzomela,Myzomela eques,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-04AEB6A1,白颏摄蜜鸟,White-chinned Myzomela,Myzomela albigula,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-5E3027B3,比岛摄蜜鸟,Biak Myzomela,Myzomela rubrobrunnea,Passeriformes,Meliphagidae,Photograph
+avibase-67493A7E,暗红摄蜜鸟,Reddish Myzomela,Myzomela erythrina,Passeriformes,Meliphagidae,Photograph
+avibase-A47273BD,红黑摄蜜鸟,Black-bellied Myzomela,Myzomela erythromelas,Passeriformes,Meliphagidae,Photograph
+avibase-B14D404B,红腰摄蜜鸟,Black-breasted Myzomela,Myzomela vulnerata,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-249E6304,塔宁巴摄蜜鸟,Tanimbar Myzomela,Myzomela annabellae,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-44F179A2,巴巴岛摄蜜鸟,Babar Myzomela,Myzomela babarensis,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-DA741383,巴占摄蜜鸟,Bacan Myzomela,Myzomela batjanensis,Passeriformes,Meliphagidae,Photograph
+avibase-03719E48,烟色摄蜜鸟,Sooty Myzomela,Myzomela tristrami,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-95FB462E,秀丽摄蜜鸟,New Ireland Myzomela,Myzomela pulchella,Passeriformes,Meliphagidae,Photograph
+avibase-4F526489,黄臀摄蜜鸟,Crimson-rumped Myzomela,Myzomela eichhorni,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-1F443304,黑头摄蜜鸟,Black-headed Myzomela,Myzomela melanocephala,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-92C84F5F,纹头吸蜜鸟,Streak-headed Honeyeater,Pycnopygius stictocephalus,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-35B1D549,布氏吮蜜鸟,Brass's Friarbird,Philemon brassi,Passeriformes,Meliphagidae,Photograph
+avibase-372AFBF8,灰吮蜜鸟,Grey Friarbird,Philemon kisserensis,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-92F2C662,新爱尔兰吮蜜鸟,New Ireland Friarbird,Philemon eichhorni,Passeriformes,Meliphagidae,Photograph
+avibase-8B30AF0C,白纹吮蜜鸟,New Britain Friarbird,Philemon cockerelli,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-54042625,银冠吮蜜鸟,Silver-crowned Friarbird,Philemon argenticeps,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-4E9FEF0B,马基拉吸蜜鸟,Makira Honeyeater,Meliarchus sclateri,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-167A2A67,瓜岛吸蜜鸟,Guadalcanal Honeyeater,Guadalcanaria inexpectata,Passeriformes,Meliphagidae,Photograph
+avibase-03880005,绿岩吸蜜鸟,Olive Honeyeater,Lichmera argentauris,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-9810164E,塞兰岩吸蜜鸟,Seram Honeyeater,Lichmera monticola,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-D5D7DA7E,布鲁岩吸蜜鸟,Buru Honeyeater,Lichmera deningeri,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-8E164E0F,蓬背吸蜜鸟,Puff-backed Honeyeater,Meliphaga aruensis,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-EAB820A0,白纹吸蜜鸟,White-lined Honeyeater,Meliphaga albilineata,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-2600BE0B,黄嘴吸蜜鸟,Yellow-gaped Honeyeater,Meliphaga flavirictus,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-7623A65D,塔古吸蜜鸟,Tagula Honeyeater,Meliphaga vicina,Passeriformes,Meliphagidae,Photograph
+avibase-0C6603A9,林吸蜜鸟,Forest Honeyeater,Meliphaga montana,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-880E4134,灌丛吸蜜鸟,Scrub Honeyeater,Meliphaga albonotata,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-585D688F,黑额矿吸蜜鸟,Noisy Miner,Manorina melanocephala,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-F945FBE3,棕胸寻蜜鸟,Ornate Melidectes,Melidectes torquatus,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-2742D234,白额寻蜜鸟,Vogelkop Melidectes,Melidectes leucostephes,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-3C5F6124,棕眉寻蜜鸟,Cinnamon-browed Melidectes,Melidectes ochromelas,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-9C7768D1,休恩寻蜜鸟,Huon Melidectes,Melidectes foersteri,Passeriformes,Meliphagidae,"Photograph, Encyclopedia excerpt"
+avibase-B0C5E33C,黄眉寻蜜鸟,Yellow-browed Melidectes,Melidectes rufocrissalis,Passeriformes,Meliphagidae,Encyclopedia excerpt
+avibase-219E9D2D,斑丽鸫,Spotted Jewel-babbler,Ptilorrhoa leucosticta,Passeriformes,Cinclosomatidae,Encyclopedia excerpt
+avibase-028B045E,栗头丽鸫,Hooded Jewel-babbler,Ptilorrhoa urrissia,Passeriformes,Cinclosomatidae,Photograph
+avibase-BF8E5A32,栗背丽鸫,Chestnut-backed Jewel-babbler,Ptilorrhoa castanonota,Passeriformes,Cinclosomatidae,Encyclopedia excerpt
+avibase-751C952A,黑臀丽鸫,Southern Blue Jewel-babbler,Ptilorrhoa nigricrissus,Passeriformes,Cinclosomatidae,Photograph
+avibase-0993C4AE,棕头丽鸫,Brown-headed Jewel-babbler,Ptilorrhoa geislerorum,Passeriformes,Cinclosomatidae,Photograph
+avibase-07466471,斑鹑鸫,Spotted Quail-thrush,Cinclosoma punctatum,Passeriformes,Cinclosomatidae,Encyclopedia excerpt
+avibase-CF9BA9D6,铜背鹑鸫,Copperback Quail-thrush,Cinclosoma clarum,Passeriformes,Cinclosomatidae,Encyclopedia excerpt
+avibase-B94D96D9,白额山椒鸟,Jerdon's Minivet,Pericrocotus albifrons,Passeriformes,Campephagidae,Encyclopedia excerpt
+avibase-A6C2DC31,格氏鹃鵙,Grauer's Cuckooshrike,Ceblepyris graueri,Passeriformes,Campephagidae,Photograph
+avibase-0F0AF7E8,苏禄鹃鵙,Sulu Cuckooshrike,Coracina guillemardi,Passeriformes,Campephagidae,Photograph
+avibase-DF546828,安达曼鹃鵙,Andaman Cuckooshrike,Coracina dobsoni,Passeriformes,Campephagidae,Encyclopedia excerpt
+avibase-7B669DE9,加纳鹃鵙,Western Wattled Cuckooshrike,Lobotos lobatus,Passeriformes,Campephagidae,Photograph
+avibase-E6314DEC,圣马蒂亚斯鹃鵙,Mussau Triller,Lalage conjuncta,Passeriformes,Campephagidae,Photograph
+avibase-BB94A2F2,凯岛鹃鵙,Kai Cicadabird,Edolisoma dispar,Passeriformes,Campephagidae,Photograph
+avibase-1B55137E,波纳佩鹃鵙,Pohnpei Cicadabird,Edolisoma insperatum,Passeriformes,Campephagidae,Photograph
+avibase-AF60AC50,马基拉鹃鵙,Makira Cicadabird,Edolisoma salomonis,Passeriformes,Campephagidae,Photograph
+avibase-D3CA1D45,罗塞岛鹃鵙,Rossel Cicadabird,Edolisoma rostratum,Passeriformes,Campephagidae,Photograph
+avibase-7ADFC30E,白背燕鵙,Ivory-backed Woodswallow,Artamus monachus,Passeriformes,Artamidae,Encyclopedia excerpt
+avibase-4EE509C8,盾钟鹊,Lowland Peltops,Peltops blainvillii,Passeriformes,Artamidae,Encyclopedia excerpt
+avibase-2714B2A7,红胸丛鵙,Fiery-breasted Bushshrike,Malaconotus cruentus,Passeriformes,Malaconotidae,Encyclopedia excerpt
+avibase-5C543B0A,绿胸丛鵙,Green-breasted Bushshrike,Malaconotus gladiator,Passeriformes,Malaconotidae,Photograph
+avibase-706FEEB4,普氏篷背鵙,Pringle's Puffback,Dryoscopus pringlii,Passeriformes,Malaconotidae,Encyclopedia excerpt
+avibase-AFE5B0C4,红眼蓬背鵙,Red-eyed Puffback,Dryoscopus senegalensis,Passeriformes,Malaconotidae,Encyclopedia excerpt
+avibase-456567FF,库山丛鵙,Mount Kupe Bushshrike,Chlorophoneus kupeensis,Passeriformes,Malaconotidae,Photograph
+avibase-5E8D59E5,艾伯丁黑鵙,Albertine Sooty Boubou,Laniarius holomelas,Passeriformes,Malaconotidae,Encyclopedia excerpt
+avibase-07F940AA,热带黑鵙,Tropical Boubou,Laniarius major,Passeriformes,Malaconotidae,Encyclopedia excerpt
+avibase-3B66D504,栗腹饰眼鹟,Yellow-bellied Wattle-eye,Platysteira concreta,Passeriformes,Platysteiridae,Encyclopedia excerpt
+avibase-5369EE11,红颊饰眼鹟,Red-cheeked Wattle-eye,Platysteira blissetti,Passeriformes,Platysteiridae,Encyclopedia excerpt
+avibase-16935B44,黑喉饰眼鹟,Black-throated Wattle-eye,Platysteira peltata,Passeriformes,Platysteiridae,Encyclopedia excerpt
+avibase-0718A157,费尔蓬背鹟,Fernando Po Batis,Batis poensis,Passeriformes,Platysteiridae,Photograph
+avibase-523B438A,黄冠盔鵙,Yellow-crested Helmetshrike,Prionops alberti,Passeriformes,Vangidae,Photograph
+avibase-77F025E0,斯里兰卡林鵙,Sri Lanka Woodshrike,Tephrodornis affinis,Passeriformes,Vangidae,Encyclopedia excerpt
+avibase-AC47E292,马拉巴尔林鵙,Malabar Woodshrike,Tephrodornis sylvicola,Passeriformes,Vangidae,Encyclopedia excerpt
+avibase-B42659F8,红尾牛顿莺,Red-tailed Newtonia,Newtonia fanovanae,Passeriformes,Vangidae,Encyclopedia excerpt
+avibase-57F73C4A,暗牛顿莺,Dark Newtonia,Newtonia amphichroa,Passeriformes,Vangidae,Encyclopedia excerpt
+avibase-BCE0793B,黑澳䴓,Black Sittella,Daphoenositta miranda,Passeriformes,Neosittidae,Encyclopedia excerpt
+avibase-0E0DAE4C,巴布亚澳䴓,Papuan Sittella,Daphoenositta papuensis,Passeriformes,Neosittidae,Encyclopedia excerpt
+avibase-BF6F8B8D,绿背鹛鸫,Papuan Whipbird,Androphobus viridis,Passeriformes,Psophodidae,Photograph
+avibase-E3B00D11,西鵙雀鹟,Western Shriketit,Falcunculus leucogaster,Passeriformes,Falcunculidae,Encyclopedia excerpt
+avibase-9F080815,西冠啄果鸟,Western Crested Berrypecker,Paramythia olivacea,Passeriformes,Paramythiidae,Encyclopedia excerpt
+avibase-8E6E7C64,西歌莺雀,Western Warbling Vireo,Vireo swainsoni,Passeriformes,Vireonidae,Encyclopedia excerpt
+avibase-F32AC037,波多黎各莺雀,Puerto Rican Vireo,Vireo latimeri,Passeriformes,Vireonidae,Encyclopedia excerpt
+avibase-BF367578,新西兰北鸫鹟,North Island Piopio,Turnagra tanagra,Passeriformes,Oriolidae,"Photograph, Encyclopedia excerpt"
+avibase-65FAB387,新西兰鸫鹟,South Island Piopio,Turnagra capensis,Passeriformes,Oriolidae,Photograph
+avibase-1E7E73E5,灰领鹂,Grey-collared Oriole,Oriolus forsteni,Passeriformes,Oriolidae,Encyclopedia excerpt
+avibase-556DF2D6,爪哇黄鹂,Javan Oriole,Oriolus cruentus,Passeriformes,Oriolidae,Photograph
+avibase-B6BCAD32,黑头林黄鹂,Ethiopian Oriole,Oriolus monacha,Passeriformes,Oriolidae,Encyclopedia excerpt
+avibase-95A2F6E7,山鹂,Mountain Oriole,Oriolus percivali,Passeriformes,Oriolidae,Encyclopedia excerpt
+avibase-CBC2CE1F,斑胸林鵙鹟,White-bellied Pitohui,Pseudorectes incertus,Passeriformes,Pachycephalidae,Photograph
+avibase-F64EC7D0,乌鵙鹟,Sooty Shrikethrush,Colluricincla tenebrosa,Passeriformes,Pachycephalidae,"Photograph, Encyclopedia excerpt"
+avibase-8A05845F,褐胸鵙鹟,Sandstone Shrikethrush,Colluricincla woodwardi,Passeriformes,Pachycephalidae,Encyclopedia excerpt
+avibase-50C1E978,黑林鵙鹟,Black Pitohui,Melanorectes nigrescens,Passeriformes,Pachycephalidae,Encyclopedia excerpt
+avibase-2A5D6D4A,巴列姆啸鹟,Baliem Whistler,Pachycephala balim,Passeriformes,Pachycephalidae,Encyclopedia excerpt
+avibase-F852672F,黄背啸鹟,Golden-backed Whistler,Pachycephala aurea,Passeriformes,Pachycephalidae,Photograph
+avibase-13B1CB11,俾岛啸鹟,Bismarck Whistler,Pachycephala citreogaster,Passeriformes,Pachycephalidae,Photograph
+avibase-FD8721C0,乌图普阿啸鹟,Utupua Whistler,Pachycephala utupuae,Passeriformes,Pachycephalidae,Photograph
+avibase-303C7AFB,瓦尼科罗啸鹟,Vanikoro Whistler,Pachycephala vanikorensis,Passeriformes,Pachycephalidae,Photograph
+avibase-D59EAEF7,山啸鹟,Hooded Whistler,Pachycephala implicata,Passeriformes,Pachycephalidae,Photograph
+avibase-76644DFB,黑喉山啸鹟,Bougainville Whistler,Pachycephala richardsi,Passeriformes,Pachycephalidae,Photograph
+avibase-FDD9B522,红树啸鹟,Mangrove Whistler,Pachycephala cinerea,Passeriformes,Pachycephalidae,Encyclopedia excerpt
+avibase-30607910,红尾扇尾鹟,Rufous-tailed Fantail,Rhipidura phoenicura,Passeriformes,Rhipiduridae,Encyclopedia excerpt
+avibase-E191588D,白腹扇尾鹟,White-bellied Fantail,Rhipidura euryura,Passeriformes,Rhipiduridae,Encyclopedia excerpt
+avibase-B5A920A2,珠点扇尾鹟,Spotted Fantail,Rhipidura perlata,Passeriformes,Rhipiduridae,Encyclopedia excerpt
+avibase-12E03FBB,栗尾扇尾鹟,Tremolo Fantail,Rhipidura fuscorufa,Passeriformes,Rhipiduridae,Encyclopedia excerpt
+avibase-0F995883,白喉纹胸扇尾鹟,White-gorgeted Fantail,Rhipidura coultasi,Passeriformes,Rhipiduridae,Photograph
+avibase-56F40883,睦扇尾鹟,Friendly Fantail,Rhipidura albolimbata,Passeriformes,Rhipiduridae,Encyclopedia excerpt
+avibase-042AEBF1,山扇尾鹟,Bougainville Fantail,Rhipidura drownei,Passeriformes,Rhipiduridae,Photograph
+avibase-F3460FF2,瓜岛扇尾鹟,Guadalcanal Fantail,Rhipidura ocularis,Passeriformes,Rhipiduridae,Photograph
+avibase-CDE98086,暗色扇尾鹟,Makira Fantail,Rhipidura tenebrosa,Passeriformes,Rhipiduridae,Photograph
+avibase-24B205AA,棕色扇尾鹟,Dimorphic Fantail,Rhipidura brachyrhyncha,Passeriformes,Rhipiduridae,Encyclopedia excerpt
+avibase-9CC5CA8D,马莱扇尾鹟,Malaita Fantail,Rhipidura malaitae,Passeriformes,Rhipiduridae,"Photograph, Encyclopedia excerpt"
+avibase-0B85109C,穆绍岛扇尾鹟,Mussau Fantail,Rhipidura matthiae,Passeriformes,Rhipiduridae,Encyclopedia excerpt
+avibase-0FC06F18,岛扇尾鹟,Bismarck Fantail,Rhipidura dahli,Passeriformes,Rhipiduridae,Encyclopedia excerpt
+avibase-8580729E,红背扇尾鹟,Long-tailed Fantail,Rhipidura opistherythra,Passeriformes,Rhipiduridae,Encyclopedia excerpt
+avibase-2291DE46,苏拉扇尾鹟,Sulawesi Fantail,Rhipidura teysmanni,Passeriformes,Rhipiduridae,Encyclopedia excerpt
+avibase-0199E134,曼岛扇尾鹟,Manus Fantail,Rhipidura semirubra,Passeriformes,Rhipiduridae,Photograph
+avibase-EE8D9BC5,路易扇尾鹟,Louisiade Fantail,Rhipidura louisiadensis,Passeriformes,Rhipiduridae,Photograph
+avibase-8C728466,苏拉卷尾,Sulawesi Drongo,Dicrurus montanus,Passeriformes,Dicruridae,Encyclopedia excerpt
+avibase-28AC53BE,辉卷尾,Shining Drongo,Dicrurus atripennis,Passeriformes,Dicruridae,Encyclopedia excerpt
+avibase-5DEB4565,绒背卷尾,Velvet-mantled Drongo,Dicrurus modestus,Passeriformes,Dicruridae,Encyclopedia excerpt
+avibase-3800DCCF,蓝头凤头鹟,Blue-headed Crested Flycatcher,Trochocercus nitens,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-6E2957C6,贝氏寿带,Bedford's Paradise Flycatcher,Terpsiphone bedfordi,Passeriformes,Monarchidae,Photograph
+avibase-9B34EDF7,栗喉阔嘴鹟,Chestnut-throated Flycatcher,Myiagra castaneigularis,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-F33032D8,暗色阔嘴鹟,Mussau Flycatcher,Myiagra hebetior,Passeriformes,Monarchidae,Photograph
+avibase-EE035E28,帕劳阔嘴鹟,Palau Flycatcher,Myiagra erythrops,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-164C3F46,波岛阔嘴鹟,Pohnpei Flycatcher,Myiagra pluto,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-17D07BD8,赭头阔嘴鹟,Makira Flycatcher,Myiagra cervinicauda,Passeriformes,Monarchidae,Photograph
+avibase-20D6AE5B,关岛阔嘴鸟,Guam Flycatcher,Myiagra freycineti,Passeriformes,Monarchidae,Photograph
+avibase-052CD650,盔阔嘴鹟,Moluccan Flycatcher,Myiagra galeata,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-3307E31E,黑背王鹟,Kofiau Monarch,Symposiachrus julianae,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-ADD8E888,黑王鹟,Black Monarch,Symposiachrus axillaris,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-9215DC4C,棕王鹟,Rufous Monarch,Symposiachrus rubiensis,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-E61D0D04,摩鹿加王鹟,Moluccan Monarch,Symposiachrus bimaculatus,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-691BA700,斑翅王鹟,Spot-winged Monarch,Symposiachrus guttula,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-5440FDFB,斑王鹟,Solomons Monarch,Symposiachrus barbatus,Passeriformes,Monarchidae,Photograph
+avibase-7E685EB2,马莱塔王鹟,Malaita Monarch,Symposiachrus malaitae,Passeriformes,Monarchidae,Photograph
+avibase-2D2593B0,白领王鹟,White-collared Monarch,Symposiachrus vidua,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-22D63D8D,维岛王鹟,Vella Lavella Monarch,Symposiachrus nigrotectus,Passeriformes,Monarchidae,Photograph
+avibase-640B813A,洛伊王鹟,Tanimbar Monarch,Carterornis castus,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-1EE395CD,白枕王鹟,White-naped Monarch,Carterornis pileatus,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-57570D50,莫岛果鹟,Maupiti Monarch,Pomarea maupitiensis,Passeriformes,Monarchidae,"Photograph, Encyclopedia excerpt"
+avibase-20DE8C44,努库希瓦果鹟,Nuku Hiva Monarch,Pomarea nukuhivae,Passeriformes,Monarchidae,"Photograph, Encyclopedia excerpt"
+avibase-4E66CF41,埃岛果鹟,Eiao Monarch,Pomarea fluxa,Passeriformes,Monarchidae,"Photograph, Encyclopedia excerpt"
+avibase-555F96E9,白翅果鹟,Ua Pou Monarch,Pomarea mira,Passeriformes,Monarchidae,Photograph
+avibase-F410F3C2,杂色灰鹟,Ogea Monarch,Mayrornis versicolor,Passeriformes,Monarchidae,Photograph
+avibase-074CF186,蓝灰鹟,Vanikoro Monarch,Mayrornis schistaceus,Passeriformes,Monarchidae,Photograph
+avibase-0AE94E4B,斐济灰鹟,Slaty Monarch,Mayrornis lessoni,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-011A5D07,黑背鵙嘴鹟,Santa Cruz Shrikebill,Clytorhynchus sanctaecrucis,Passeriformes,Monarchidae,Photograph
+avibase-9884A24C,南鵙嘴鹟,Southern Shrikebill,Clytorhynchus pachycephaloides,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-9CC45BB1,斐济鵙嘴鹟,Fiji Shrikebill,Clytorhynchus vitiensis,Passeriformes,Monarchidae,Encyclopedia excerpt
+avibase-EDEAF400,棕额六线风鸟,Eastern Parotia,Parotia helenae,Passeriformes,Paradisaeidae,Photograph
+avibase-847EFC94,小华美极乐鸟,Lesser Lophorina,Lophorina minor,Passeriformes,Paradisaeidae,Photograph
+avibase-24369C90,线翎极乐鸟,Emperor Bird-of-paradise,Paradisaea guilielmi,Passeriformes,Paradisaeidae,Photograph
+avibase-587D3DB6,大黑脚风鸟,Greater Melampitta,Megalampitta gigantea,Passeriformes,Melampittidae,Photograph
+avibase-2CDECD36,夏威夷乌鸦,Hawaiian Crow,Corvus hawaiiensis,Passeriformes,Corvidae,Photograph
+avibase-30485389,俾斯麦鸦,Bismarck Crow,Corvus insularis,Passeriformes,Corvidae,Encyclopedia excerpt
+avibase-756BA63D,缎蓝啄果鸟,Satin Berrypecker,Melanocharis citreola,Passeriformes,Melanocharitidae,Photograph
+avibase-4695BA79,纹啄果鸟,Streaked Berrypecker,Melanocharis striativentris,Passeriformes,Melanocharitidae,"Photograph, Encyclopedia excerpt"
+avibase-98A83626,黑啄果鸟,Black Berrypecker,Melanocharis nigra,Passeriformes,Melanocharitidae,Encyclopedia excerpt
+avibase-E35FC5B7,垂耳鸦,South Island Kokako,Callaeas cinereus,Passeriformes,Callaeidae,Photograph
+avibase-7C2EB5FF,兼嘴垂耳鸦,Huia,Heteralocha acutirostris,Passeriformes,Callaeidae,Photograph
+avibase-92AA62A0,红背刺莺,Garnet Robin,Eugerygone rubra,Passeriformes,Petroicidae,Encyclopedia excerpt
+avibase-978ECDF0,所罗门鸲鹟,Solomons Robin,Petroica polymorpha,Passeriformes,Petroicidae,Encyclopedia excerpt
+avibase-9B423379,灰薮鹟,Smoky Robin,Melanodryas cryptoleuca,Passeriformes,Petroicidae,Encyclopedia excerpt
+avibase-9187C7FC,紫背丛莺,Violet-backed Hyliota,Hyliota violacea,Passeriformes,Hyliotidae,Encyclopedia excerpt
+avibase-329CF549,白腹凤头鹟,White-bellied Crested Flycatcher,Elminia albiventris,Passeriformes,Stenostiridae,Encyclopedia excerpt
+avibase-515353F2,林攀雀,Forest Penduline Tit,Anthoscopus flavifrons,Passeriformes,Remizidae,Encyclopedia excerpt
+avibase-3814F5D0,灰山雀,Grey Tit,Melaniparus afer,Passeriformes,Paridae,Encyclopedia excerpt
+avibase-DA66F809,锈色歌百灵,Rusty Bush Lark,Calendulauda rufa,Passeriformes,Alaudidae,Photograph
+avibase-67F96AAB,金歌百灵,Kordofan Lark,Mirafra cordofanica,Passeriformes,Alaudidae,Photograph
+avibase-F90063D3,夏氏歌百灵,Russet Lark,Corypha sharpii,Passeriformes,Alaudidae,"Photograph, Encyclopedia excerpt"
+avibase-D7A55FB3,奥氏沙百灵,Obbia Lark,Spizocorys obbiensis,Passeriformes,Alaudidae,Photograph
+avibase-16EB660F,棕顶百灵,Rufous-capped Lark,Calandrella eremica,Passeriformes,Alaudidae,Encyclopedia excerpt
+avibase-CE04A51B,肯氏长嘴莺,Kemp's Longbill,Macrosphenus kempi,Passeriformes,Macrosphenidae,Encyclopedia excerpt
+avibase-E5CA98CA,灰长嘴莺,Grey Longbill,Macrosphenus concolor,Passeriformes,Macrosphenidae,Encyclopedia excerpt
+avibase-35C5E4AF,岩莺,Rockrunner,Achaetops pycnopygius,Passeriformes,Macrosphenidae,Encyclopedia excerpt
+avibase-CF4FB76D,绿杂鹛,Green Jery,Neomixis viridis,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-6FD7A5BC,纹喉杂鹛,Stripe-throated Jery,Neomixis striatigula,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-D46EE5F8,黄臀孤莺,Yellow-vented Eremomela,Eremomela flavicrissalis,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-17767237,褐冠孤莺,Rufous-crowned Eremomela,Eremomela badiceps,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-A3265EBB,斑拱翅莺,Barred Wren-Warbler,Calamonastes fasciolatus,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-65393B92,绿拱翅莺,Olive-green Camaroptera,Camaroptera chloronota,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-A3869D21,莫桑比克娇莺,Namuli Apalis,Apalis lynesi,Passeriformes,Cisticolidae,Photograph
+avibase-DA2072A7,黑顶娇莺,Black-capped Apalis,Apalis nigriceps,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-0ABADB0F,黑脸娇莺,Mountain Masked Apalis,Apalis personata,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-C3B16DBB,巴门娇莺,Bamenda Apalis,Apalis bamendae,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-3454B218,卡波波娇莺,Kabobo Apalis,Apalis kaboboensis,Passeriformes,Cisticolidae,Photograph
+avibase-0BF01CE3,褐冠山鹪莺,Rufous-crowned Prinia,Prinia khasiana,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-C54D2FEE,横斑山鹪莺,Banded Prinia,Prinia bairdii,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-319F6754,淡山鹪莺,Pale Prinia,Prinia somalica,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-8EDC9B24,黑头棕莺,Black-headed Rufous Warbler,Bathmocercus cerviniventris,Passeriformes,Cisticolidae,Photograph
+avibase-9F281377,霄扇尾莺,Dambo Cisticola,Cisticola dambo,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-6F165487,灰冠扇尾莺,Pale-crowned Cisticola,Cisticola cinnamomeus,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-2C6D5362,卡氏扇尾莺,Carruthers's Cisticola,Cisticola carruthersi,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-3B7E808C,颤鸣扇尾莺,Churring Cisticola,Cisticola njombe,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-9C320DCB,黑眉扇尾莺,Black-lored Cisticola,Cisticola nigriloris,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-373DCDF4,亨氏扇尾莺,Hunter's Cisticola,Cisticola hunteri,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-4849AA43,查氏扇尾莺,Chubb's Cisticola,Cisticola chubbi,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-388BABD6,细尾扇尾莺,Black-tailed Cisticola,Cisticola melanurus,Passeriformes,Cisticolidae,Photograph
+avibase-01CFA60A,噪扇尾莺,Chattering Cisticola,Cisticola anonymus,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-2E0E6C82,泰纳扇尾莺,Tana River Cisticola,Cisticola restrictus,Passeriformes,Cisticolidae,Photograph
+avibase-F8469E3F,鲍伦扇尾莺,Boran Cisticola,Cisticola bodessa,Passeriformes,Cisticolidae,Encyclopedia excerpt
+avibase-D9E1EA36,戈岛薮莺,Grande Comore Brush Warbler,Nesillas brevicaudata,Passeriformes,Acrocephalidae,Encyclopedia excerpt
+avibase-0525E604,科摩罗薮莺,Moheli Brush Warbler,Nesillas mariae,Passeriformes,Acrocephalidae,Encyclopedia excerpt
+avibase-F530CA35,荒漠薮莺,Subdesert Brush Warbler,Nesillas lantzii,Passeriformes,Acrocephalidae,Encyclopedia excerpt
+avibase-63136DAC,阿達藪鶯,Aldabra Brush Warbler,Nesillas aldabrana,Passeriformes,Acrocephalidae,Photograph
+avibase-6ED7C46F,马岛沼泽苇莺,Madagascar Swamp Warbler,Acrocephalus newtoni,Passeriformes,Acrocephalidae,Encyclopedia excerpt
+avibase-EC92E596,歌鸲苇莺,Nightingale Reed Warbler,Acrocephalus luscinius,Passeriformes,Acrocephalidae,"Photograph, Encyclopedia excerpt"
+avibase-8CF71142,卡罗琳苇莺,Caroline Reed Warbler,Acrocephalus syrinx,Passeriformes,Acrocephalidae,Encyclopedia excerpt
+avibase-43B1D88C,马里亚纳苇莺,Aguiguan Reed Warbler,Acrocephalus nijoi,Passeriformes,Acrocephalidae,"Photograph, Encyclopedia excerpt"
+avibase-BBD2AC0C,帕甘苇莺,Pagan Reed Warbler,Acrocephalus yamashinae,Passeriformes,Acrocephalidae,Photograph
+avibase-212D4791,瑞岛苇莺,Rimatara Reed Warbler,Acrocephalus rimitarae,Passeriformes,Acrocephalidae,Photograph
+avibase-05C1A470,加氏苇莺,Garrett's Reed Warbler,Acrocephalus musae,Passeriformes,Acrocephalidae,"Photograph, Encyclopedia excerpt"
+avibase-C3251DE9,莫岛苇莺,Moorea Reed Warbler,Acrocephalus longirostris,Passeriformes,Acrocephalidae,Photograph
+avibase-0605561F,曼岛苇莺,Mangareva Reed Warbler,Acrocephalus astrolabii,Passeriformes,Acrocephalidae,"Photograph, Encyclopedia excerpt"
+avibase-32D8BFB9,环礁苇莺,Tuamotu Reed Warbler,Acrocephalus atyphus,Passeriformes,Acrocephalidae,Encyclopedia excerpt
+avibase-6FD3006B,暗色旋木鹎,Dusky Tetraka,Crossleyia tenebrosa,Passeriformes,Bernieridae,Photograph
+avibase-9813B521,短嘴旋木鹎,Spectacled Tetraka,Xanthomixis zosterops,Passeriformes,Bernieridae,Encyclopedia excerpt
+avibase-A06552F5,锈脸地莺,Cordillera Ground Warbler,Robsonius rabori,Passeriformes,Locustellidae,Photograph
+avibase-A071F50B,吕宋地莺,Sierra Madre Ground Warbler,Robsonius thompsoni,Passeriformes,Locustellidae,Photograph
+avibase-50E2882A,岩短翅蝗莺,Friendly Bush Warbler,Locustella accentor,Passeriformes,Locustellidae,Encyclopedia excerpt
+avibase-D9721DB9,褐短翅莺,Brown Emutail,Bradypterus brunneus,Passeriformes,Locustellidae,Encyclopedia excerpt
+avibase-EF8973E3,佛莱河蝗莺,Fly River Grassbird,Poodytes albolimbatus,Passeriformes,Locustellidae,Photograph
+avibase-A0CF86E4,查塔姆蕨鶯,Chatham Islands Fernbird,Poodytes rufescens,Passeriformes,Locustellidae,Photograph
+avibase-62B8ED27,布岛草莺,Bougainville Thicketbird,Cincloramphus llaneae,Passeriformes,Locustellidae,Photograph
+avibase-9B658528,俾斯麦草莺,New Britain Thicketbird,Cincloramphus grosvenori,Passeriformes,Locustellidae,Photograph
+avibase-582FE962,美岛草莺,Santo Thicketbird,Cincloramphus whitneyi,Passeriformes,Locustellidae,Photograph
+avibase-7742FBED,瓜岛草莺,Guadalcanal Thicketbird,Cincloramphus turipavae,Passeriformes,Locustellidae,Photograph
+avibase-C1570ECC,白眼河燕,White-eyed River Martin,Pseudochelidon sirintarae,Passeriformes,Hirundinidae,Photograph
+avibase-23691B30,方尾锯翅燕,Square-tailed Saw-wing,Psalidoprocne nitens,Passeriformes,Hirundinidae,Encyclopedia excerpt
+avibase-D6D715E5,刚果锯翅燕,Congo Saw-wing,Psalidoprocne centralis,Passeriformes,Hirundinidae,Photograph
+avibase-10605B6E,刚果燕,Black-and-rufous Swallow,Hirundo nigrorufa,Passeriformes,Hirundinidae,Encyclopedia excerpt
+avibase-BBDD34B2,红海燕,Red Sea Cliff Swallow,Petrochelidon perdita,Passeriformes,Hirundinidae,Photograph
+avibase-D134B7F0,红喉燕,Red-throated Cliff Swallow,Petrochelidon rufigula,Passeriformes,Hirundinidae,Encyclopedia excerpt
+avibase-E6E37DE5,白喉长尾山雀,White-throated Bushtit,Aegithalos niveogularis,Passeriformes,Aegithalidae,Encyclopedia excerpt
+avibase-9EB7EBA9,栗顶红鹟,Chestnut-capped Flycatcher,Erythrocercus mccallii,Passeriformes,Erythrocercidae,Encyclopedia excerpt
+avibase-847AE7B8,黄红鹟,Little Yellow Flycatcher,Erythrocercus holochlorus,Passeriformes,Erythrocercidae,Encyclopedia excerpt
+avibase-F6DBAE37,利氏红鹟,Livingstone's Flycatcher,Erythrocercus livingstonei,Passeriformes,Erythrocercidae,Encyclopedia excerpt
+avibase-6A661300,帝汶短尾莺,Timor Stubtail,Urosphena subulata,Passeriformes,Cettiidae,Encyclopedia excerpt
+avibase-39EECA04,褐冠地莺,Russet-capped Tesia,Tesia everetti,Passeriformes,Cettiidae,Encyclopedia excerpt
+avibase-70419673,帕劳树莺,Palau Bush Warbler,Horornis annae,Passeriformes,Cettiidae,Encyclopedia excerpt
+avibase-D91319C4,台岛树莺,Tanimbar Bush Warbler,Horornis carolinae,Passeriformes,Cettiidae,Encyclopedia excerpt
+avibase-DFE28E09,所罗门树莺,Shade Bush Warbler,Horornis parens,Passeriformes,Cettiidae,Photograph
+avibase-A974FAFE,布岛树莺,Bougainville Bush Warbler,Horornis haddeni,Passeriformes,Cettiidae,Photograph
+avibase-0480ACAC,库岛柳莺,Kolombangara Leaf Warbler,Phylloscopus amoenus,Passeriformes,Phylloscopidae,Photograph
+avibase-E25490A1,农福尔柳莺,Numfor Leaf Warbler,Phylloscopus maforensis,Passeriformes,Phylloscopidae,Encyclopedia excerpt
+avibase-E786627E,海岛柳莺,Island Leaf Warbler,Phylloscopus poliocephalus,Passeriformes,Phylloscopidae,Encyclopedia excerpt
+avibase-5A94FEAE,须鹎,Red-tailed Bristlebill,Bleda syndactylus,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-4F97BFE1,小须鹎,Yellow-lored Bristlebill,Bleda notatus,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-1D9175EA,黄眼须鹎,Yellow-eyed Bristlebill,Bleda ugandae,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-6FC57210,塞氏绿鹎,Shelley's Greenbul,Arizelocichla masukuensis,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-8EDD570A,乌鲁克绿鹎,Uluguru Mountain Greenbul,Arizelocichla neumanni,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-1F66AE1E,黑眉绿鹎,Black-browed Mountain Greenbul,Arizelocichla fusciceps,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-B421F18C,黄喉绿鹎,Yellow-throated Mountain Greenbul,Arizelocichla chlorigula,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-1EEE86B8,橄榄胸绿鹎,Kikuyu Mountain Greenbul,Arizelocichla kikuyuensis,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-9A80B57C,纹脸绿鹎,Olive-headed Greenbul,Arizelocichla striifacies,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-E6A0D208,白尾鹎,Honeyguide Greenbul,Baeopogon indicator,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-38652F17,普氏绿鸫鹎,Prigogine's Greenbul,Chlorocichla prigoginei,Passeriformes,Pycnonotidae,Photograph
+avibase-0F97A356,西须冠鹎,Western Bearded Greenbul,Criniger barbatus,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-F8104BC1,红尾须冠鹎,Red-tailed Greenbul,Criniger calurus,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-FA137697,低地姬旋木鹎,Lowland Tiny Greenbul,Phyllastrephus debilis,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-7927D0DD,白喉旋木鹎,White-throated Greenbul,Phyllastrephus albigularis,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-C47F378C,安哥拉旋木鹎,Angola Greenbul,Phyllastrephus viridiceps,Passeriformes,Pycnonotidae,Photograph
+avibase-1D1C9EDA,泽氏旋木鹎,Xavier's Greenbul,Phyllastrephus xavieri,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-4B94ECF0,洛氏旋木鹎,Sassi's Olive Greenbul,Phyllastrephus lorenzi,Passeriformes,Pycnonotidae,Photograph
+avibase-84F1B408,蓝肉垂鹎,Blue-wattled Bulbul,Microtarsus nieuwenhuisii,Passeriformes,Pycnonotidae,Photograph
+avibase-7F4011E2,鳞胸鹎,Scaly-breasted Bulbul,Rubigula squamata,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-084D69A1,巴鲁珊褐鹎,Barusan Bulbul,Pycnonotus porphyreus,Passeriformes,Pycnonotidae,Photograph
+avibase-3499C2A5,灰头冠鹎,Yellow-bellied Bulbul,Alophoixus phaeocephalus,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-8668C778,本南白喉褐冠鹎,Penan Bulbul,Alophoixus ruficrissus,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-BD51402C,黄臀灰胸鹎,Charlotte's Bulbul,Iole charlottae,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-E0595A29,灰黑短脚鹎,Cinereous Bulbul,Hemixos cinereus,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-0D2A9574,尼科巴短脚鹎,Nicobar Bulbul,Hypsipetes nicobariensis,Passeriformes,Pycnonotidae,Photograph
+avibase-FDB1A2B1,安汶金冠鹎,Ambon Golden Bulbul,Hypsipetes flavicaudus,Passeriformes,Pycnonotidae,Photograph
+avibase-07BCEAC0,布岛金冠鹎,Buru Golden Bulbul,Hypsipetes mysticalis,Passeriformes,Pycnonotidae,Encyclopedia excerpt
+avibase-697DE8A6,莱氏林莺,Layard's Warbler,Curruca layardi,Passeriformes,Sylviidae,Encyclopedia excerpt
+avibase-16FEF081,褐林莺,Brown Parisoma,Curruca lugens,Passeriformes,Sylviidae,Encyclopedia excerpt
+avibase-16E99455,缅甸凤鹛,Burmese Yuhina,Yuhina humilis,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-B0B39351,灰巾冠绣眼鸟,Grey-hooded Heleia,Heleia pinaiae,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-23A7AB57,灰喉冠绣眼鸟,Javan Heleia,Heleia javanica,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-5149A050,纹头冠绣眼鸟,Sulawesi Heleia,Heleia squamiceps,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-28A814F4,塞舌尔栗胁绣眼鸟,Marianne White-eye,Zosterops semiflavus,Passeriformes,Zosteropidae,"Photograph, Encyclopedia excerpt"
+avibase-A23B8E7A,宽颈绣眼鸟,Broad-ringed White-eye,Zosterops eurycricotus,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-19ABB1C4,安诺绣眼鸟,Annobon White-eye,Zosterops griseovirescens,Passeriformes,Zosteropidae,Photograph
+avibase-9A1A058C,黑顶绣眼鸟,Black-capped Speirops,Zosterops lugubris,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-D3C0D13C,卡岛绣眼鸟,Citrine White-eye,Zosterops semperi,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-2BABE802,姬绣眼鸟,Small Lifou White-eye,Zosterops minutus,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-C02EB43E,柠喉绣眼鸟,Black-ringed White-eye,Zosterops anomalus,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-73789C73,桑岛绣眼鸟,Sangihe White-eye,Zosterops nehrkorni,Passeriformes,Zosteropidae,Photograph
+avibase-11AF29B9,白喉绣眼鸟,Tagula White-eye,Zosterops meeki,Passeriformes,Zosteropidae,"Photograph, Encyclopedia excerpt"
+avibase-5DA925D4,暗绣眼鸟,Dusky White-eye,Zosterops finschii,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-9DC224C8,瓦岛绣眼鸟,Vanikoro White-eye,Zosterops gibbsi,Passeriformes,Zosteropidae,Photograph
+avibase-B1F46366,黑头绣眼鸟,Bismarck White-eye,Zosterops hypoxanthus,Passeriformes,Zosteropidae,Photograph
+avibase-93D88F0A,白胸繡眼鳥,White-chested White-eye,Zosterops albogularis,Passeriformes,Zosteropidae,"Photograph, Encyclopedia excerpt"
+avibase-80532212,库拉山绣眼鸟,Kolombangara White-eye,Zosterops murphyi,Passeriformes,Zosteropidae,"Photograph, Encyclopedia excerpt"
+avibase-E45772D3,瓜岛绣眼鸟,Guadalcanal White-eye,Zosterops oblitus,Passeriformes,Zosteropidae,Photograph
+avibase-8F88A18F,马莱绣眼鸟,Malaita White-eye,Zosterops stresemanni,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-B5C21FAF,黄喉绣眼鸟,Yellow-throated White-eye,Zosterops metcalfii,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-0AAB8320,加农绣眼鸟,Ranongga White-eye,Zosterops splendidus,Passeriformes,Zosteropidae,Photograph
+avibase-7CCB5F90,圣岛绣眼鸟,Santa Cruz White-eye,Zosterops sanctaecrucis,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-BA48DD2D,裸眼绣眼鸟,Bare-eyed White-eye,Zosterops superciliosus,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-F6F0421B,萨摩亚绣眼鸟,Samoan White-eye,Zosterops samoensis,Passeriformes,Zosteropidae,Photograph
+avibase-2B007EF1,伦纳绣眼鸟,Rennell White-eye,Zosterops rennellianus,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-70452AB9,硕绣眼鸟,Robust White-eye,Zosterops strenuus,Passeriformes,Zosteropidae,Photograph
+avibase-C136FA8A,利岛绣眼鸟,Large Lifou White-eye,Zosterops inornatus,Passeriformes,Zosteropidae,Encyclopedia excerpt
+avibase-13F6B3C1,黄领纹胸鹛,Grey-cheeked Tit-Babbler,Mixornis flavicollis,Passeriformes,Timaliidae,Encyclopedia excerpt
+avibase-C468218F,康岛纹胸鹛,Kangean Tit-Babbler,Mixornis prillwitzi,Passeriformes,Timaliidae,Encyclopedia excerpt
+avibase-FA52674F,巴拉望纹胸鹛,Palawan Tit-Babbler,Mixornis woodi,Passeriformes,Timaliidae,Photograph
+avibase-65875E25,褐冠钩嘴鹛,Brown-crowned Scimitar Babbler,Pomatorhinus phayrei,Passeriformes,Timaliidae,Encyclopedia excerpt
+avibase-D4A0A875,锈色雅鹛,Ferruginous Babbler,Pellorneum bicolor,Passeriformes,Pellorneidae,Encyclopedia excerpt
+avibase-F876CBEE,苏拉雅鹛,Sulawesi Babbler,Pellorneum celebense,Passeriformes,Pellorneidae,Encyclopedia excerpt
+avibase-58BB1A14,黑冠非洲雅鹛,Blackcap Illadopsis,Illadopsis cleaveri,Passeriformes,Pellorneidae,Encyclopedia excerpt
+avibase-8E29E9C5,白喉鹩鹛,White-throated Wren-Babbler,Napothera pasquieri,Passeriformes,Pellorneidae,Encyclopedia excerpt
+avibase-10D3B698,瑙蒙短尾鹛,Naung Mung Scimitar Babbler,Napothera naungmungensis,Passeriformes,Pellorneidae,Photograph
+avibase-E87A913F,苏门答腊鹩鹛,Sumatran Wren-Babbler,Napothera albostriata,Passeriformes,Pellorneidae,Encyclopedia excerpt
+avibase-3B593D10,苏门答腊鹪鹛,Rusty-breasted Wren-Babbler,Gypsophila rufipectus,Passeriformes,Pellorneidae,Encyclopedia excerpt
+avibase-722187E9,查氏鹟鹛,Chapin's Babbler,Turdoides chapini,Passeriformes,Leiothrichidae,Photograph
+avibase-511F5AF7,鬢吸蜜鳥,Kioea,Chaetoptila angustipluma,Passeriformes,Mohoidae,Photograph
+avibase-D4D46BE5,奧亞吸蜜鳥,Kauai Oo,Moho braccatus,Passeriformes,Mohoidae,Photograph
+avibase-A9D4B4FA,歐胡吸蜜鳥,Oahu Oo,Moho apicalis,Passeriformes,Mohoidae,Photograph
+avibase-708DC3B5,监督吸蜜鸟,Bishop's Oo,Moho bishopi,Passeriformes,Mohoidae,Photograph
+avibase-07958FE0,夏威夷吸蜜鳥,Hawaii Oo,Moho nobilis,Passeriformes,Mohoidae,Photograph
+avibase-A039EC13,马谷蚋莺,Maranon Gnatcatcher,Polioptila maior,Passeriformes,Polioptilidae,Encyclopedia excerpt
+avibase-70A56DCB,白眉蚋莺,White-browed Gnatcatcher,Polioptila bilineata,Passeriformes,Polioptilidae,Encyclopedia excerpt
+avibase-31AE7224,笛声鹪鹩,Flutist Wren,Microcerculus ustulatus,Passeriformes,Troglodytidae,Photograph
+avibase-CF5B7A9D,太平洋鹪鹩,Pacific Wren,Nannus pacificus,Passeriformes,Troglodytidae,Photograph
+avibase-2B20EB43,西长嘴沼泽鹪鹩,Western Marsh Wren,Cistothorus paludicola,Passeriformes,Troglodytidae,"Photograph, Encyclopedia excerpt"
+avibase-594A4DB7,棕鹪鹩,Rufous Wren,Cinnycerthia unirufa,Passeriformes,Troglodytidae,Encyclopedia excerpt
+avibase-E92F543E,斑弯嘴嘲鸫,Cozumel Thrasher,Toxostoma guttatum,Passeriformes,Mimidae,Photograph
+avibase-49A7572C,长冠王椋鸟,Long-crested Myna,Basilornis corythaix,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-0DC9A072,东南八哥,Tenggara Hill Myna,Gracula venerata,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-E0A3FD2C,短尾辉椋鸟,Short-tailed Starling,Aplonis minor,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-E989867D,摩鹿加辉椋鸟,Moluccan Starling,Aplonis mysolensis,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-EAC36FC4,黄眼辉椋鸟,Yellow-eyed Starling,Aplonis mystacea,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-14EA1B2B,白眼辉椋鸟,White-eyed Starling,Aplonis brunneicapillus,Passeriformes,Sturnidae,Photograph
+avibase-17B8763A,暗辉椋鸟,Pohnpei Starling,Aplonis pelzelni,Passeriformes,Sturnidae,Photograph
+avibase-468C94DE,圣克托辉椋鸟,Makira Starling,Aplonis dichroa,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-87C70101,褐翅辉椋鸟,Brown-winged Starling,Aplonis grandis,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-F5AFC816,纹辉椋鸟,Striated Starling,Aplonis striata,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-21D04F26,綠頭輝椋鳥,Tasman Starling,Aplonis fusca,Passeriformes,Sturnidae,Photograph
+avibase-0A6E49EB,山辉椋鸟,Mountain Starling,Aplonis santovestris,Passeriformes,Sturnidae,Photograph
+avibase-041F72CD,棕翅辉椋鸟,Rusty-winged Starling,Aplonis zelandica,Passeriformes,Sturnidae,Photograph
+avibase-98C34B37,奇輝椋鳥,Mauke Starling,Aplonis mavornata,Passeriformes,Sturnidae,Photograph
+avibase-0A341459,库赛埃岛辉椋鸟,Kosrae Starling,Aplonis corvina,Passeriformes,Sturnidae,Photograph
+avibase-6BF56F5F,爪哇斑椋鸟,Javan Pied Myna,Gracupica jalla,Passeriformes,Sturnidae,Photograph
+avibase-C66353E1,羅迪椋鳥,Rodrigues Starling,Necropsar rodericanus,Passeriformes,Sturnidae,Photograph
+avibase-2AF0BD16,留尼旺椋鸟,Hoopoe Starling,Fregilupus varius,Passeriformes,Sturnidae,Photograph
+avibase-8A195598,白头椋鸟,White-headed Starling,Sturnia erythropygia,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-DDF650D1,红胸八哥,Vinous-breasted Myna,Acridotheres leucocephalus,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-F2C7AA06,细嘴栗翅椋鸟,Slender-billed Starling,Onychognathus tenuirostris,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-01D755E8,栗翅椋鸟,Chestnut-winged Starling,Onychognathus fulgidus,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-B3461BEC,白嘴栗翅椋鸟,White-billed Starling,Onychognathus albirostris,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-E8DEABBD,须冠栗翅椋鸟,Bristle-crowned Starling,Onychognathus salvadorii,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-6BFEA7BE,灰丽椋鸟,Ashy Starling,Lamprotornis unicolor,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-D5703E7A,楔尾丽椋鸟,Sharp-tailed Starling,Lamprotornis acuticaudus,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-AEEED5D0,短尾丽椋鸟,Bronze-tailed Starling,Lamprotornis chalcurus,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-A7EA21CA,辉丽椋鸟,Principe Starling,Lamprotornis ornatus,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-A77D4A77,白冠丽椋鸟,White-crowned Starling,Lamprotornis albicapillus,Passeriformes,Sturnidae,Encyclopedia excerpt
+avibase-0BD37CDF,白尾蚁鸫,White-tailed Ant Thrush,Neocossyphus poensis,Passeriformes,Turdidae,Encyclopedia excerpt
+avibase-2641F161,考艾岛孤鸫,Kamao,Myadestes myadestinus,Passeriformes,Turdidae,Photograph
+avibase-09CC6AEA,瓦岛孤鸫,Amaui,Myadestes woahensis,Passeriformes,Turdidae,"Photograph, Encyclopedia excerpt"
+avibase-C52EFB11,拉奈孤鸫,Olomao,Myadestes lanaiensis,Passeriformes,Turdidae,Photograph
+avibase-A183D8C2,啟利氏地鶇,Bonin Thrush,Zoothera terrestris,Passeriformes,Turdidae,Photograph
+avibase-E1D48C52,圣岛地鸫,Makira Thrush,Zoothera margaretae,Passeriformes,Turdidae,Photograph
+avibase-72343F64,瓜岛地鸫,Guadalcanal Thrush,Zoothera turipavae,Passeriformes,Turdidae,"Photograph, Encyclopedia excerpt"
+avibase-485394E0,黄胸地鸫,Fawn-breasted Thrush,Zoothera machiki,Passeriformes,Turdidae,Encyclopedia excerpt
+avibase-10891EF5,新不列颠地鸫,New Britain Thrush,Zoothera talaseae,Passeriformes,Turdidae,Photograph
+avibase-6DF9DA47,布岛地鸫,Bougainville Thrush,Zoothera atrigena,Passeriformes,Turdidae,Photograph
+avibase-80724C8B,苏门答腊宽嘴鸫,Sumatran Cochoa,Cochoa beccarii,Passeriformes,Turdidae,Encyclopedia excerpt
+avibase-031D861E,马来宽嘴鸫,Javan Cochoa,Cochoa azurea,Passeriformes,Turdidae,Encyclopedia excerpt
+avibase-CB1E8753,灰色地鸫,Grey Ground Thrush,Geokichla princei,Passeriformes,Turdidae,Encyclopedia excerpt
+avibase-05BC1F90,澳氏地鸫,Oberländer's Ground Thrush,Geokichla oberlaenderi,Passeriformes,Turdidae,Photograph
+avibase-ECBCA806,斯兰地鸫,Seram Thrush,Geokichla joiceyi,Passeriformes,Turdidae,Photograph
+avibase-EF99AC5E,青背地鸫,Slaty-backed Thrush,Geokichla schistacea,Passeriformes,Turdidae,Encyclopedia excerpt
+avibase-3DCE5A2C,民都洛岛鸫,Mindoro Island Thrush,Turdus mindorensis,Passeriformes,Turdidae,Photograph
+avibase-20ED5C7F,俾岛鸫,Bismarck Island Thrush,Turdus heinrothi,Passeriformes,Turdidae,Photograph
+avibase-203DAC8F,布岛鸫,Bougainville Island Thrush,Turdus bougainvillei,Passeriformes,Turdidae,Photograph
+avibase-601693AE,瓜岛鸫,Solomons Island Thrush,Turdus kulambangrae,Passeriformes,Turdidae,Photograph
+avibase-DD347DC6,岛鸫,Tasman Sea Island Thrush,Turdus poliocephalus,Passeriformes,Turdidae,Photograph
+avibase-25D8B98B,大開曼鶇,Grand Cayman Thrush,Turdus ravidus,Passeriformes,Turdidae,Photograph
+avibase-96BCFA30,灰胁鸫,Grey-flanked Thrush,Turdus phaeopygus,Passeriformes,Turdidae,"Photograph, Encyclopedia excerpt"
+avibase-6E6DD03A,泰普黑嘴鸫,Pantepui Thrush,Turdus murinus,Passeriformes,Turdidae,Photograph
+avibase-3EB04282,纯色鸫,Unicolored Thrush,Turdus haplochrous,Passeriformes,Turdidae,Photograph
+avibase-712C7EA0,林薮鸲,Forest Scrub Robin,Tychaedon leucosticta,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-6D92499B,黑薮鸲,Black Scrub Robin,Cercotrichas podobe,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-777915C4,爪哇鹊鸲,Larwo Shama,Copsychus omissus,Passeriformes,Muscicapidae,Photograph
+avibase-B3830C82,康岛鹊鸲,Kangean Shama,Copsychus nigricauda,Passeriformes,Muscicapidae,Photograph
+avibase-F563FE97,灰喉雀鹟,Grey-throated Tit-Flycatcher,Fraseria griseigularis,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-8B037156,非洲森莺,Fraser's Forest Flycatcher,Fraseria ocreata,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-A920880B,利比黑鹟,Nimba Flycatcher,Melaenornis annamarulae,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-167C67BA,安哥拉黑鹟,Angola Slaty Flycatcher,Melaenornis brunneus,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-F21A8321,暗蓝鹟,Dusky-blue Flycatcher,Bradornis comitatus,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-C8814B4A,松巴鹟,Sumba Brown Flycatcher,Muscicapa segregata,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-A962CA14,卡氏灰鹟,Cassin's Flycatcher,Muscicapa cassini,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-72E5DD5A,苏门仙鹟,Rufous-vented Niltava,Niltava sumatrana,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-64C5A03E,蓝额仙鹟,Blue-fronted Blue Flycatcher,Eumyias hoevelli,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-DB232D5C,蓝背仙鹟,Timor Blue Flycatcher,Eumyias hyacinthinus,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-EAF7A5C6,鲁氏仙鹟,Rück's Blue Flycatcher,Cyornis ruckii,Passeriformes,Muscicapidae,Photograph
+avibase-990FA273,苏禄林鹟,Sulu Jungle Flycatcher,Cyornis ocularis,Passeriformes,Muscicapidae,Photograph
+avibase-24E87291,苏拉蓝仙鹟,Sulawesi Blue Flycatcher,Cyornis omissus,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-B93D7A8F,栗尾林鹟,Sula Jungle Flycatcher,Cyornis colonus,Passeriformes,Muscicapidae,Photograph
+avibase-0231D778,邦盖林鹟,Banggai Jungle Flycatcher,Cyornis pelingensis,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-9A438434,加那利鸲,Canary Islands Robin,Erithacus superbus,Passeriformes,Muscicapidae,"Photograph, Encyclopedia excerpt"
+avibase-E3760281,绿背林鸲,Olive-backed Forest Robin,Stiphrornis pyrrholaemus,Passeriformes,Muscicapidae,Photograph
+avibase-2455B82B,黄胸林鸲,Yellow-breasted Forest Robin,Stiphrornis mabirae,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-F71CDDC8,红喉鸲鸫,Red-throated Alethe,Chamaetylas poliophrys,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-9616C96E,蓝肩歌䳭,Blue-shouldered Robin-Chat,Cossypha cyanocampter,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-CB6410F3,绿胁歌䳭,Olive-flanked Ground Robin,Dessonornis anomalus,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-C25F57BD,杰氏阿卡拉鸲,Equatorial Akalat,Sheppardia aequatorialis,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-5F5FB120,白冠燕尾,Northern Forktail,Enicurus sinensis,Passeriformes,Muscicapidae,"Photograph, Encyclopedia excerpt"
+avibase-25BD7BC4,马来燕尾,Malayan Forktail,Enicurus frontalis,Passeriformes,Muscicapidae,"Photograph, Encyclopedia excerpt"
+avibase-DF2951BF,辉亮啸鸫,Shiny Whistling Thrush,Myophonus melanurus,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-7508D58D,巽他啸鸫,Javan Whistling Thrush,Myophonus glaucinus,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-0BC38C7E,黄嘴紫啸鸫,Yellow-billed Whistling Thrush,Myophonus flavirostris,Passeriformes,Muscicapidae,"Photograph, Encyclopedia excerpt"
+avibase-0DBEE836,棕喉姬鹟,Rufous-throated Flycatcher,Ficedula rufigula,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-752092BF,褐胸姬鹟,Cinnamon-chested Flycatcher,Ficedula buruensis,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-16577904,哈氏姬鹟,Sumba Flycatcher,Ficedula harterti,Passeriformes,Muscicapidae,"Photograph, Encyclopedia excerpt"
+avibase-916C5AED,黄纹石䳭,Buff-streaked Chat,Campicoloides bifasciatus,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-1B6016EC,卢氏蚁鵖,Rüppell's Black Chat,Myrmecocichla melaena,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-631D27EF,索马里鵖,Somali Wheatear,Oenanthe phillipsi,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-6132EF55,北非悲䳭,Maghreb Wheatear,Oenanthe halophila,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-3CA06BE3,阿拉伯䳭,Arabian Wheatear,Oenanthe lugentoides,Passeriformes,Muscicapidae,Encyclopedia excerpt
+avibase-E524E4CB,眼镜啄花鸟,Spectacled Flowerpecker,Dicaeum dayakorum,Passeriformes,Dicaeidae,Photograph
+avibase-8BDE79BB,四色啄花鸟,Cebu Flowerpecker,Dicaeum quadricolor,Passeriformes,Dicaeidae,Photograph
+avibase-B6C34EB4,安达曼啄花鸟,Andaman Flowerpecker,Dicaeum virescens,Passeriformes,Dicaeidae,Encyclopedia excerpt
+avibase-92AEC0AF,路易啄花鸟,Louisiade Flowerpecker,Dicaeum nitidum,Passeriformes,Dicaeidae,Photograph
+avibase-3429B283,绿食蜜鸟,Yellow-chinned Sunbird,Anthreptes rectirostris,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-792ED873,白胁太阳鸟,White-flanked Sunbird,Aethopyga eximia,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-9B953393,瑞氏花蜜鸟,Reichenbach's Sunbird,Anabathmis reichenbachii,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-ED6CD9D5,班氏花蜜鸟,Bannerman's Sunbird,Cyanomitra bannermani,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-36A24C79,蓝喉花蜜鸟,Blue-throated Brown Sunbird,Cyanomitra cyanolaema,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-AE0035FF,蓝头花蜜鸟,Blue-headed Sunbird,Cyanomitra alinae,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-F500EA53,包氏花蜜鸟,Bocage's Sunbird,Nectarinia bocagii,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-0F533AC6,紫胸花蜜鸟,Purple-breasted Sunbird,Nectarinia purpureiventris,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-59EE3B94,黄喉花蜜鸟,Buff-throated Sunbird,Chalcomitra adelberti,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-23BEFB19,乌色花蜜鸟,Carmelite Sunbird,Chalcomitra fuliginosa,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-8F052626,亨氏花蜜鸟,Hunter's Sunbird,Chalcomitra hunteri,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-98E4ABFF,索科花蜜鸟,Socotra Sunbird,Chalcomitra balfouri,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-4E7287C8,双领花蜜鸟,Eastern Miombo Sunbird,Cinnyris manoensis,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-5D8A4ACA,普氏花蜜鸟,Prigogine's Double-collared Sunbird,Cinnyris prigoginei,Passeriformes,Nectariniidae,Photograph
+avibase-D88A2E02,洛氏花蜜鸟,Rockefeller's Sunbird,Cinnyris rockefelleri,Passeriformes,Nectariniidae,Photograph
+avibase-CBA39A29,坦桑双领花蜜鸟,Usambara Double-collared Sunbird,Cinnyris usambaricus,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-411ECD6F,林双领花蜜鸟,Forest Double-collared Sunbird,Cinnyris fuelleborni,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-6A9FC674,黑腹花蜜鸟,Congo Sunbird,Cinnyris congensis,Passeriformes,Nectariniidae,Photograph
+avibase-9CDA630C,蓝紫胸花蜜鸟,Violet-breasted Sunbird,Cinnyris chalcomelas,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-688582BF,辉花蜜鸟,Abyssinian Sunbird,Cinnyris habessinicus,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-3D3EF8AC,猩红簇花蜜鸟,Johanna's Sunbird,Cinnyris johannae,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-7C8BC7CF,雅美花蜜鸟,Superb Sunbird,Cinnyris superbus,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-E3B9A841,褐翅花蜜鸟,Rufous-winged Sunbird,Cinnyris rufipennis,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-F2C131F9,安哥拉花蜜鸟,Oustalet's Sunbird,Cinnyris oustaleti,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-427683B4,暗色花蜜鸟,Dusky Sunbird,Cinnyris fuscus,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-A3D7FDD3,马约岛花蜜鸟,Mayotte Sunbird,Cinnyris coquerellii,Passeriformes,Nectariniidae,Encyclopedia excerpt
+avibase-C90890A3,点额织布鸟,Speckle-fronted Weaver,Sporopipes frontalis,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-49802951,鳞额编织雀,Scaly-feathered Weaver,Sporopipes squamifrons,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-2C504059,粟顶雀织雀,Chestnut-crowned Sparrow-Weaver,Plocepasser superciliosus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-B8B882AE,栗背织雀,Chestnut-backed Sparrow-Weaver,Plocepasser rufoscapulatus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-8395D0B4,白喉黄腹织雀,Bates's Weaver,Ploceus batesi,Passeriformes,Ploceidae,Photograph
+avibase-70312286,灰背织雀,Dark-backed Weaver,Ploceus bicolor,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-C34E4EF3,黄顶织雀,Yellow-capped Weaver,Ploceus dorsomaculatus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-3A590685,黄腿精织雀,Yellow-legged Weaver,Ploceus flavipes,Passeriformes,Ploceidae,"Photograph, Encyclopedia excerpt"
+avibase-79264A96,金枕织雀,Golden-naped Weaver,Ploceus aureonucha,Passeriformes,Ploceidae,Photograph
+avibase-BE85C81E,黄肩织雀,Yellow-mantled Weaver,Ploceus tricolor,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-E6E4F15D,白枕黑织雀,Maxwell's Black Weaver,Ploceus albinucha,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-6B5D78CE,绿头金织雀,Olive-headed Weaver,Ploceus olivaceiceps,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-ECDFEAF6,坦桑织雀,Usambara Weaver,Ploceus nicolli,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-FC6C191F,蛋黄黑脸织雀,Vitelline Masked Weaver,Ploceus vitellinus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-9FB7D020,黑颏织雀,Black-chinned Weaver,Ploceus nigrimentus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-341298B9,韦氏织雀,Weyns's Weaver,Ploceus weynsi,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-E72166BD,褐喉金织雀,Southern Brown-throated Weaver,Ploceus xanthopterus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-2E4A97D9,萨氏织雀,Juba Weaver,Ploceus dichrocephalus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-98820857,凯隆织雀,Kilombero Weaver,Ploceus burnieri,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-D8E67602,绿腰织雀,Heuglin's Masked Weaver,Ploceus heuglini,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-F9FB0226,北非褐喉织雀,Northern Brown-throated Weaver,Ploceus castanops,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-637795BE,赞比亚黑额织雀,Katanga Masked Weaver,Ploceus katangae,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-F40197D6,橙头织雀,Golden Palm Weaver,Ploceus bojeri,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-A23369E3,坦桑黑脸织雀,Tanzanian Masked Weaver,Ploceus reichardi,Passeriformes,Ploceidae,Photograph
+avibase-1373D324,小织雀,Little Weaver,Ploceus luteolus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-36C24C3D,细嘴织雀,Slender-billed Weaver,Ploceus pelzelni,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-63A997EA,奇织雀,Strange Weaver,Ploceus alienus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-B38CE692,黑腹山织雀,Black-billed Weaver,Ploceus melanogaster,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-2D3998EE,绿枕织雀,Olive-naped Weaver,Ploceus brachypterus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-2B94D2D5,金背巧织雀,Golden-backed Bishop,Euplectes aureus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-A31AC101,黑臀巧织雀,Zanzibar Red Bishop,Euplectes nigroventris,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-95A724BE,火额巧织雀,Fire-fronted Bishop,Euplectes diadematus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-87071086,杰氏巧织雀,Jackson's Widowbird,Euplectes jacksoni,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-ECE36984,红编织雀,Red Weaver,Anaplectes jubaensis,Passeriformes,Ploceidae,Photograph
+avibase-E27AFD14,蓝嘴精织雀,Blue-billed Malimbe,Malimbus nitens,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-D0203B65,冠精织雀,Crested Malimbe,Malimbus malimbicus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-6E20B613,黑喉精织雀,Cassin's Malimbe,Malimbus cassini,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-13AA5A5C,红臀精织雀,Red-vented Malimbe,Malimbus scutatus,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-960B56F2,红头精织雀,Red-headed Malimbe,Malimbus rubricollis,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-A41AEDC9,红腹精织雀,Red-bellied Malimbe,Malimbus erythrogaster,Passeriformes,Ploceidae,Encyclopedia excerpt
+avibase-86FBD1A0,鹑雀维达雀,Quailfinch Indigobird,Vidua nigeriae,Passeriformes,Viduidae,Photograph
+avibase-10A9A1D5,白斑文鸟,White-spotted Mannikin,Mayrimunia leucosticta,Passeriformes,Estrildidae,Encyclopedia excerpt
+avibase-21E64EAC,高山文鸟,Eastern Alpine Mannikin,Lonchura monticola,Passeriformes,Estrildidae,Photograph
+avibase-84A01BC8,新汉诺威文鸟,New Hanover Mannikin,Lonchura nigerrima,Passeriformes,Estrildidae,Photograph
+avibase-1C1A87C4,谢氏朱翅雀,Shelley's Crimsonwing,Cryptospiza shelleyi,Passeriformes,Estrildidae,Photograph
+avibase-C38DEB1A,坎氏梅花雀,Kandt's Waxbill,Estrilda kandti,Passeriformes,Estrildidae,Encyclopedia excerpt
+avibase-2F790B56,红嘴斑腹雀,Red-billed Pytilia,Pytilia lineata,Passeriformes,Estrildidae,Encyclopedia excerpt
+avibase-09F330B1,阿富汗雪雀,Afghan Snowfinch,Pyrgilauda theresae,Passeriformes,Passeridae,Photograph
+avibase-A3D20D11,科尔多凡棕麻雀,Kordofan Sparrow,Passer cordofanicus,Passeriformes,Passeridae,Photograph
+avibase-AABF0A3A,黄腹麻雀,Plain-backed Sparrow,Passer flaveolus,Passeriformes,Passeridae,Encyclopedia excerpt
+avibase-E05608A4,格氏长爪鹡鸰,Grimwood's Longclaw,Macronyx grimwoodi,Passeriformes,Motacillidae,Encyclopedia excerpt
+avibase-0DD36226,笠原腊嘴雀,Bonin Grosbeak,Carpodacus ferreorostris,Passeriformes,Fringillidae,Photograph
+avibase-9AC8AEA8,毛島蜜雀,Poo-uli,Melamprosops phaeosoma,Passeriformes,Fringillidae,Photograph
+avibase-9BD21181,瓦岛管舌雀,Oahu Alauahio,Paroreomyza maculata,Passeriformes,Fringillidae,Photograph
+avibase-3DB0103D,莫岛管舌雀,Kakawahie,Paroreomyza flammea,Passeriformes,Fringillidae,Photograph
+avibase-16AF165D,科纳松雀,Kona Grosbeak,Chloridops kona,Passeriformes,Fringillidae,Photograph
+avibase-58F9A637,大管鸹,Greater Koa Finch,Rhodacanthis palmeri,Passeriformes,Fringillidae,Photograph
+avibase-8C3D2DCA,黄头拟管舌鸟,Lesser Koa Finch,Rhodacanthis flaviceps,Passeriformes,Fringillidae,Photograph
+avibase-E35F8B09,安娜黑領雀,Ula-ai-hawane,Ciridops anna,Passeriformes,Fringillidae,Photograph
+avibase-B50DDCA2,考艾岛管鸹,Kauai Akialoa,Akialoa stejnegeri,Passeriformes,Fringillidae,"Photograph, Encyclopedia excerpt"
+avibase-F131E02A,大綠雀,Oahu Akialoa,Akialoa ellisiana,Passeriformes,Fringillidae,Photograph
+avibase-67049C23,長嘴導顎雀,Lesser Akialoa,Akialoa obscura,Passeriformes,Fringillidae,Photograph
+avibase-CA33F844,,Maui-nui Akialoa,Akialoa lanaiensis,Passeriformes,Fringillidae,"Photograph, Chinese name, Encyclopedia excerpt"
+avibase-4309F417,雷仙島蜜鸟,Laysan Honeycreeper,Himatione fraithii,Passeriformes,Fringillidae,"Photograph, Encyclopedia excerpt"
+avibase-D7D0A5F1,夏威夷監督吸蜜鳥,Hawaii Mamo,Drepanis pacifica,Passeriformes,Fringillidae,Photograph
+avibase-97746C36,黑監督吸蜜鳥,Black Mamo,Drepanis funerea,Passeriformes,Fringillidae,Photograph
+avibase-AC2EDFEE,鹦嘴管舌雀,Ou,Psittirostra psittacea,Passeriformes,Fringillidae,Photograph
+avibase-544B1381,,Lanai Hookbill,Dysmorodrepanis munroi,Passeriformes,Fringillidae,"Photograph, Chinese name, Encyclopedia excerpt"
+avibase-2019D40E,短嘴导颚雀,Oahu Nukupuu,Hemignathus lucidus,Passeriformes,Fringillidae,Photograph
+avibase-FBE9861A,考岛短镰嘴雀,Kauai Nukupuu,Hemignathus hanapepe,Passeriformes,Fringillidae,"Photograph, Encyclopedia excerpt"
+avibase-43F17FD6,茂岛短镰嘴雀,Maui Nukupuu,Hemignathus affinis,Passeriformes,Fringillidae,"Photograph, Encyclopedia excerpt"
+avibase-DDE78CC9,镰嘴雀,Akiapolaau,Hemignathus wilsoni,Passeriformes,Fringillidae,Encyclopedia excerpt
+avibase-8FE1196F,大顎雀,Greater Amakihi,Viridonia sagittirostris,Passeriformes,Fringillidae,Photograph
+avibase-AF12BC31,瓦岛红雀,Oahu Akepa,Loxops wolstenholmei,Passeriformes,Fringillidae,"Photograph, Encyclopedia excerpt"
+avibase-8904189E,毛岛红雀,Maui Akepa,Loxops ochraceus,Passeriformes,Fringillidae,"Photograph, Encyclopedia excerpt"
+avibase-1513D718,棉岛金丝雀,Mindanao Serin,Chrysocorythus mindanensis,Passeriformes,Fringillidae,Photograph
+avibase-D1C1A026,金胸鹀,Golden-breasted Bunting,Fringillaria flaviventris,Passeriformes,Emberizidae,Encyclopedia excerpt
+avibase-BB11EE7F,褐腰鹀,Brown-rumped Bunting,Fringillaria affinis,Passeriformes,Emberizidae,Encyclopedia excerpt
+avibase-52A41B18,百慕大唧鹀,Bermuda Towhee,Pipilo naufragus,Passeriformes,Passerellidae,Photograph
+avibase-B8F9BCA6,黄胸灰耳薮雀,Vilcabamba Brushfinch,Atlapetes terborghi,Passeriformes,Passerellidae,Photograph
+avibase-C21B323A,铜褐牛鹂,Bronze-brown Cowbird,Molothrus armenti,Passeriformes,Icteridae,Photograph
+avibase-C19704C9,墨西哥拟八哥,Slender-billed Grackle,Quiscalus palustris,Passeriformes,Icteridae,Photograph
+avibase-207491AE,黑胸虫森莺,Bachman's Warbler,Vermivora bachmanii,Passeriformes,Parulidae,Photograph
+avibase-21F464DE,淡脚森莺,Semper's Warbler,Leucopeza semperi,Passeriformes,Parulidae,Photograph
+avibase-B9A6C6E7,巴哈马黄喉地莺,Bahama Yellowthroat,Geothlypis rostrata,Passeriformes,Parulidae,Encyclopedia excerpt
+avibase-5A1D54E9,塔卡王森莺,Tacarcuna Warbler,Basileuterus tacarcunae,Passeriformes,Parulidae,Photograph
+avibase-99FAC557,黄脸鸲莺,Paria Whitestart,Myioborus pariae,Passeriformes,Parulidae,Photograph
+avibase-56671CF3,橙胸鸲莺,Guaiquinima Whitestart,Myioborus cardonai,Passeriformes,Parulidae,Photograph
+avibase-65DB5013,白脸鸲莺,White-faced Whitestart,Myioborus albifacies,Passeriformes,Parulidae,Photograph
+avibase-5DABDBB9,玫腹䳭莺,Rose-bellied Chat,Granatellus paraensis,Passeriformes,Cardinalidae,Encyclopedia excerpt
+avibase-6587A0E6,卡里萨尔蓝籽雀,Carrizal Seedeater,Amaurospiza carrizalensis,Passeriformes,Cardinalidae,Photograph
+avibase-083E787F,肝红丽唐纳雀,Hepatic Tanager,Piranga flava,Passeriformes,Cardinalidae,Encyclopedia excerpt
+avibase-575BFDC1,白眉锥嘴雀,White-browed Conebill,Conirostrum ferrugineiventre,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-1F1C4F93,棕眉锥嘴雀,Rufous-browed Conebill,Conirostrum rufum,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-3AEE36D0,秘鲁岭雀鹀,Peruvian Sierra Finch,Phrygilus punensis,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-453C47FD,灰头岭雀鹀,Grey-hooded Sierra Finch,Phrygilus gayi,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-961B34B3,柠黄雀鹀,Stripe-tailed Yellow Finch,Sicalis citrina,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-96F83DED,黄喉黄雀鹀,Sulphur-throated Finch,Sicalis taczanowskii,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-89CEC2C1,黄头黄雀鹀,Citron-headed Yellow Finch,Sicalis luteocephala,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-3CBC7FE3,大黄雀鹀,Greater Yellow Finch,Sicalis auriventris,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-558DD2EE,普纳黄雀鹀,Puna Yellow Finch,Sicalis lutea,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-79D218BB,来氏黄雀鹀,Raimondi's Yellow Finch,Sicalis raimondii,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-4226846A,纹锥嘴雀,Streaked Dacnis,Xenodacnis petersi,Passeriformes,Thraupidae,Photograph
+avibase-66F4277F,铅色岭雀鹀,Plumbeous Sierra Finch,Geospizopsis unicolor,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-19B4343A,斑尾栗臀雀,Band-tailed Seedeater,Catamenia analis,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-C14678F4,浅蓝刺花鸟,Bluish Flowerpiercer,Diglossa caerulescens,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-B0AEF8CA,啸声刺花鸟,Whistling Masked Flowerpiercer,Diglossa melanopis,Passeriformes,Thraupidae,"Photograph, Encyclopedia excerpt"
+avibase-AC4EB902,靛青刺花鸟,Indigo Flowerpiercer,Diglossa indigotica,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-041CC925,鳞斑刺花鸟,Scaled Flowerpiercer,Diglossa duidae,Passeriformes,Thraupidae,Photograph
+avibase-D2A59F93,委内瑞拉刺花鸟,Venezuelan Flowerpiercer,Diglossa venezuelensis,Passeriformes,Thraupidae,Photograph
+avibase-21B21DD8,黑背刺花鸟,Merida Flowerpiercer,Diglossa gloriosa,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-F9E82153,山楔尾草鹀,Duida Grass Finch,Emberizoides duidae,Passeriformes,Thraupidae,Photograph
+avibase-BF1EC1CD,灰背拟雀,Slaty-backed Hemispingus,Poospiza goeringi,Passeriformes,Thraupidae,Photograph
+avibase-6EF7F8B3,黑嘴薮唐纳雀,Black-billed Cnemoscopus,Cnemoscopus chrysogaster,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-B9D99EE0,锈眉歌鹀,Rusty-browed Warbling Finch,Microspingus erythrophrys,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-32FFBA87,三道眉拟雀,Three-striped Hemispingus,Microspingus trifasciatus,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-8F016827,褐胁灰背雀,Brown-flanked Tanager,Thlypopsis pectoralis,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-67910FCD,圣基茨岛牛雀,St. Kitts Bullfinch,Melopyrrha grandis,Passeriformes,Thraupidae,Photograph
+avibase-E3F00936,尖嘴地雀,Sharp-beaked Ground Finch,Geospiza difficilis,Passeriformes,Thraupidae,Photograph
+avibase-845E3D86,黄喉彩裸鼻雀,Yellow-throated Tanager,Iridosornis analis,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-28B96403,金领彩裸鼻雀,Golden-collared Tanager,Iridosornis jelskii,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-83B4D063,黄领彩裸鼻雀,Yellow-scarfed Tanager,Iridosornis reinhardti,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-699BDB3E,金顶彩裸鼻雀,Golden-crowned Tanager,Iridosornis rufivertex,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-8D39D4CB,栗腹唐纳雀,Chestnut-bellied Mountain Tanager,Dubusia castaneoventris,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-C42E650C,黑颏岭裸鼻雀,Black-chinned Mountain Tanager,Anisognathus notabilis,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-E8B48699,橙耳绿雀,Orange-eared Tanager,Chlorochrysa calliparaea,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-B005C25F,蓝黄唐纳雀,Blue-and-gold Tanager,Bangsia arcaei,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-44CDF1D4,黑金唐纳雀,Black-and-gold Tanager,Bangsia melanochlamys,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-45F0E18E,蓝眉唐加拉雀,Blue-browed Tanager,Tangara cyanotis,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-64E9CBDB,棕颊唐加拉雀,Rufous-cheeked Tanager,Tangara rufigenis,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-19CC72C9,辉绿唐加拉雀,Metallic-green Tanager,Tangara labradorides,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-B67CF692,金耳唐加拉雀,Golden-eared Tanager,Tangara chrysotis,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-6E314A86,纯色唐加拉雀,Plain-colored Tanager,Tangara inornata,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-3C6B2240,蓝翅唐加拉雀,Dotted Tanager,Ixothraupis varia,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-454C067F,棕喉唐加拉雀,Rufous-throated Tanager,Ixothraupis rufigula,Passeriformes,Thraupidae,Encyclopedia excerpt
+avibase-95C30DA2,希拉唐加拉雀,Sira Tanager,Stilpnia phillipsi,Passeriformes,Thraupidae,Photograph

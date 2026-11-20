@@ -1,0 +1,93 @@
+[
+  {
+    "speciesId": "avibase-7F4345B1",
+    "scientificName": "Centropus steerii",
+    "qid": "Q1264610",
+    "pageId": 152272725,
+    "fileTitle": "File:Black-hooded Coucal.jpg",
+    "fileSha1": "d65899a0869e45530b2afdab92543ce41037a9f0",
+    "identityText": "Black-hooded Coucal"
+  },
+  {
+    "speciesId": "avibase-54F7D0B2",
+    "scientificName": "Tunchiornis luteifrons",
+    "qid": "Q31874481",
+    "pageId": 141584407,
+    "fileTitle": "File:Tunchiornis ochraceiceps luteifrons Olive-crowned Greenlet; Manaus, Amazonas, Brazil (cropped).jpg",
+    "fileSha1": "f290935747df12a00932c89f9a72af3994a59895",
+    "identityText": "Tunchiornis ochraceiceps luteifrons",
+    "taxonomyReference": "https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2025/"
+  },
+  {
+    "speciesId": "avibase-52DFC50E",
+    "scientificName": "Phylloscartes nigrifrons",
+    "qid": "Q1264035",
+    "pageId": 112042594,
+    "fileTitle": "File:Phylloscartes nigrifons - Black-fronted Tyrannulet.jpg",
+    "fileSha1": "117b7fc836e0d4b2aeb1985ff5a66eb7e6c85d80",
+    "identityText": "Black-fronted Tyrannulet"
+  },
+  {
+    "speciesId": "avibase-9F0CB672",
+    "scientificName": "Syndactyla roraimae",
+    "qid": "Q1267130",
+    "pageId": 84995139,
+    "fileTitle": "File:Syndactyla roraimae - Tepui Foliage-gleaner, Monte Roraima, Venezuela.jpg",
+    "fileSha1": "9bf75a87ec392e51e7883c26630314dcb799bcb4",
+    "identityText": "Syndactyla roraimae"
+  },
+  {
+    "speciesId": "avibase-447039A9",
+    "scientificName": "Hemitriccus rufigularis",
+    "qid": "Q1272164",
+    "pageId": 123068258,
+    "fileTitle": "File:Hemitriccus rufigularis - Buff-throated Tody-Tyrant (cropped).jpg",
+    "fileSha1": "f16540d6adf27b9e4d25a2b1ae0be4be9f607b52",
+    "identityText": "Hemitriccus rufigularis"
+  },
+  {
+    "speciesId": "avibase-4C1F9C2A",
+    "scientificName": "Myrmothera subcanescens",
+    "qid": "Q56547724",
+    "pageId": 198136430,
+    "fileTitle": "File:Myrmothera subcanescens Tapajos Antpitta; Apuí, Amazonas, Brazil (cropped).jpg",
+    "fileSha1": "6e955f8f36e562b30edfbd49087a6a062a2eb904",
+    "identityText": "Myrmothera subcanescens"
+  },
+  {
+    "speciesId": "avibase-F1F78380",
+    "scientificName": "Sphenopsis ochracea",
+    "qid": "Q54819471",
+    "pageId": 99474747,
+    "fileTitle": "File:Sphenopsis ochracea - Western Hemispingus (cropped).jpg",
+    "fileSha1": "eee0a91f8fbe0e57bb77799e5683d29bdbc546e4",
+    "identityText": "Sphenopsis ochracea"
+  },
+  {
+    "speciesId": "avibase-9F3E8DF6",
+    "scientificName": "Sphenopsis piurae",
+    "qid": "Q54819516",
+    "pageId": 99475605,
+    "fileTitle": "File:Sphenopsis piurae - Piura Hemispingus (cropped).jpg",
+    "fileSha1": "cc429b62e2a0520743c7bdda59c1c33d00dd99c9",
+    "identityText": "Sphenopsis piurae"
+  },
+  {
+    "speciesId": "avibase-CBFA2D2B",
+    "scientificName": "Muscicapa tyrrhenica",
+    "qid": "Q29621642",
+    "pageId": 58951653,
+    "fileTitle": "File:Muscicapa tyrrhenica gare d'Ajaccio (1) (cropped).jpg",
+    "fileSha1": "afaf8b67922d68f01c62e63ed9c58d2267f9e63a",
+    "identityText": "Muscicapa tyrrhenica"
+  },
+  {
+    "speciesId": "avibase-6132EF55",
+    "scientificName": "Oenanthe halophila",
+    "qid": "Q108083543",
+    "pageId": 149631648,
+    "fileTitle": "File:Traquet halophile Bir Soltane003.jpg",
+    "fileSha1": "d9c3a85592f2639a8c329d24a42831f7d4511e0b",
+    "identityText": "Oenanthe halophila"
+  }
+]

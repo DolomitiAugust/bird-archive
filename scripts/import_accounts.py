@@ -36,8 +36,8 @@ def excerpt(description, language):
     return (" " if language == "en" else "").join(pieces)
 
 
-def select_account(row):
-    for lang in ("zh", "en"):
+def select_account(row, languages):
+    for lang in languages:
         if (row.get("description_sources") or {}).get(lang) != "wikipedia":
             continue
         url = (row.get("wikipedia_urls") or {}).get(lang, "")
@@ -49,17 +49,32 @@ def select_account(row):
             return {"lang": lang, "url": url, "text": text}
 
 
+def write_index(entries, output):
+    shards = {f"{n:02x}": {} for n in range(256)}
+    for sid, account in entries.items():
+        prefix = sid.removeprefix("avibase-")[:2].lower()
+        shards[prefix][sid] = account
+    output.mkdir(parents=True, exist_ok=True)
+    for prefix, shard in shards.items():
+        with NamedTemporaryFile(dir=output, delete=False, suffix=".part", mode="w", encoding="utf-8") as handle:
+            json.dump(shard, handle, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+            handle.write("\n")
+        Path(handle.name).replace(output / (prefix + ".json"))
+    counts = Counter(entry["lang"] for entry in entries.values())
+    print(f"{output.name}: {len(entries)} ({dict(counts)})")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--birdnet-zip", type=Path)
+    parser.add_argument("--english-only", action="store_true", help="Rebuild only the English-mode excerpts.")
     args = parser.parse_args()
     data = args.birdnet_zip.read_bytes() if args.birdnet_zip else read_url(f"{RELEASE}/{ZIP_NAME}")
     if hashlib.sha256(data).hexdigest() != ZIP_SHA256:
         raise ValueError("Unexpected BirdNET+ archive checksum")
     catalog = json.loads((ROOT / "data/checklist.json").read_text(encoding="utf-8"))
     species = {s["latin"]: s["id"] for s in catalog["species"]}
-    shards = {f"{n:02x}": {} for n in range(256)}
-    counts = Counter()
+    preferred, english = {}, {}
     with ZipFile(BytesIO(data)) as archive:
         rows = json.loads(archive.read(ZIP_NAME.replace(".zip", ".json")))
     for row in rows:
@@ -68,22 +83,18 @@ def main():
             continue
         if row.get("avibase_id") and sid != "avibase-" + row["avibase_id"]:
             continue
-        account = select_account(row)
-        if not account:
-            continue
-        shard = shards[sid.removeprefix("avibase-")[:2].lower()]
-        if sid in shard:
+        if sid in preferred or sid in english:
             raise ValueError(f"Duplicate source for {sid}")
-        shard[sid] = account
-        counts[account["lang"]] += 1
-    output = ROOT / "data/accounts"
-    output.mkdir(parents=True, exist_ok=True)
-    for prefix, shard in shards.items():
-        with NamedTemporaryFile(dir=output, delete=False, suffix=".part", mode="w", encoding="utf-8") as handle:
-            json.dump(shard, handle, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
-            handle.write("\n")
-        Path(handle.name).replace(output / (prefix + ".json"))
-    print(f"Species with sourced excerpts: {sum(counts.values())} ({dict(counts)})")
+        en = select_account(row, ("en",))
+        if en:
+            english[sid] = en
+        if not args.english_only:
+            best = select_account(row, ("zh",)) or en
+            if best:
+                preferred[sid] = best
+    if not args.english_only:
+        write_index(preferred, ROOT / "data/accounts")
+    write_index(english, ROOT / "data/accounts-en")
 
 
 if __name__ == "__main__":

@@ -23,3 +23,9 @@
 需要 Python 3.8 或更高版本。在仓库根目录运行 `python scripts/import_checklist.py`。脚本下载约 21 MB 的官方版本文件，核验 SHA-256、编号、学名和物种数后，原子替换索引。已有下载副本时可运行 `python scripts/import_checklist.py --input path/to/avilist-2026.json`。
 
 本次原始文件 SHA-256 为 `0f00995c819903e35eaee65cf5313193868362f1a6383e05949fe3d3600a8b39`。采用新版本或上游更正文件时，先核对列定义、物种数和分类变动，再更新导入参数及来源说明。
+
+## 目和科的英文名
+
+`taxon-labels-en.json` 收录 AviList v2026 英文名委员会核定的全部 45 个目名和 250 个科名。数据来自同一份 CC BY 4.0 名录，选择第 1 列标为 `order` 或 `family` 的行，将第 5 列的学名对应到第 8 列的 AviList 英文名，保留官方拼写及排列顺序。每个物种的目和科都能在这两组名称中查到。[版本说明与署名](https://www.avilist.org/checklist/v2026/)
+
+在仓库根目录运行 `python scripts/import_english_taxa.py`。也可用 `--input path/to/avilist-2026.json` 从已下载的原始快照重建。脚本复用主名录的 SHA-256 校验，并对照所有物种行核验分类覆盖。

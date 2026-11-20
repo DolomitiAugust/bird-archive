@@ -16,10 +16,16 @@
       "author": "Rison Thumboor",
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Common_kingfisher_(Alcedo_atthis)_(23373717365).jpg/960px-Common_kingfisher_(Alcedo_atthis)_(23373717365).jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Common_kingfisher_(Alcedo_atthis)_(23373717365).jpg/960px-Common_kingfisher_(Alcedo_atthis)_(23373717365).jpg",
+      "enLicense": "CC BY 2.0"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。",
+    "enNote": "A bright blue stripe runs down the back, and the underparts are orange. This kingfisher often dives for fish from a low branch over the water.",
+    "enSource": "Royal Society for the Protection of Birds",
+    "enChanges": "Resized proportionally and converted to WebP. Cards crop the image to fit. The detail view shows the full frame.",
+    "enImageContext": "The kingfisher perches on a twig with its back to the camera and its head turned to the left.",
+    "imageContext": "翠鸟背向镜头停在细枝上，头转向左边。"
   },
   {
     "id": "BH-0002",
@@ -38,10 +44,16 @@
       "author": "Flavio",
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Upupa_epops_-Tel_Aviv%2C_Israel-8.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Upupa_epops_-Tel_Aviv%2C_Israel-8.jpg",
+      "enLicense": "CC BY 2.0"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。",
+    "enNote": "The slender bill curves downwards. The crest opens into a black-tipped fan, and broad black and white bars stand out on the wings in flight.",
+    "enSource": "Royal Society for the Protection of Birds",
+    "enChanges": "Resized proportionally and converted to WebP. Cards crop the image to fit. The detail view shows the full frame.",
+    "enImageContext": "The hoopoe sits on a green rail, with black and white bars visible across its folded wings.",
+    "imageContext": "戴胜停在绿色栏杆上，双翅收拢，露出背面的黑白条纹。"
   },
   {
     "id": "BH-0003",
@@ -60,10 +72,16 @@
       "author": "Hobbyfotowiki",
       "license": "CC0 1.0",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/White_wagtail_(Motacilla_alba).jpg/960px-White_wagtail_(Motacilla_alba).jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/White_wagtail_(Motacilla_alba).jpg/960px-White_wagtail_(Motacilla_alba).jpg",
+      "enLicense": "CC0 1.0"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。",
+    "enNote": "This slim wagtail is black, white and grey. It walks along shorelines and across open ground, often bobbing its long tail even when it stops.",
+    "enSource": "Cornell Lab of Ornithology",
+    "enChanges": "Resized proportionally and converted to WebP. Cards crop the image to fit. The detail view shows the full frame.",
+    "enImageContext": "The wagtail stands in profile on a grassy bank beside the water.",
+    "imageContext": "白鹡鸰侧身立在水边长着短草的一处土坡上。"
   },
   {
     "id": "BH-0004",
@@ -82,10 +100,16 @@
       "author": "Alexis Lours",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mallard_%28Anas_platyrhynchos%29_male_head.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mallard_%28Anas_platyrhynchos%29_male_head.jpg",
+      "enLicense": "CC BY 4.0"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。",
+    "enNote": "A male in breeding plumage has a glossy green head and a narrow white neck ring. The mottled brown female also shows a blue-violet wing patch when she spreads her wings.",
+    "enSource": "U.S. Fish and Wildlife Service",
+    "enChanges": "Resized proportionally and converted to WebP. Cards crop the image to fit. The detail view shows the full frame.",
+    "enImageContext": "This close-up shows a male’s green head and yellow bill.",
+    "imageContext": "照片近距离记录了雄鸟的绿色头羽和黄色嘴。"
   },
   {
     "id": "BH-0005",
@@ -104,10 +128,16 @@
       "author": "© Francis C. Franklin",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bullfinch_male.jpg"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bullfinch_male.jpg",
+      "enLicense": "CC BY-SA 3.0"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。",
+    "enNote": "Adults have a black cap and a short, thick bill. In flight, a white rump shows just above the black tail.",
+    "enSource": "Royal Society for the Protection of Birds",
+    "enChanges": "Resized proportionally and converted to WebP. Cards crop the image to fit. The detail view shows the full frame.",
+    "enImageContext": "The bullfinch is perched side-on, showing its black cap and pink underparts.",
+    "imageContext": "灰雀侧身停在枝头，可以看到黑色的头顶和粉红色胸腹。"
   },
   {
     "id": "BH-0006",
@@ -126,10 +156,16 @@
       "author": "Hobbyfotowiki",
       "license": "CC0 1.0",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Little_egret_(Egretta_garzetta).jpg/960px-Little_egret_(Egretta_garzetta).jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Little_egret_(Egretta_garzetta).jpg/960px-Little_egret_(Egretta_garzetta).jpg",
+      "enLicense": "CC0 1.0"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。",
+    "enNote": "This white egret has a long, slender black bill. As it steps through water, its yellow toes stand out against its black legs.",
+    "enSource": "Royal Society for the Protection of Birds",
+    "enChanges": "Resized proportionally and converted to WebP. Cards crop the image to fit. The detail view shows the full frame.",
+    "enImageContext": "The egret lowers its head as it wades, with its reflection visible below.",
+    "imageContext": "白鹭在水中俯下头，水面映出它的身影。"
   },
   {
     "id": "BH-0007",
@@ -148,10 +184,16 @@
       "filePage": "https://commons.wikimedia.org/wiki/File:Pair_of_mandarin_ducks.jpg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Pair_of_mandarin_ducks.jpg/960px-Pair_of_mandarin_ducks.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Pair_of_mandarin_ducks.jpg/960px-Pair_of_mandarin_ducks.jpg",
+      "enLicense": "CC BY-SA 3.0"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。",
+    "enNote": "A male in breeding plumage has two orange, sail-shaped feathers on his back. The grey-brown female has a pale eye-ring that tapers into a line behind the eye.",
+    "enSource": "Royal Society for the Protection of Birds",
+    "enChanges": "Resized proportionally and converted to WebP. The gallery crops the image to fit the frame.",
+    "enImageContext": "A pair stands side by side at the water’s edge, the male on the left and the female on the right.",
+    "imageContext": "一对鸳鸯并排站在岸边，雄鸟在左，雌鸟在右。"
   },
   {
     "id": "BH-0008",
@@ -170,10 +212,16 @@
       "filePage": "https://commons.wikimedia.org/wiki/File:Rauchschwalbe_Hirundo_rustica.jpg",
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Rauchschwalbe_Hirundo_rustica.jpg/960px-Rauchschwalbe_Hirundo_rustica.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Rauchschwalbe_Hirundo_rustica.jpg/960px-Rauchschwalbe_Hirundo_rustica.jpg",
+      "enLicense": "CC BY-SA 2.5"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。",
+    "enNote": "Adults have a chestnut forehead and throat and a forked tail. In flight, look for the long, narrow outer tail feathers.",
+    "enSource": "Royal Society for the Protection of Birds",
+    "enChanges": "Resized proportionally and converted to WebP. The gallery crops the image to fit the frame.",
+    "enImageContext": "The swallow is perched on bare ground with its dark tail extending behind it.",
+    "imageContext": "家燕停在裸露的土面上，黑色尾羽向后伸出。"
   },
   {
     "id": "BH-0009",
@@ -192,10 +240,16 @@
       "filePage": "https://commons.wikimedia.org/wiki/File:Il_pescatore_solitario.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Il_pescatore_solitario.jpg/960px-Il_pescatore_solitario.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Il_pescatore_solitario.jpg/960px-Il_pescatore_solitario.jpg",
+      "enLicense": "CC BY-SA 4.0"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。",
+    "enNote": "This mostly grey heron has a long neck and long legs. It often waits motionless for prey in shallow water and flies with its neck folded back.",
+    "enSource": "Royal Society for the Protection of Birds",
+    "enChanges": "Resized proportionally and converted to WebP. The gallery crops the image to fit the frame.",
+    "enImageContext": "The heron stands side-on on a rock in shallow water.",
+    "imageContext": "苍鹭站在浅水中的石面上，侧向镜头。"
   },
   {
     "id": "BH-0010",
@@ -214,10 +268,16 @@
       "filePage": "https://commons.wikimedia.org/wiki/File:Tree_Sparrow_August_2007_Osaka_Japan.jpg",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tree_Sparrow_August_2007_Osaka_Japan.jpg/960px-Tree_Sparrow_August_2007_Osaka_Japan.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tree_Sparrow_August_2007_Osaka_Japan.jpg/960px-Tree_Sparrow_August_2007_Osaka_Japan.jpg",
+      "enLicense": "Public domain"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。",
+    "enNote": "A chestnut crown and a black spot on each white cheek help identify this sparrow. Males and females look alike.",
+    "enSource": "Royal Society for the Protection of Birds",
+    "enChanges": "Resized proportionally and converted to WebP. The gallery crops the image to fit the frame.",
+    "enImageContext": "The sparrow perches on a pale ledge, its dark cheek patch clearly visible.",
+    "imageContext": "树麻雀侧身停在浅色台面上，深色颊斑清晰可见。"
   },
   {
     "id": "BH-0011",
@@ -236,10 +296,16 @@
       "filePage": "https://commons.wikimedia.org/wiki/File:Little_grebe_Zwergtaucher.jpg",
       "license": "CC BY-SA 2.5",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Little_grebe_Zwergtaucher.jpg/960px-Little_grebe_Zwergtaucher.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Little_grebe_Zwergtaucher.jpg/960px-Little_grebe_Zwergtaucher.jpg",
+      "enLicense": "CC BY-SA 2.5"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。",
+    "enNote": "This small diving bird has a rounded body, a short bill and a very short tail. In breeding plumage its cheeks and the sides of its neck are chestnut, with a pale patch at the base of the bill.",
+    "enSource": "Royal Society for the Protection of Birds",
+    "enChanges": "Resized proportionally and converted to WebP. The gallery crops the image to fit the frame.",
+    "enImageContext": "The grebe swims across still water, its chestnut cheek reflected below.",
+    "imageContext": "小䴙䴘从平静的水面游过，栗色的脸颊映在水中。"
   },
   {
     "id": "BH-0012",
@@ -258,9 +324,557 @@
       "filePage": "https://commons.wikimedia.org/wiki/File:Erithacus_rubecula_with_cocked_head.jpg",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Erithacus_rubecula_with_cocked_head.jpg/960px-Erithacus_rubecula_with_cocked_head.jpg"
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Erithacus_rubecula_with_cocked_head.jpg/960px-Erithacus_rubecula_with_cocked_head.jpg",
+      "enLicense": "CC BY-SA 3.0"
     },
     "acquired": "2026-11-20",
-    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。"
+    "changes": "保持比例缩小并转为 WebP，图库按画幅裁切显示。",
+    "enNote": "Adults have an orange-red face and breast and a brownish back. Juveniles are speckled and have yet to grow the orange-red breast feathers.",
+    "enSource": "Royal Society for the Protection of Birds",
+    "enChanges": "Resized proportionally and converted to WebP. The gallery crops the image to fit the frame.",
+    "enImageContext": "The robin stands on a slender branch in profile, its orange-red breast facing left.",
+    "imageContext": "欧亚鸲侧身立在细枝上，橙红色的前胸朝向左边。"
+  },
+  {
+    "id": "BH-0013",
+    "file": "history-passenger-pigeon.webp",
+    "name": "旅鸽",
+    "en": "Passenger Pigeon",
+    "latin": "Ectopistes migratorius",
+    "order": "鸽形目",
+    "family": "鸠鸽科",
+    "aliases": "旅鴿",
+    "note": "这只人工饲养的成年雌鸟直立在横枝上，长尾伸向下方。这张照片后登在 1913 年的《Bird-Lore》上。",
+    "source": "《Bird-Lore》1913 年原刊，史密森学会图书馆藏本",
+    "url": "https://archive.org/details/birdlore151913nati/page/n112/mode/1up",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bird_lore_(1913)_(14562557107).jpg",
+      "author": "J. G. Hubbard",
+      "license": "公有领域（美国）",
+      "licenseUrl": "https://rightsstatements.org/vocab/NoC-US/1.0/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Bird_lore_%281913%29_%2814562557107%29.jpg",
+      "enLicense": "Public domain in the United States"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留完整画幅，转为 WebP。长边超过 900 像素的图片已等比缩小。",
+    "imageContext": "19 世纪 90 年代末拍摄，维基共享资源标为 1898 年。画面中是一只人工饲养的活鸟。",
+    "photographed": "1890年代末",
+    "enPhotographed": "Late 1890s",
+    "enNote": "This adult female stands upright on a branch in captivity, her long tail pointing down. The photograph appeared in Bird-Lore in 1913.",
+    "enSource": "Bird-Lore (1913), Smithsonian Institution Libraries copy",
+    "enChanges": "Converted to WebP with the full frame preserved. Images over 900 pixels on the long side were scaled down proportionally.",
+    "enImageContext": "Photographed in the late 1890s. Wikimedia Commons dates the photograph to 1898. The bird was in captivity."
+  },
+  {
+    "id": "BH-0014",
+    "file": "history-laysan-rail.webp",
+    "name": "雷仙岛秧鸡",
+    "en": "Laysan Rail",
+    "latin": "Zapornia palmeri",
+    "order": "鹤形目",
+    "family": "秧鸡科",
+    "aliases": "雷仙島秧雞 來珊田雞",
+    "note": "秧鸡伏在草丛里的巢上。照片摄于 1902 年雷仙岛考察期间，后来收入美国渔业委员会的考察报告。",
+    "source": "华盛顿大学淡水与海洋影像馆藏",
+    "url": "https://digitalcollections.lib.washington.edu/digital/collection/fishimages/id/43327",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:FMIB_43327_Laysan_Rail_(Porzanula_palmeri)_on_nest.jpeg",
+      "author": "Walter Kenrick Fisher / University of Washington, Freshwater and Marine Image Bank",
+      "license": "公有领域",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/FMIB_43327_Laysan_Rail_%28Porzanula_palmeri%29_on_nest.jpeg",
+      "enLicense": "Public domain"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留完整画幅，转为 WebP。长边超过 900 像素的图片已等比缩小。",
+    "imageContext": "1902 年 5 月，Walter Kenrick Fisher 在夏威夷雷仙岛拍到巢上的活鸟。华盛顿大学馆藏编号为 43327。",
+    "photographed": "1902年5月",
+    "expeditionReport": "https://doi.org/10.2307/4069753",
+    "enPhotographed": "May 1902",
+    "enNote": "The rail sits on its nest amid the grass. The photograph was taken during the 1902 expedition to Laysan and later appeared in a U.S. Fish Commission report.",
+    "enSource": "Freshwater and Marine Image Bank, University of Washington",
+    "enChanges": "Converted to WebP with the full frame preserved. Images over 900 pixels on the long side were scaled down proportionally.",
+    "enImageContext": "Walter Kenrick Fisher photographed this bird on its nest on Laysan, Hawai‘i, in May 1902. University of Washington collection number 43327."
+  },
+  {
+    "id": "BH-0015",
+    "file": "history-laughing-owl.webp",
+    "name": "笑鸮",
+    "en": "Laughing Owl",
+    "latin": "Ninox albifacies",
+    "order": "鸮形目",
+    "family": "鸱鸮科",
+    "aliases": "笑鴞",
+    "note": "照片中的笑鸮栖在蕨叶间。这只鸟当时由新西兰鸟类学家 Walter Buller 饲养。",
+    "source": "新西兰国家图书馆，亚历山大·特恩布尔图书馆",
+    "url": "https://natlib.govt.nz/records/22724636",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sceloglaux_albifacies_albifacies.jpg",
+      "author": "Henry Charles Clarke Wright / Alexander Turnbull Library, Wellington, New Zealand, 1/1-020529-G",
+      "license": "公有领域",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Sceloglaux_albifacies_albifacies.jpg",
+      "enLicense": "Public domain"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留完整画幅，转为 WebP。长边超过 900 像素的图片已等比缩小。",
+    "imageContext": "Henry Charles Clarke Wright 拍摄的圈养个体。新西兰国家图书馆将底片的拍摄时间编为 1889 至 1910 年之间。",
+    "photographed": "1889–1910年间（馆藏编目）",
+    "enPhotographed": "1889–1910 (catalogue date range)",
+    "enNote": "The owl is perched among ferns. It was in the care of the New Zealand ornithologist Walter Buller when it was photographed.",
+    "enSource": "Alexander Turnbull Library, National Library of New Zealand",
+    "enChanges": "Converted to WebP with the full frame preserved. Images over 900 pixels on the long side were scaled down proportionally.",
+    "enImageContext": "Henry Charles Clarke Wright photographed this captive owl. The National Library of New Zealand dates the negative to between 1889 and 1910."
+  },
+  {
+    "id": "BH-0016",
+    "file": "history-paradise-parrot.webp",
+    "name": "天堂長尾鸚鵡",
+    "en": "Paradise Parrot",
+    "latin": "Psephotellus pulcherrimus",
+    "order": "鹦形目",
+    "family": "鹦鹉科",
+    "aliases": "极乐鹦鹉 樂園鸚鵡",
+    "note": "1922 年，摄影者在澳大利亚昆士兰州伯内特河一带记录了一对野生鹦鹉。它们分别停在土丘的上方和侧面。",
+    "source": "澳大利亚国家图书馆",
+    "url": "https://nla.gov.au/nla.obj-147114079",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:Paradise_parrot_pair_in_the_wild,_Burnett_River,_Queensland,_1922.jpg",
+      "author": "C. H. H. Jerrard / National Library of Australia",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Paradise_parrot_pair_in_the_wild%2C_Burnett_River%2C_Queensland%2C_1922.jpg",
+      "enLicense": "CC0 1.0"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留完整画幅，转为 WebP。长边超过 900 像素的图片已等比缩小。",
+    "imageContext": "1922 年，C. H. H. Jerrard 摄于澳大利亚昆士兰州伯内特河。澳大利亚国家图书馆将照片中的两只鸟记为野生个体。",
+    "photographed": "1922年",
+    "enPhotographed": "1922",
+    "enNote": "A pair of wild parrots was photographed near the Burnett River in Queensland, Australia, in 1922. One perches on top of a mound and the other on its side.",
+    "enSource": "National Library of Australia",
+    "enChanges": "Converted to WebP with the full frame preserved. Images over 900 pixels on the long side were scaled down proportionally.",
+    "enImageContext": "C. H. H. Jerrard took this photograph by the Burnett River in Queensland, Australia, in 1922. The National Library of Australia identifies the pair as wild birds."
+  },
+  {
+    "id": "BH-0017",
+    "file": "history-carolina-parakeet.webp",
+    "name": "卡羅萊納長尾鸚鵡",
+    "en": "Carolina Parakeet",
+    "latin": "Conuropsis carolinensis",
+    "order": "鹦形目",
+    "family": "金刚鹦鹉科",
+    "aliases": "",
+    "note": "约 1900 年，Robert Wilson Shufeldt 给朋友饲养的这只鹦鹉拍了照。鸟停在苍耳上，身后是浅色背景。",
+    "source": "美国鸟类学会",
+    "url": "https://americanornithology.org/ladies-parakeets-and-the-biogeography-of-an-extinct-bird/",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:Live_captive_Carolina_parakeet.jpg",
+      "author": "Robert Wilson Shufeldt",
+      "license": "公有领域（美国）",
+      "licenseUrl": "https://rightsstatements.org/vocab/NoC-US/1.0/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Live_captive_Carolina_parakeet.jpg",
+      "enLicense": "Public domain in the United States"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留完整画幅，转为 WebP。长边超过 900 像素的图片已等比缩小。",
+    "imageContext": "约 1900 年拍摄。摄影者从 Edward Schmidt 处借来这只人工饲养的活鸟，让它停在苍耳上入镜。",
+    "photographed": "约1900年",
+    "enPhotographed": "Circa 1900",
+    "enNote": "Around 1900, Robert Wilson Shufeldt photographed this parakeet, which belonged to a friend. The bird perches on a cocklebur against a pale background.",
+    "enSource": "American Ornithological Society",
+    "enChanges": "Converted to WebP with the full frame preserved. Images over 900 pixels on the long side were scaled down proportionally.",
+    "enImageContext": "Photographed around 1900. The photographer borrowed this captive bird from Edward Schmidt and had it perch on a cocklebur."
+  },
+  {
+    "id": "BH-C123068258",
+    "avibaseId": "avibase-447039A9",
+    "file": "commons-123068258.webp",
+    "name": "黄喉哑霸鹟",
+    "en": "Buff-throated Tody-Tyrant",
+    "latin": "Hemitriccus rufigularis",
+    "order": "雀形目",
+    "family": "霸鹟科",
+    "aliases": "皮黃喉啞霸鶲",
+    "note": "",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Hemitriccus_rufigularis_-_Buff-throated_Tody-Tyrant_(cropped).jpg",
+    "sourceId": "commons-p18",
+    "basis": "camera-photograph",
+    "imageContext": "活体实拍",
+    "enImageContext": "Photograph of a living bird",
+    "credit": {
+      "author": "Nick Athanas",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Hemitriccus_rufigularis_-_Buff-throated_Tody-Tyrant_(cropped).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Hemitriccus_rufigularis_-_Buff-throated_Tody-Tyrant_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceId": "commons-p18"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
+    "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+    "evidence": {
+      "wikidata": "Q1272164",
+      "commonsPageId": 123068258,
+      "sha1": "f16540d6adf27b9e4d25a2b1ae0be4be9f607b52",
+      "cameraModel": "Canon EOS 7D",
+      "identification": "Hemitriccus rufigularis",
+      "visualReview": "living bird"
+    },
+    "photographed": "2012-06-12",
+    "enPhotographed": "2012-06-12"
+  },
+  {
+    "id": "BH-C198136430",
+    "avibaseId": "avibase-4C1F9C2A",
+    "file": "commons-198136430.webp",
+    "name": "塔河蚁鸫",
+    "en": "Tapajos Antpitta",
+    "latin": "Myrmothera subcanescens",
+    "order": "雀形目",
+    "family": "短尾蚁鸫科",
+    "aliases": "",
+    "note": "",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Myrmothera_subcanescens_Tapajos_Antpitta;_Apu%C3%AD,_Amazonas,_Brazil_(cropped).jpg",
+    "sourceId": "commons-p18",
+    "basis": "camera-photograph",
+    "imageContext": "活体实拍",
+    "enImageContext": "Photograph of a living bird",
+    "credit": {
+      "author": "Hector Bottai",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Myrmothera_subcanescens_Tapajos_Antpitta;_Apu%C3%AD,_Amazonas,_Brazil_(cropped).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/62/Myrmothera_subcanescens_Tapajos_Antpitta%3B_Apu%C3%AD%2C_Amazonas%2C_Brazil_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceId": "commons-p18"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
+    "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+    "evidence": {
+      "wikidata": "Q56547724",
+      "commonsPageId": 198136430,
+      "sha1": "6e955f8f36e562b30edfbd49087a6a062a2eb904",
+      "cameraModel": "Canon EOS R5",
+      "identification": "Myrmothera subcanescens",
+      "visualReview": "living bird"
+    },
+    "photographed": "2026-08-12",
+    "enPhotographed": "2026-08-12"
+  },
+  {
+    "id": "BH-C112042594",
+    "avibaseId": "avibase-52DFC50E",
+    "file": "commons-112042594.webp",
+    "name": "黑额姬霸鹟",
+    "en": "Black-fronted Tyrannulet",
+    "latin": "Phylloscartes nigrifrons",
+    "order": "雀形目",
+    "family": "霸鹟科",
+    "aliases": "黑額姬霸鶲",
+    "note": "",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Phylloscartes_nigrifons_-_Black-fronted_Tyrannulet.jpg",
+    "sourceId": "commons-p18",
+    "basis": "camera-photograph",
+    "imageContext": "活体实拍",
+    "enImageContext": "Photograph of a living bird",
+    "credit": {
+      "author": "Daniel Hinckley",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Phylloscartes_nigrifons_-_Black-fronted_Tyrannulet.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Phylloscartes_nigrifons_-_Black-fronted_Tyrannulet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceId": "commons-p18"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
+    "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+    "evidence": {
+      "wikidata": "Q1264035",
+      "commonsPageId": 112042594,
+      "sha1": "117b7fc836e0d4b2aeb1985ff5a66eb7e6c85d80",
+      "cameraModel": "NIKON D700",
+      "identification": "Black-fronted Tyrannulet",
+      "visualReview": "living bird"
+    },
+    "photographed": "2012-05-17",
+    "enPhotographed": "2012-05-17"
+  },
+  {
+    "id": "BH-C141584407",
+    "avibaseId": "avibase-54F7D0B2",
+    "file": "commons-141584407.webp",
+    "name": "圭亚那绿莺雀",
+    "en": "Guianan Brownlet",
+    "latin": "Tunchiornis luteifrons",
+    "order": "雀形目",
+    "family": "绿鹃科",
+    "aliases": "",
+    "note": "",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Tunchiornis_ochraceiceps_luteifrons_Olive-crowned_Greenlet;_Manaus,_Amazonas,_Brazil_(cropped).jpg",
+    "sourceId": "commons-p18",
+    "basis": "camera-photograph",
+    "imageContext": "活体实拍",
+    "enImageContext": "Photograph of a living bird",
+    "credit": {
+      "author": "Hector Bottai",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Tunchiornis_ochraceiceps_luteifrons_Olive-crowned_Greenlet;_Manaus,_Amazonas,_Brazil_(cropped).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Tunchiornis_ochraceiceps_luteifrons_Olive-crowned_Greenlet%3B_Manaus%2C_Amazonas%2C_Brazil_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceId": "commons-p18"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
+    "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+    "evidence": {
+      "wikidata": "Q31874481",
+      "commonsPageId": 141584407,
+      "sha1": "f290935747df12a00932c89f9a72af3994a59895",
+      "cameraModel": "Canon EOS R5",
+      "identification": "Tunchiornis ochraceiceps luteifrons",
+      "visualReview": "living bird",
+      "taxonomyReference": "https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2025/"
+    },
+    "photographed": "2023-11-20",
+    "enPhotographed": "2023-11-20"
+  },
+  {
+    "id": "BH-C149631648",
+    "avibaseId": "avibase-6132EF55",
+    "file": "commons-149631648.webp",
+    "name": "北非悲䳭",
+    "en": "Maghreb Wheatear",
+    "latin": "Oenanthe halophila",
+    "order": "雀形目",
+    "family": "鹟科",
+    "aliases": "马格里布䳭",
+    "note": "",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Traquet_halophile_Bir_Soltane003.jpg",
+    "sourceId": "commons-p18",
+    "basis": "camera-photograph",
+    "imageContext": "活体实拍",
+    "enImageContext": "Photograph of a living bird",
+    "credit": {
+      "author": "El Golli Mohamed",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Traquet_halophile_Bir_Soltane003.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Traquet_halophile_Bir_Soltane003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceId": "commons-p18"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
+    "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+    "evidence": {
+      "wikidata": "Q108083543",
+      "commonsPageId": 149631648,
+      "sha1": "d9c3a85592f2639a8c329d24a42831f7d4511e0b",
+      "cameraModel": "NIKON D500",
+      "identification": "Oenanthe halophila",
+      "visualReview": "living bird"
+    },
+    "photographed": "2021-03-16",
+    "enPhotographed": "2021-03-16"
+  },
+  {
+    "id": "BH-C152272725",
+    "avibaseId": "avibase-7F4345B1",
+    "file": "commons-152272725.webp",
+    "name": "斯氏鸦鹃",
+    "en": "Black-hooded Coucal",
+    "latin": "Centropus steerii",
+    "order": "鹃形目",
+    "family": "杜鹃科",
+    "aliases": "菲律賓鴉鵑",
+    "note": "",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Black-hooded_Coucal.jpg",
+    "sourceId": "commons-p18",
+    "basis": "camera-photograph",
+    "imageContext": "活体实拍",
+    "enImageContext": "Photograph of a living bird",
+    "credit": {
+      "author": "Olympus Gene Tibubos",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Black-hooded_Coucal.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Black-hooded_Coucal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceId": "commons-p18"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
+    "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+    "evidence": {
+      "wikidata": "Q1264610",
+      "commonsPageId": 152272725,
+      "sha1": "d65899a0869e45530b2afdab92543ce41037a9f0",
+      "cameraModel": "ILCE-7RM4A",
+      "identification": "Black-hooded Coucal",
+      "visualReview": "living bird"
+    },
+    "photographed": "2024-09-06",
+    "enPhotographed": "2024-09-06"
+  },
+  {
+    "id": "BH-C84995139",
+    "avibaseId": "avibase-9F0CB672",
+    "file": "commons-84995139.webp",
+    "name": "白喉拾叶雀",
+    "en": "Tepui Foliage-gleaner",
+    "latin": "Syndactyla roraimae",
+    "order": "雀形目",
+    "family": "灶鸟科",
+    "aliases": "白喉拾葉雀",
+    "note": "",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Syndactyla_roraimae_-_Tepui_Foliage-gleaner,_Monte_Roraima,_Venezuela.jpg",
+    "sourceId": "commons-p18",
+    "basis": "camera-photograph",
+    "imageContext": "活体实拍",
+    "enImageContext": "Photograph of a living bird",
+    "credit": {
+      "author": "J.A. Jacomelli",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Syndactyla_roraimae_-_Tepui_Foliage-gleaner,_Monte_Roraima,_Venezuela.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Syndactyla_roraimae_-_Tepui_Foliage-gleaner%2C_Monte_Roraima%2C_Venezuela.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceId": "commons-p18"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
+    "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+    "evidence": {
+      "wikidata": "Q1267130",
+      "commonsPageId": 84995139,
+      "sha1": "9bf75a87ec392e51e7883c26630314dcb799bcb4",
+      "cameraModel": "Canon EOS 6D",
+      "identification": "Syndactyla roraimae",
+      "visualReview": "living bird"
+    },
+    "photographed": "2014-02-10",
+    "enPhotographed": "2014-02-10"
+  },
+  {
+    "id": "BH-C99475605",
+    "avibaseId": "avibase-9F3E8DF6",
+    "file": "commons-99475605.webp",
+    "name": "南拟雀",
+    "en": "Piura Hemispingus",
+    "latin": "Sphenopsis piurae",
+    "order": "雀形目",
+    "family": "裸鼻雀科",
+    "aliases": "皮烏拉赫米雀",
+    "note": "",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Sphenopsis_piurae_-_Piura_Hemispingus_(cropped).jpg",
+    "sourceId": "commons-p18",
+    "basis": "camera-photograph",
+    "imageContext": "活体实拍",
+    "enImageContext": "Photograph of a living bird",
+    "credit": {
+      "author": "Nick Athanas",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sphenopsis_piurae_-_Piura_Hemispingus_(cropped).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sphenopsis_piurae_-_Piura_Hemispingus_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceId": "commons-p18"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
+    "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+    "evidence": {
+      "wikidata": "Q54819516",
+      "commonsPageId": 99475605,
+      "sha1": "cc429b62e2a0520743c7bdda59c1c33d00dd99c9",
+      "cameraModel": "Canon EOS 5D Mark III",
+      "identification": "Sphenopsis piurae",
+      "visualReview": "living bird"
+    },
+    "photographed": "2013-08-24",
+    "enPhotographed": "2013-08-24"
+  },
+  {
+    "id": "BH-C58951653",
+    "avibaseId": "avibase-CBFA2D2B",
+    "file": "commons-58951653.webp",
+    "name": "地中海斑鹟",
+    "en": "Mediterranean Flycatcher",
+    "latin": "Muscicapa tyrrhenica",
+    "order": "雀形目",
+    "family": "鹟科",
+    "aliases": "地中海斑鶲",
+    "note": "",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Muscicapa_tyrrhenica_gare_d%27Ajaccio_(1)_(cropped).jpg",
+    "sourceId": "commons-p18",
+    "basis": "camera-photograph",
+    "imageContext": "活体实拍",
+    "enImageContext": "Photograph of a living bird",
+    "credit": {
+      "author": "Totodu74",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Muscicapa_tyrrhenica_gare_d%27Ajaccio_(1)_(cropped).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Muscicapa_tyrrhenica_gare_d%27Ajaccio_%281%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceId": "commons-p18"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
+    "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+    "evidence": {
+      "wikidata": "Q29621642",
+      "commonsPageId": 58951653,
+      "sha1": "afaf8b67922d68f01c62e63ed9c58d2267f9e63a",
+      "cameraModel": "DMC-TZ40",
+      "identification": "Muscicapa tyrrhenica",
+      "visualReview": "living bird"
+    },
+    "photographed": "2016-07-10",
+    "enPhotographed": "2016-07-10"
+  },
+  {
+    "id": "BH-C99474747",
+    "avibaseId": "avibase-F1F78380",
+    "file": "commons-99474747.webp",
+    "name": "北拟雀",
+    "en": "Western Hemispingus",
+    "latin": "Sphenopsis ochracea",
+    "order": "雀形目",
+    "family": "裸鼻雀科",
+    "aliases": "西方赫米雀",
+    "note": "",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Sphenopsis_ochracea_-_Western_Hemispingus_(cropped).jpg",
+    "sourceId": "commons-p18",
+    "basis": "camera-photograph",
+    "imageContext": "活体实拍",
+    "enImageContext": "Photograph of a living bird",
+    "credit": {
+      "author": "Nick Athanas",
+      "filePage": "https://commons.wikimedia.org/wiki/File:Sphenopsis_ochracea_-_Western_Hemispingus_(cropped).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Sphenopsis_ochracea_-_Western_Hemispingus_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "sourceId": "commons-p18"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
+    "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+    "evidence": {
+      "wikidata": "Q54819471",
+      "commonsPageId": 99474747,
+      "sha1": "eee0a91f8fbe0e57bb77799e5683d29bdbc546e4",
+      "cameraModel": "Canon EOS 5D Mark III",
+      "identification": "Sphenopsis ochracea",
+      "visualReview": "living bird"
+    },
+    "photographed": "2013-06-01",
+    "enPhotographed": "2013-06-01"
   }
 ]

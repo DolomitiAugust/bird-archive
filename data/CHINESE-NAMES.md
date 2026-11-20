@@ -12,6 +12,21 @@ IOC World Bird List v15.2（Gill、Donsker、Rasmussen 编，International Ornit
 
 缺少的目名、科名进一步查询 GBIF Backbone Taxonomy（GBIF Secretariat，CC BY 4.0）。只收录其公开接口中注明来自 Catalogue of Life 的中文通用名。核对已接受学名、完整拼写、鸟纲和对应阶元；带 `gbif` 字段的条目可在 GBIF 查到分类记录及其来源。[GBIF Backbone Taxonomy](https://doi.org/10.15468/39omei)
 
+少量仅有地区用名或旧组合学名的物种，以及上述接口缺少的目名、科名，逐条对照中文维基百科的双语分类表或物种条目摘录。每条记录保留 `wikiRevision`，对应原条目及其作者历史，名单见 [复核表](../scripts/reviewed_zh_names.tsv)。旧组合用 AviList 的原始学名或 GBIF 的明确异名关系核对。例如 `Gallirallus modestus` 对应原始组合 `Rallus modestus`。署名为对应页面的中文维基百科贡献者，按 CC BY-SA 4.0 提供。访问 `https://zh.wikipedia.org/w/index.php?oldid=版本号` 可查看摘录时的页面。[维基媒体内容许可](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content)
+
+## 当前覆盖和缺口
+
+AviList v2026 的 11,172 种中，11,168 种有带来源的中文展示名，9,747 种还收录了不同的中文用名或写法。45 个目、250 个科均有中文名。正式上线后，目科的中文名仅用于显示，分类从属和物种范围仍以 AviList 为准。
+
+本版尚有 4 个物种保留英文名和学名。所查开放来源尚未提供可确认对应这一物种范围的中文名称。
+
+| 学名 | AviList 英文名 |
+| --- | --- |
+| *Akialoa lanaiensis* | Maui-nui Akialoa |
+| *Aphanocrex podarces* | St. Helena Rail |
+| *Dysmorodrepanis munroi* | Lanai Hookbill |
+| *Sakesphorus pulchellus* | Streak-fronted Antshrike |
+
 ## 更新
 
 先生成 `data/checklist.json`，再在项目根目录用 Python 3.9 或更新版本运行以下命令。
