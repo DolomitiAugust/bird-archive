@@ -7,8 +7,8 @@
   <meta name="description" content="浏览真实的鸟类摄影，按中文名、英文名、学名或分类检索世界鸟类档案。">
   <title>鸟类档案馆</title>
   <link rel="icon" type="image/png" href="assets/seal.png">
-  <link rel="stylesheet" href="assets/site.css">
-  <script type="module" src="assets/app.js"></script>
+  <link rel="stylesheet" href="assets/site.css?v=2">
+  <script type="module" src="assets/app.js?v=2"></script>
 </head>
 <body>
   <a class="skip-link" href="#content">跳到主要内容</a>
@@ -31,6 +31,7 @@
           <input id="query" type="search" placeholder="搜索鸟名、别名或学名" autocomplete="off">
         </form>
       </div>
+      <div class="collection-info" id="collection-info"></div>
       <div class="index-row">
         <span class="index-label" id="index-label">按目浏览</span>
         <div id="paper-tabs" class="paper-tabs" role="group" aria-labelledby="index-label"></div>
@@ -42,7 +43,7 @@
       </div>
       <p id="status" class="sr-only" aria-live="polite"></p>
       <div id="results" aria-label="物种列表"></div>
-      <nav id="pager" class="pager" aria-label="名录分页" hidden>
+      <nav id="pager" class="pager" aria-label="结果分页" hidden>
         <button id="previous" class="line-button" type="button">上一页</button>
         <span id="page-number"></span>
         <button id="next" class="line-button" type="button">下一页</button>
