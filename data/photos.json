@@ -1,0 +1,134 @@
+[
+  {
+    "id": "BH-0001",
+    "file": "kingfisher.webp",
+    "name": "普通翠鸟",
+    "en": "Common Kingfisher",
+    "latin": "Alcedo atthis",
+    "order": "佛法僧目",
+    "family": "翠鸟科",
+    "aliases": "普通翠鳥 翠鸟 翠鳥",
+    "note": "背部有一道明亮的蓝色，胸腹呈橙色。它常停在水边低枝上，朝水面俯冲捕鱼。",
+    "source": "英国皇家鸟类保护协会",
+    "url": "https://www.rspb.org.uk/birds-and-wildlife/kingfisher",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_(23373717365).jpg",
+      "author": "Rison Thumboor",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Common_kingfisher_(Alcedo_atthis)_(23373717365).jpg/960px-Common_kingfisher_(Alcedo_atthis)_(23373717365).jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+  },
+  {
+    "id": "BH-0002",
+    "file": "hoopoe.webp",
+    "name": "戴胜",
+    "en": "Eurasian Hoopoe",
+    "latin": "Upupa epops",
+    "order": "犀鸟目",
+    "family": "戴胜科",
+    "aliases": "戴勝 欧亚戴胜 歐亞戴勝 Common Hoopoe",
+    "note": "长嘴细而向下弯，头顶的羽冠展开时像一把黑边折扇。飞起后，双翼宽阔的黑白横纹尤其醒目。",
+    "source": "英国皇家鸟类保护协会",
+    "url": "https://www.rspb.org.uk/birds-and-wildlife/hoopoe",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:Upupa_epops_-Tel_Aviv,_Israel-8.jpg",
+      "author": "Flavio",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Upupa_epops_-Tel_Aviv%2C_Israel-8.jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+  },
+  {
+    "id": "BH-0003",
+    "file": "wagtail.webp",
+    "name": "白鹡鸰",
+    "en": "White Wagtail",
+    "latin": "Motacilla alba",
+    "order": "雀形目",
+    "family": "鹡鸰科",
+    "aliases": "白鶺鴒",
+    "note": "身体修长，羽色以黑、白、灰为主。它常沿岸边或开阔地来回走动，停下时长尾仍上下摆动。",
+    "source": "康奈尔大学鸟类学实验室",
+    "url": "https://www.allaboutbirds.org/guide/White_Wagtail/overview",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:White_wagtail_(Motacilla_alba).jpg",
+      "author": "Hobbyfotowiki",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/White_wagtail_(Motacilla_alba).jpg/960px-White_wagtail_(Motacilla_alba).jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+  },
+  {
+    "id": "BH-0004",
+    "file": "mallard.webp",
+    "name": "绿头鸭",
+    "en": "Mallard",
+    "latin": "Anas platyrhynchos",
+    "order": "雁形目",
+    "family": "鸭科",
+    "aliases": "綠頭鴨",
+    "note": "繁殖羽雄鸟头部泛金属绿色，颈部有一道细白环。雌鸟通体褐色杂斑，展翅时也能看到蓝紫色的翼斑。",
+    "source": "美国鱼类及野生动物管理局",
+    "url": "https://www.fws.gov/species/mallard-anas-platyrhynchos",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:Mallard_(Anas_platyrhynchos)_male_head.jpg",
+      "author": "Alexis Lours",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mallard_%28Anas_platyrhynchos%29_male_head.jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+  },
+  {
+    "id": "BH-0005",
+    "file": "bullfinch.webp",
+    "name": "红腹灰雀",
+    "en": "Eurasian Bullfinch",
+    "latin": "Pyrrhula pyrrhula",
+    "order": "雀形目",
+    "family": "燕雀科",
+    "aliases": "紅腹灰雀 歐亞鷽 欧亚鸴",
+    "note": "成鸟的头顶像扣着一顶黑帽，嘴短而厚。飞起时留意背后，黑尾上方有一块清楚的白腰。",
+    "source": "英国皇家鸟类保护协会",
+    "url": "https://www.rspb.org.uk/birds-and-wildlife/bullfinch",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:Bullfinch_male.jpg",
+      "author": "Francis C. Franklin",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Bullfinch_male.jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+  },
+  {
+    "id": "BH-0006",
+    "file": "egret.webp",
+    "name": "白鹭",
+    "en": "Little Egret",
+    "latin": "Egretta garzetta",
+    "order": "鹈形目",
+    "family": "鹭科",
+    "aliases": "白鷺 小白鹭 小白鷺",
+    "note": "羽毛通体白色，嘴细长而黑。它抬脚涉水时，黄色的脚趾与黑色小腿形成鲜明对比。",
+    "source": "英国皇家鸟类保护协会",
+    "url": "https://www.rspb.org.uk/birds-and-wildlife/little-egret",
+    "credit": {
+      "filePage": "https://commons.wikimedia.org/wiki/File:Little_egret_(Egretta_garzetta).jpg",
+      "author": "Hobbyfotowiki",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Little_egret_(Egretta_garzetta).jpg/960px-Little_egret_(Egretta_garzetta).jpg"
+    },
+    "acquired": "2026-11-20",
+    "changes": "保持比例缩小并转为 WebP；卡片上按框裁切，详情保留完整画幅。"
+  }
+]
