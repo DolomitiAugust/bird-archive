@@ -146,6 +146,9 @@ html:lang(en) .folio-heading h1 { letter-spacing: -.035em; }
 }
 .folio-plate figcaption p { margin: 0 0 3px; }
 .folio-plate .plate-credit { font: 500 .88rem/1.6 var(--serif); color: var(--record-ink); }
+.folio-plate .plate-provenance { font: 500 .9rem/1.6 var(--serif); color: var(--record-ink); }
+.historical-plate summary { cursor: pointer; color: var(--record-ink); font: 500 1.05rem/1.5 var(--serif); }
+.historical-plate .folio-plate { margin: 1rem 0 .5rem; }
 .plate-processing { display: inline-block; margin-top: 3px; }
 .plate-processing summary { font-size: .78rem; }
 .plate-processing p { padding-top: 4px; }

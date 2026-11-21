@@ -6,7 +6,7 @@
 
 核定的文件列在 [commons-reviewed.json](commons-reviewed.json)。每项记下 AviList 物种号、Wikidata QID、Commons 文件页编号、原文件 SHA-1 和用于核对的原始名称。对沿用旧亚种名的 *Tunchiornis ochraceiceps luteifrons*，另记录了[康奈尔大学鸟类学实验室的分类修订](https://www.birds.cornell.edu/clementschecklist/updates-and-corrections-october-2025/)。图像记录只描述为活体实拍，未从画面推断是否为野外个体。
 
-运行下列命令会核对锁定的原文件版本、相机型号、鸟名、作者与许可，再生成最长边不超过 900 像素的 WebP。较小的原图保留原尺寸。默认把合并用的记录写到 `data/commons-additions.part`。原文件替换或许可资料发生无法确认的变化时，需要重新核对。
+运行下列命令会核对锁定的原文件版本、相机型号、鸟名、作者与许可，再生成两份 WebP。详情图长边最多 1920 像素，卡片预览长边最多 480 像素，较小的原图保留原尺寸。原片和两份图的实际尺寸都记在清单里。默认把合并用的记录写到 `data/commons-additions.part`。原文件替换或许可资料发生无法确认的变化时，需要重新核对。
 
 ```sh
 python scripts/import_commons_photos.py

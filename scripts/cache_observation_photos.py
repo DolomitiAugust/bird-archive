@@ -84,7 +84,7 @@ def cache_one(item, root, pace):
         if path.is_file():
             with Image.open(path) as existing:
                 existing.load()
-                if existing.format == "WEBP" and max(existing.size) <= 320:
+                if existing.format == "WEBP" and max(existing.size) <= (480 if record.get("localFull") else 320):
                     return species_id, relative.as_posix(), None
     except (ValueError, OSError):
         pass
@@ -115,6 +115,26 @@ def cache_one(item, root, pace):
             temporary.unlink(missing_ok=True)
 
 
+def write_index(index, path):
+    records = index["bySpecies"]
+    with NamedTemporaryFile(dir=path.parent, delete=False, suffix=".part", mode="w", encoding="utf-8") as output:
+        temp = Path(output.name)
+        metadata = {key: value for key, value in index.items() if key != "bySpecies"}
+        output.write("{\n")
+        for key, value in metadata.items():
+            output.write(f"  {json.dumps(key)}: {json.dumps(value, ensure_ascii=False)},\n")
+        output.write('  "bySpecies": {\n')
+        for number, (key, value) in enumerate(records.items()):
+            if number:
+                output.write(",\n")
+            output.write(f"    {json.dumps(key)}: {json.dumps(value, ensure_ascii=False, separators=(',', ':'))}")
+        output.write("\n  }\n}\n")
+    try:
+        temp.replace(path)
+    finally:
+        temp.unlink(missing_ok=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--index", type=Path, default=INDEX)
@@ -138,22 +158,7 @@ def main():
                 ready += 1
             if (ready + failures) % 500 == 0:
                 print(f"{ready + failures}/{len(records)} checked; {ready} cached", flush=True)
-    with NamedTemporaryFile(dir=args.index.parent, delete=False, suffix=".part", mode="w", encoding="utf-8") as output:
-        temp = Path(output.name)
-        metadata = {key: value for key, value in index.items() if key != "bySpecies"}
-        output.write("{\n")
-        for key, value in metadata.items():
-            output.write(f"  {json.dumps(key)}: {json.dumps(value, ensure_ascii=False)},\n")
-        output.write('  "bySpecies": {\n')
-        for number, (key, value) in enumerate(records.items()):
-            if number:
-                output.write(",\n")
-            output.write(f"    {json.dumps(key)}: {json.dumps(value, ensure_ascii=False, separators=(',', ':'))}")
-        output.write("\n  }\n}\n")
-    try:
-        temp.replace(args.index)
-    finally:
-        temp.unlink(missing_ok=True)
+    write_index(index, args.index)
     print(f"{ready}/{len(records)} thumbnails cached; {failures} to retry", flush=True)
     return int(bool(failures))
 

@@ -112,8 +112,11 @@
 .card-name { font: 550 clamp(.92rem, 1.05vw, 1.12rem)/1.42 var(--serif); text-wrap: pretty; }
 .card-latin { font: italic clamp(.73rem, .8vw, .83rem)/1.33 var(--serif); color: var(--subtle); }
 .plate-date { margin-top: 4px; font: .76rem/1.4 var(--sans); color: var(--subtle); }
-.photo-grid[data-scope=history] .image-frame { background: #20221e; }
-.photo-grid[data-scope=history] img { object-fit: contain; }
+.photo-grid[data-scope=history] .image-frame,
+.bird-card[data-photo-kind=specimen] .image-frame { background: #20221e; }
+.photo-grid[data-scope=history] img,
+.bird-card[data-preserve-frame=true] img,
+.bird-card[data-photo-kind=specimen] img { object-fit: contain; }
 @media (min-width: 741px) {
   .photo-grid[data-scope=history] { --columns: 5; }
 }

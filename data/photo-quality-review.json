@@ -1,0 +1,3036 @@
+{
+ "checked": "2026-11-21",
+ "removed": [
+  {
+   "taxon": "avibase-002105C7",
+   "photo": "30201552",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/30201552"
+  },
+  {
+   "taxon": "avibase-03EC041F",
+   "photo": "639304123",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/639304123"
+  },
+  {
+   "taxon": "avibase-082CFCAE",
+   "photo": "181529162",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/181529162"
+  },
+  {
+   "taxon": "avibase-099CDCB9",
+   "photo": "398886556",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/398886556"
+  },
+  {
+   "taxon": "avibase-0BCE71E0",
+   "photo": "438996361",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/438996361"
+  },
+  {
+   "taxon": "avibase-0CF12F81",
+   "photo": "140173716",
+   "reason": "not-a-clear-view-of-the-live-species",
+   "source": "https://www.inaturalist.org/photos/140173716"
+  },
+  {
+   "taxon": "avibase-0D3C62C9",
+   "photo": "590276384",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/590276384"
+  },
+  {
+   "taxon": "avibase-0DC9A072",
+   "photo": "449644357",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/449644357"
+  },
+  {
+   "taxon": "avibase-1050FB29",
+   "photo": "287344577",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/287344577"
+  },
+  {
+   "taxon": "avibase-164C3F46",
+   "photo": "39734392",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/39734392"
+  },
+  {
+   "taxon": "avibase-18671DC1",
+   "photo": "672990953",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/672990953"
+  },
+  {
+   "taxon": "avibase-1D1C9EDA",
+   "photo": "182308849",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/182308849"
+  },
+  {
+   "taxon": "avibase-1EA06986",
+   "photo": "252852735",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/252852735",
+   "pending": true
+  },
+  {
+   "taxon": "avibase-24B205AA",
+   "photo": "624318091",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/624318091"
+  },
+  {
+   "taxon": "avibase-26536ACF",
+   "photo": "106793348",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/106793348"
+  },
+  {
+   "taxon": "avibase-2A07367C",
+   "photo": "224318566",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/224318566"
+  },
+  {
+   "taxon": "avibase-2A5D6D4A",
+   "photo": "218197241",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/218197241",
+   "curated": "BH-2A5D6D4A"
+  },
+  {
+   "taxon": "avibase-2EF40362",
+   "photo": "19790794",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/19790794",
+   "curated": "BH-2EF40362"
+  },
+  {
+   "taxon": "avibase-2F653920",
+   "photo": "667639588",
+   "reason": "not-a-clear-view-of-the-live-species",
+   "source": "https://www.inaturalist.org/photos/667639588",
+   "curated": "BH-0019"
+  },
+  {
+   "taxon": "avibase-33352866",
+   "photo": "221392307",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/221392307"
+  },
+  {
+   "taxon": "avibase-35145A7E",
+   "photo": "605335537",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/605335537",
+   "curated": "BH-35145A7E"
+  },
+  {
+   "taxon": "avibase-3881816B",
+   "photo": "119779653",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/119779653"
+  },
+  {
+   "taxon": "avibase-3C5F6124",
+   "photo": "119053223",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/119053223",
+   "curated": "BH-3C5F6124"
+  },
+  {
+   "taxon": "avibase-40123D94",
+   "photo": "393074902",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/393074902"
+  },
+  {
+   "taxon": "avibase-40373FE1",
+   "photo": "115453700",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/115453700"
+  },
+  {
+   "taxon": "avibase-40866A35",
+   "photo": "39850461",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/39850461"
+  },
+  {
+   "taxon": "avibase-42ABCF92",
+   "photo": "478342634",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/478342634"
+  },
+  {
+   "taxon": "avibase-42F486DA",
+   "photo": "750810580",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/750810580",
+   "curated": "BH-42F486DA"
+  },
+  {
+   "taxon": "avibase-433EF57B",
+   "photo": "238470750",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/238470750",
+   "curated": "BH-433EF57B"
+  },
+  {
+   "taxon": "avibase-44A7DA22",
+   "photo": "473819536",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/473819536"
+  },
+  {
+   "taxon": "avibase-4544C16E",
+   "photo": "470281826",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/470281826"
+  },
+  {
+   "taxon": "avibase-4778FAB7",
+   "photo": "482389075",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/482389075"
+  },
+  {
+   "taxon": "avibase-4B1B2550",
+   "photo": "547345725",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/547345725"
+  },
+  {
+   "taxon": "avibase-4E83271D",
+   "photo": "109261175",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/109261175"
+  },
+  {
+   "taxon": "avibase-4E869790",
+   "photo": "62087464",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/62087464"
+  },
+  {
+   "taxon": "avibase-50BF77FB",
+   "photo": "445201579",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/445201579"
+  },
+  {
+   "taxon": "avibase-5284C27B",
+   "photo": "119597751",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/119597751"
+  },
+  {
+   "taxon": "avibase-5306D33E",
+   "photo": "598246580",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/598246580"
+  },
+  {
+   "taxon": "avibase-57D97C57",
+   "photo": "105780052",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/105780052"
+  },
+  {
+   "taxon": "avibase-5C686F54",
+   "photo": "743607774",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/743607774"
+  },
+  {
+   "taxon": "avibase-5D56DAAA",
+   "photo": "196549140",
+   "reason": "illustration",
+   "source": "https://www.inaturalist.org/photos/196549140"
+  },
+  {
+   "taxon": "avibase-5FE42C6D",
+   "photo": "54854316",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/54854316"
+  },
+  {
+   "taxon": "avibase-60679E85",
+   "photo": "397051062",
+   "reason": "illustration",
+   "source": "https://www.inaturalist.org/photos/397051062",
+   "pending": true
+  },
+  {
+   "taxon": "avibase-664698E5",
+   "photo": "117741991",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/117741991"
+  },
+  {
+   "taxon": "avibase-6D2680D0",
+   "photo": "257522346",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/257522346"
+  },
+  {
+   "taxon": "avibase-715D4DDE",
+   "photo": "362110714",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/362110714"
+  },
+  {
+   "taxon": "avibase-73BDA8FB",
+   "photo": "245046895",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/245046895"
+  },
+  {
+   "taxon": "avibase-749E7B3C",
+   "photo": "60641629",
+   "reason": "not-a-clear-view-of-the-live-species",
+   "source": "https://www.inaturalist.org/photos/60641629"
+  },
+  {
+   "taxon": "avibase-76B35118",
+   "photo": "638866126",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/638866126"
+  },
+  {
+   "taxon": "avibase-791DED18",
+   "photo": "473687320",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/473687320"
+  },
+  {
+   "taxon": "avibase-79C8806A",
+   "photo": "263837003",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/263837003"
+  },
+  {
+   "taxon": "avibase-7A2734EB",
+   "photo": "519316187",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/519316187"
+  },
+  {
+   "taxon": "avibase-7B454390",
+   "photo": "65587263",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/65587263"
+  },
+  {
+   "taxon": "avibase-807E1277",
+   "photo": "356718818",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/356718818"
+  },
+  {
+   "taxon": "avibase-869D13F7",
+   "photo": "456518649",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/456518649",
+   "curated": "BH-869D13F7"
+  },
+  {
+   "taxon": "avibase-874C8B3C",
+   "photo": "344512102",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/344512102"
+  },
+  {
+   "taxon": "avibase-888E74BE",
+   "photo": "742065796",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/742065796",
+   "curated": "BH-888E74BE"
+  },
+  {
+   "taxon": "avibase-9132B347",
+   "photo": "306726300",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/306726300"
+  },
+  {
+   "taxon": "avibase-91A4FA36",
+   "photo": "410628",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/410628"
+  },
+  {
+   "taxon": "avibase-91BD7FA4",
+   "photo": "606600304",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/606600304"
+  },
+  {
+   "taxon": "avibase-94A44032",
+   "photo": "23635561",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/23635561"
+  },
+  {
+   "taxon": "avibase-978ECDF0",
+   "photo": "457422951",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/457422951",
+   "pending": true
+  },
+  {
+   "taxon": "avibase-9A3A0C23",
+   "photo": "730829873",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/730829873"
+  },
+  {
+   "taxon": "avibase-9A6974DC",
+   "photo": "758733406",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/758733406"
+  },
+  {
+   "taxon": "avibase-9B036853",
+   "photo": "240712121",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/240712121"
+  },
+  {
+   "taxon": "avibase-9E174B20",
+   "photo": "240241420",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/240241420"
+  },
+  {
+   "taxon": "avibase-9F3603B0",
+   "photo": "449331571",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/449331571"
+  },
+  {
+   "taxon": "avibase-A05AB2B9",
+   "photo": "616046530",
+   "reason": "not-a-clear-view-of-the-live-species",
+   "source": "https://www.inaturalist.org/photos/616046530",
+   "curated": "BH-0020"
+  },
+  {
+   "taxon": "avibase-A8A394CF",
+   "photo": "261425117",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/261425117"
+  },
+  {
+   "taxon": "avibase-AB08B1DE",
+   "photo": "103829821",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/103829821"
+  },
+  {
+   "taxon": "avibase-AB4BDC23",
+   "photo": "749782252",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/749782252",
+   "pending": true
+  },
+  {
+   "taxon": "avibase-ACA4FEFE",
+   "photo": "56106639",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/56106639"
+  },
+  {
+   "taxon": "avibase-AD7B6E81",
+   "photo": "67601743",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/67601743",
+   "curated": "BH-AD7B6E81"
+  },
+  {
+   "taxon": "avibase-ADF166DE",
+   "photo": "11781362",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/11781362"
+  },
+  {
+   "taxon": "avibase-AE3EFAF9",
+   "photo": "584908109",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/584908109",
+   "curated": "BH-AE3EFAF9"
+  },
+  {
+   "taxon": "avibase-AF7F8395",
+   "photo": "705063926",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/705063926",
+   "curated": "BH-AF7F8395"
+  },
+  {
+   "taxon": "avibase-B4BD2218",
+   "photo": "425486601",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/425486601",
+   "curated": "BH-B4BD2218"
+  },
+  {
+   "taxon": "avibase-B655AA73",
+   "photo": "175549553",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/175549553"
+  },
+  {
+   "taxon": "avibase-B9BAB929",
+   "photo": "693707412",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/693707412"
+  },
+  {
+   "taxon": "avibase-BC190F25",
+   "photo": "90607666",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/90607666"
+  },
+  {
+   "taxon": "avibase-BC678304",
+   "photo": "441837275",
+   "reason": "small-source",
+   "source": "https://www.inaturalist.org/photos/441837275"
+  },
+  {
+   "taxon": "avibase-BCFC9B1D",
+   "photo": "431311556",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/431311556",
+   "curated": "BH-BCFC9B1D"
+  },
+  {
+   "taxon": "avibase-C12E5EDD",
+   "photo": "98818926",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/98818926",
+   "pending": true
+  },
+  {
+   "taxon": "avibase-C193474D",
+   "photo": "180647171",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/180647171"
+  },
+  {
+   "taxon": "avibase-C5AFD635",
+   "photo": "468096101",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/468096101",
+   "curated": "BH-C5AFD635"
+  },
+  {
+   "taxon": "avibase-C86D078E",
+   "photo": "219226",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/219226"
+  },
+  {
+   "taxon": "avibase-C8FA38F5",
+   "photo": "58258043",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/58258043",
+   "curated": "BH-C8FA38F5"
+  },
+  {
+   "taxon": "avibase-CAFBA217",
+   "photo": "346343717",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/346343717"
+  },
+  {
+   "taxon": "avibase-CB1E8753",
+   "photo": "114983114",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/114983114"
+  },
+  {
+   "taxon": "avibase-CE62EFDD",
+   "photo": "436860523",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/436860523"
+  },
+  {
+   "taxon": "avibase-DA3F921A",
+   "photo": "304097438",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/304097438"
+  },
+  {
+   "taxon": "avibase-DF676564",
+   "photo": "617963251",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/617963251"
+  },
+  {
+   "taxon": "avibase-E44AF02D",
+   "photo": "223335963",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/223335963"
+  },
+  {
+   "taxon": "avibase-E4875B29",
+   "photo": "639034613",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/639034613",
+   "curated": "BH-E4875B29"
+  },
+  {
+   "taxon": "avibase-E823AB2F",
+   "photo": "478227406",
+   "reason": "not-a-clear-view-of-the-live-species",
+   "source": "https://www.inaturalist.org/photos/478227406",
+   "curated": "BH-0018"
+  },
+  {
+   "taxon": "avibase-EC0ADB10",
+   "photo": "461450754",
+   "reason": "monochrome",
+   "source": "https://www.inaturalist.org/photos/461450754",
+   "curated": "BH-EC0ADB10"
+  },
+  {
+   "taxon": "avibase-EDB18078",
+   "photo": "355082150",
+   "reason": "not-a-clear-view-of-the-live-species",
+   "source": "https://www.inaturalist.org/photos/355082150"
+  },
+  {
+   "taxon": "avibase-EE23F0DC",
+   "photo": "698923073",
+   "reason": "not-a-clear-view-of-the-live-species",
+   "source": "https://www.inaturalist.org/photos/698923073",
+   "curated": "BH-EE23F0DC"
+  },
+  {
+   "taxon": "avibase-F4F588DC",
+   "photo": "435035092",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/435035092"
+  },
+  {
+   "taxon": "avibase-F500EA53",
+   "photo": "154733446",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/154733446",
+   "curated": "BH-F500EA53"
+  },
+  {
+   "taxon": "avibase-F7EBE5E3",
+   "photo": "238069886",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/238069886"
+  },
+  {
+   "taxon": "avibase-F986369F",
+   "photo": "515669119",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/515669119",
+   "curated": "BH-F986369F"
+  },
+  {
+   "taxon": "avibase-F9BAD31C",
+   "photo": "330682703",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/330682703",
+   "curated": "BH-F9BAD31C"
+  },
+  {
+   "taxon": "avibase-FA5A25B2",
+   "photo": "384219559",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/384219559",
+   "curated": "BH-FA5A25B2"
+  },
+  {
+   "taxon": "avibase-FC1BE879",
+   "photo": "461024744",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/461024744"
+  },
+  {
+   "taxon": "avibase-FCF63BDD",
+   "photo": "282934243",
+   "reason": "unclear-subject",
+   "source": "https://www.inaturalist.org/photos/282934243"
+  },
+  {
+   "taxon": "avibase-FE1C0F07",
+   "photo": "238989778",
+   "reason": "too-dark-or-blurred",
+   "source": "https://www.inaturalist.org/photos/238989778",
+   "curated": "BH-FE1C0F07"
+  },
+  {
+   "taxon": "avibase-FEA2C3CD",
+   "photo": "327195911",
+   "reason": "subject-too-small-or-obscured",
+   "source": "https://www.inaturalist.org/photos/327195911"
+  }
+ ],
+ "records": [
+  {
+   "taxon": "avibase-002105C7",
+   "latin": "Treron sieboldii",
+   "inat": 3424,
+   "photo": 131228147,
+   "credit": "Liu JimFood",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/131228147/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-03EC041F",
+   "latin": "Amazona collaria",
+   "inat": 18979,
+   "photo": 31168998,
+   "credit": "guyincognito",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/31168998/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-082CFCAE",
+   "latin": "Pachycare flavogriseum",
+   "inat": 73137,
+   "photo": 114344171,
+   "credit": "Dr David Doolittle",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/114344171/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-099CDCB9",
+   "latin": "Lamprospiza melanoleuca",
+   "inat": 10713,
+   "photo": 648191,
+   "credit": "Doug Janson",
+   "license": "cc-by-sa",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/648191/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-0BCE71E0",
+   "latin": "Dicaeum beccarii",
+   "inat": 1506963,
+   "photo": 612035412,
+   "credit": "Philipp",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/612035412/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-0CF12F81",
+   "latin": "Coccyzus americanus",
+   "inat": 1965,
+   "photo": 33263626,
+   "credit": "kirk gardner",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/33263626/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-0D3C62C9",
+   "latin": "Ptilinopus huttoni",
+   "inat": 2836,
+   "photo": 756636014,
+   "credit": "valeriedelalande",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/756636014/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-0DC9A072",
+   "latin": "Gracula venerata",
+   "inat": 1423579,
+   "photo": 592817934,
+   "credit": "John Sterling",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/592817934/square.jpg",
+   "basis": "research-observation",
+   "observation": 327240549
+  },
+  {
+   "taxon": "avibase-1050FB29",
+   "latin": "Mimus parvulus",
+   "inat": 73051,
+   "photo": 626869096,
+   "credit": "Uri Wolkowski",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/626869096/square.jpg",
+   "basis": "research-observation",
+   "observation": 344075008
+  },
+  {
+   "taxon": "avibase-164C3F46",
+   "latin": "Myiagra pluto",
+   "inat": 8056,
+   "photo": 39739998,
+   "credit": "Thibaud Aronson",
+   "license": "cc-by-sa",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/39739998/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-18671DC1",
+   "latin": "Grallaria carrikeri",
+   "inat": 116892,
+   "photo": 695536758,
+   "credit": "Cheryl Rosenfeld",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/695536758/square.jpg",
+   "basis": "research-observation",
+   "observation": 380191781
+  },
+  {
+   "taxon": "avibase-1D1C9EDA",
+   "latin": "Phyllastrephus xavieri",
+   "inat": 14573,
+   "photo": 229864257,
+   "credit": "Nick Ramsey",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/229864257/square.jpg",
+   "basis": "research-observation",
+   "observation": 134820537
+  },
+  {
+   "taxon": "avibase-24B205AA",
+   "latin": "Rhipidura brachyrhyncha",
+   "inat": 8137,
+   "photo": 3085401,
+   "credit": "Nigel Voaden",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/3085401/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-26536ACF",
+   "latin": "Synallaxis cabanisi",
+   "inat": 10976,
+   "photo": 250874646,
+   "credit": "Anderson Sandro",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/250874646/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-2A07367C",
+   "latin": "Forpus coelestis",
+   "inat": 19066,
+   "photo": 138583603,
+   "credit": "Nelson Apolo",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/138583603/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-33352866",
+   "latin": "Chaetura egregia",
+   "inat": 6587,
+   "photo": 113699834,
+   "credit": "Thibaud Aronson",
+   "license": "cc-by-sa",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/113699834/square.jpg",
+   "basis": "photographer-identification",
+   "observation": 69994624,
+   "identificationSource": "https://www.birdforum.net/opus/Pale-rumped_Swift"
+  },
+  {
+   "taxon": "avibase-3881816B",
+   "latin": "Synallaxis maranonica",
+   "inat": 11024,
+   "photo": 555969649,
+   "credit": "daveshowler",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/555969649/square.jpg",
+   "basis": "research-observation",
+   "observation": 308179703
+  },
+  {
+   "taxon": "avibase-40123D94",
+   "latin": "Gliciphila notabilis",
+   "inat": 367635,
+   "photo": 393156955,
+   "credit": "Dominik Maximilián Ramík",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/393156955/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-40373FE1",
+   "latin": "Myrmeciza longipes",
+   "inat": 15807,
+   "photo": 158730584,
+   "credit": "Gordon Karre",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/158730584/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-40866A35",
+   "latin": "Pampusana canifrons",
+   "inat": 1505928,
+   "photo": 460518296,
+   "credit": "Kalin Antonio Ocaña",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/460518296/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-42ABCF92",
+   "latin": "Ninox leventisi",
+   "inat": 339614,
+   "photo": 62567369,
+   "credit": "jasmeren",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/62567369/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-44A7DA22",
+   "latin": "Sheppardia lowei",
+   "inat": 13228,
+   "photo": 609849516,
+   "credit": "Liam Hutcheson",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/609849516/square.jpg",
+   "basis": "research-observation",
+   "observation": 335675480
+  },
+  {
+   "taxon": "avibase-4544C16E",
+   "latin": "Aerodramus leucophaeus",
+   "inat": 144628,
+   "photo": 335748241,
+   "credit": "Rosario Douglas",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/335748241/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-4778FAB7",
+   "latin": "Macroagelaius imthurni",
+   "inat": 10477,
+   "photo": 419417112,
+   "credit": "Sergio Rivero Beneitez",
+   "license": "cc-by-nc-sa",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/419417112/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-4B1B2550",
+   "latin": "Melanocichla lugubris",
+   "inat": 1364828,
+   "photo": 588664614,
+   "credit": "Ben Costamagna",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/588664614/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-4E83271D",
+   "latin": "Anthus chacoensis",
+   "inat": 13755,
+   "photo": 168992426,
+   "credit": "Adrian Braidotti",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/168992426/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-4E869790",
+   "latin": "Treron griveaudi",
+   "inat": 980027,
+   "photo": 765257569,
+   "credit": "alanbedfordshaw",
+   "license": "cc-by-sa",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/765257569/square.jpg",
+   "basis": "research-observation",
+   "observation": 415577744
+  },
+  {
+   "taxon": "avibase-50BF77FB",
+   "latin": "Brunhilda charmosyna",
+   "inat": 1289376,
+   "photo": 160856154,
+   "credit": "Thomas Becker",
+   "license": "cc-by-nc-sa",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/160856154/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-5284C27B",
+   "latin": "Numenius americanus",
+   "inat": 3906,
+   "photo": 89129814,
+   "credit": "BJ Stacey",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/89129814/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-5306D33E",
+   "latin": "Scolopax celebensis",
+   "inat": 3935,
+   "photo": 701568817,
+   "credit": "Royle Safaris",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/701568817/square.jpg",
+   "basis": "research-observation",
+   "observation": 383331364
+  },
+  {
+   "taxon": "avibase-57D97C57",
+   "latin": "Ficedula strophiata",
+   "inat": 13110,
+   "photo": 13815750,
+   "credit": "Stephen Matthews",
+   "license": "cc0",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/13815750/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-5C686F54",
+   "latin": "Otidiphaps nobilis",
+   "inat": 3597,
+   "photo": 121204183,
+   "credit": "Thorsten Mohr",
+   "license": "cc-by-sa",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/121204183/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-5D56DAAA",
+   "latin": "Cistothorus palustris",
+   "inat": 7601,
+   "photo": 385756342,
+   "credit": "edporopat",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/385756342/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-5FE42C6D",
+   "latin": "Puffinus subalaris",
+   "inat": 144440,
+   "photo": 226376,
+   "credit": "Greg Lasley",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/226376/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-664698E5",
+   "latin": "Paradoxornis flavirostris",
+   "inat": 15361,
+   "photo": 170560014,
+   "credit": "Avinash Bhagat",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/170560014/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-6D2680D0",
+   "latin": "Picoides dorsalis",
+   "inat": 17638,
+   "photo": 4891783,
+   "credit": "Fyn Kynd",
+   "license": "cc-by-sa",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/4891783/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-715D4DDE",
+   "latin": "Baeolophus inornatus",
+   "inat": 13633,
+   "photo": 74432029,
+   "credit": "abcdefgewing",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/74432029/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-73BDA8FB",
+   "latin": "Grallaria alleni",
+   "inat": 117198,
+   "photo": 555231,
+   "credit": "Don Faulkner",
+   "license": "cc-by-sa",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/555231/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-749E7B3C",
+   "latin": "Euplectes albonotatus",
+   "inat": 13965,
+   "photo": 246940505,
+   "credit": "Kobus Lubbe",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/246940505/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-76B35118",
+   "latin": "Euschistospiza dybowskii",
+   "inat": 14140,
+   "photo": 108058156,
+   "credit": "wimvz",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/108058156/square.jpg",
+   "basis": "research-observation",
+   "observation": 66954762
+  },
+  {
+   "taxon": "avibase-791DED18",
+   "latin": "Hippolais olivetorum",
+   "inat": 116920,
+   "photo": 28107500,
+   "credit": "Derek Keats",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/28107500/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-79C8806A",
+   "latin": "Dasycrotapha pygmaea",
+   "inat": 201184,
+   "photo": 263837073,
+   "credit": "Forest Botial-Jarvis",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/263837073/square.jpg",
+   "basis": "research-observation",
+   "observation": 152830702
+  },
+  {
+   "taxon": "avibase-7A2734EB",
+   "latin": "Caprimulgus jotaka",
+   "inat": 367509,
+   "photo": 12615149,
+   "credit": "Tan Kok Hui",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/12615149/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-7B454390",
+   "latin": "Melanoperdix niger",
+   "inat": 1256,
+   "photo": 469676151,
+   "credit": "frank_lambert",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/469676151/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-807E1277",
+   "latin": "Sterna acuticauda",
+   "inat": 4461,
+   "photo": 101285278,
+   "credit": "abcdefgewing",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/101285278/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-874C8B3C",
+   "latin": "Illadopsis turdina",
+   "inat": 339799,
+   "photo": 639886928,
+   "credit": "avocat",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/639886928/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-9132B347",
+   "latin": "Serpophaga hypoleuca",
+   "inat": 17202,
+   "photo": 8837843,
+   "credit": "Vincent A. Vos",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/8837843/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-91A4FA36",
+   "latin": "Mycerobas icterioides",
+   "inat": 10218,
+   "photo": 286764098,
+   "credit": "Jagdish Singh Negi",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/286764098/square.jpg",
+   "basis": "research-observation",
+   "observation": 165649774
+  },
+  {
+   "taxon": "avibase-91BD7FA4",
+   "latin": "Atronanus fuliginosus",
+   "inat": 979620,
+   "photo": 453498977,
+   "credit": "bchag",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/453498977/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-94A44032",
+   "latin": "Sturnus vulgaris",
+   "inat": 14850,
+   "photo": 488854941,
+   "credit": "Timothy Lindsey",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/488854941/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-9A3A0C23",
+   "latin": "Pitohui cerviniventris",
+   "inat": 980108,
+   "photo": 742077232,
+   "credit": "peter maaskant",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/742077232/square.jpg",
+   "basis": "research-observation",
+   "observation": 404115377
+  },
+  {
+   "taxon": "avibase-9A6974DC",
+   "latin": "Rhipidura leucothorax",
+   "inat": 8158,
+   "photo": 334272652,
+   "credit": "Ahmad Yasin Chumaedi",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/334272652/square.jpg",
+   "basis": "research-observation",
+   "observation": 190654082
+  },
+  {
+   "taxon": "avibase-9B036853",
+   "latin": "Crypturellus berlepschi",
+   "inat": 20577,
+   "photo": 328692469,
+   "credit": "Ethan Borland",
+   "license": "cc0",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/328692469/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-9E174B20",
+   "latin": "Sterrhoptilus affinis",
+   "inat": 1507724,
+   "photo": 473581446,
+   "credit": "Marc Thibault",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/473581446/square.jpeg",
+   "basis": "research-observation",
+   "observation": 263600188
+  },
+  {
+   "taxon": "avibase-9F3603B0",
+   "latin": "Talegalla cuvieri",
+   "inat": 2032,
+   "photo": 697111491,
+   "credit": "rajaampatherping",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/697111491/square.jpg",
+   "basis": "research-observation",
+   "observation": 381008083
+  },
+  {
+   "taxon": "avibase-A8A394CF",
+   "latin": "Grallaria saltuensis",
+   "inat": 1286956,
+   "photo": 765129730,
+   "credit": "Fundacion ProAves",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/765129730/square.jpg",
+   "basis": "research-observation",
+   "observation": 415514574
+  },
+  {
+   "taxon": "avibase-AB08B1DE",
+   "latin": "Pachycephala olivacea",
+   "inat": 7916,
+   "photo": 28648629,
+   "credit": "James Bailey",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/28648629/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-ACA4FEFE",
+   "latin": "Synthliboramphus antiquus",
+   "inat": 4561,
+   "photo": 19719328,
+   "credit": "guyincognito",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/19719328/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-ADF166DE",
+   "latin": "Ficedula disposita",
+   "inat": 72860,
+   "photo": 614702934,
+   "credit": "Forest Botial-Jarvis",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/614702934/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-B655AA73",
+   "latin": "Elaenia flavogaster",
+   "inat": 16714,
+   "photo": 406708962,
+   "credit": "Anthony Batista",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/406708962/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-B9BAB929",
+   "latin": "Pericrocotus lansbergei",
+   "inat": 7859,
+   "photo": 253200025,
+   "credit": "hdmiller",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/253200025/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-BC190F25",
+   "latin": "Hyliota usambara",
+   "inat": 116780,
+   "photo": 587617690,
+   "credit": "avocat",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/587617690/square.jpg",
+   "basis": "research-observation",
+   "observation": 324635653
+  },
+  {
+   "taxon": "avibase-BC678304",
+   "latin": "Heliodoxa branickii",
+   "inat": 5925,
+   "photo": 441838074,
+   "credit": "James G. Graham",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/441838074/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-C193474D",
+   "latin": "Aplonis crassa",
+   "inat": 14949,
+   "photo": 597440163,
+   "credit": "John Sterling",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/597440163/square.jpg",
+   "basis": "research-observation",
+   "observation": 329573586
+  },
+  {
+   "taxon": "avibase-C86D078E",
+   "latin": "Agelaius phoeniceus",
+   "inat": 9744,
+   "photo": 127552700,
+   "credit": "ilikepenguinz5",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/127552700/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-CAFBA217",
+   "latin": "Bostrychia hagedash",
+   "inat": 3743,
+   "photo": 50051647,
+   "credit": "Annika Lindqvist",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/50051647/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-CB1E8753",
+   "latin": "Geokichla princei",
+   "inat": 201198,
+   "photo": 466221697,
+   "credit": "Alex Rebelo",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/466221697/square.jpeg",
+   "basis": "research-observation",
+   "observation": 259689633
+  },
+  {
+   "taxon": "avibase-CE62EFDD",
+   "latin": "Corvus florensis",
+   "inat": 8045,
+   "photo": 1628258,
+   "credit": "Ron Knight",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/1628258/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-DA3F921A",
+   "latin": "Dyaphorophyia tonsa",
+   "inat": 1586793,
+   "photo": 62171171,
+   "credit": "Dérozier Violette",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/62171171/square.jpg",
+   "basis": "research-observation",
+   "observation": 39207387
+  },
+  {
+   "taxon": "avibase-DF676564",
+   "latin": "Brachypteryx sinensis",
+   "inat": 979628,
+   "photo": 364372883,
+   "credit": "Jiao Sun (孙娇)",
+   "license": "cc-by-sa",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/364372883/medium.jpg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-E44AF02D",
+   "latin": "Nephelornis oneilli",
+   "inat": 10652,
+   "photo": 427690013,
+   "credit": "Erik Atwell",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/427690013/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-EDB18078",
+   "latin": "Branta sandvicensis",
+   "inat": 7104,
+   "photo": 63377970,
+   "credit": "Russ Hoverman",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/63377970/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-F4F588DC",
+   "latin": "Aethomyias rufescens",
+   "inat": 1506349,
+   "photo": 3287389,
+   "credit": "Nigel Voaden",
+   "license": "cc-by",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/3287389/square.jpg",
+   "basis": "research-observation",
+   "observation": 2878673
+  },
+  {
+   "taxon": "avibase-F7EBE5E3",
+   "latin": "Edolisoma erythropygium",
+   "inat": 1585845,
+   "photo": 43751915,
+   "credit": "Isaac Rush",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/43751915/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-FC1BE879",
+   "latin": "Kakamega poliothorax",
+   "inat": 15672,
+   "photo": 58209422,
+   "credit": "Mark Hulme",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/58209422/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-FCF63BDD",
+   "latin": "Myiarchus antillarum",
+   "inat": 16024,
+   "photo": 243867590,
+   "credit": "guyincognito",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/243867590/medium.jpeg",
+   "basis": "verified-taxon-photo"
+  },
+  {
+   "taxon": "avibase-FEA2C3CD",
+   "latin": "Sypheotides indicus",
+   "inat": 130,
+   "photo": 395183374,
+   "credit": "Avinash Bhagat",
+   "license": "cc-by-nc",
+   "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/395183374/medium.jpg",
+   "basis": "verified-taxon-photo"
+  }
+ ],
+ "details": {
+  "avibase-002105C7": {
+   "size": [
+    1920,
+    1330
+   ],
+   "sourceSize": [
+    2048,
+    1419
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/131228147/original.jpg",
+   "sourceSHA256": "f1071b7fbffe70ef6d4fbc67dbdbddfeae7a42b4b16ec116e58b17767a7297eb",
+   "photo": "131228147",
+   "thumbnailSize": [
+    480,
+    333
+   ]
+  },
+  "avibase-03EC041F": {
+   "size": [
+    1735,
+    1248
+   ],
+   "sourceSize": [
+    1735,
+    1248
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31168998/original.jpeg",
+   "sourceSHA256": "619af8251da0ef87cafc7caea2aa7ad6e13ec1ef5f81e81f8624aa84774f2a9e",
+   "photo": "31168998",
+   "thumbnailSize": [
+    480,
+    345
+   ]
+  },
+  "avibase-07612BDC": {
+   "size": [
+    1920,
+    1604
+   ],
+   "sourceSize": [
+    2048,
+    1711
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62104073/original.jpg",
+   "sourceSHA256": "c59e056ffbe5cacae3ed55df29e5950f7223145c4f52b4e46329d5df46965daa",
+   "thumbnailCrop": [
+    502,
+    539,
+    1505,
+    1291
+   ],
+   "reason": "unclear-subject",
+   "photo": "62104073",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-082CFCAE": {
+   "size": [
+    1000,
+    818
+   ],
+   "sourceSize": [
+    1000,
+    818
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/114344171/original.jpg",
+   "sourceSHA256": "f53936649423d4b7f127cd3d3e94ed0e4975c0c925aee181e9410bad5cb5305b",
+   "photo": "114344171",
+   "thumbnailSize": [
+    480,
+    393
+   ]
+  },
+  "avibase-099CDCB9": {
+   "size": [
+    766,
+    410
+   ],
+   "sourceSize": [
+    766,
+    410
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/648191/original.jpg",
+   "sourceSHA256": "a4ff41544353a7e6663601b5297fa87e679177bfa90b0d4508b54ca5665df7be",
+   "photo": "648191",
+   "thumbnailSize": [
+    480,
+    257
+   ]
+  },
+  "avibase-0BCE71E0": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2045,
+    1363
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/612035412/original.jpg",
+   "sourceSHA256": "74343808ac4e7a5b4b261f1c814a80ed09163970490ebf1763a6757e750cc1b0",
+   "photo": "612035412",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-0CF12F81": {
+   "size": [
+    1920,
+    1533
+   ],
+   "sourceSize": [
+    2048,
+    1635
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/33263626/original.jpeg",
+   "sourceSHA256": "4734e9f055a4d0974990fef92d0c2ea6a9c7cacd589f53700bea4cd1822e9dd7",
+   "photo": "33263626",
+   "thumbnailSize": [
+    480,
+    383
+   ]
+  },
+  "avibase-0D3C62C9": {
+   "size": [
+    1600,
+    1524
+   ],
+   "sourceSize": [
+    1600,
+    1524
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/756636014/original.jpg",
+   "sourceSHA256": "fd443d2992af19bf7c3355451b62b428f24d4ef0d74f6637faa110bbfc210f34",
+   "photo": "756636014",
+   "thumbnailSize": [
+    480,
+    457
+   ]
+  },
+  "avibase-0DC9A072": {
+   "size": [
+    1631,
+    1920
+   ],
+   "sourceSize": [
+    1740,
+    2048
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/592817934/original.jpg",
+   "sourceSHA256": "ba3f49f51b1185f4092b381f7a0a49a743dd50c321f132555cb742d84667f8fa",
+   "photo": "592817934",
+   "thumbnailSize": [
+    408,
+    480
+   ]
+  },
+  "avibase-1050FB29": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    1920,
+    1280
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/626869096/original.jpg",
+   "sourceSHA256": "43b8a7593558cd5c7ae3632aae146804f76413cf6c160962f9ddbe4c0b8c4660",
+   "photo": "626869096",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-164C3F46": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/39739998/original.jpeg",
+   "sourceSHA256": "1626c8ed20cb44b1617e55bd5e2e3c526f9da1358456e2f2d5930f4e8bea5c09",
+   "photo": "39739998",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-18671DC1": {
+   "size": [
+    1920,
+    1906
+   ],
+   "sourceSize": [
+    2048,
+    2033
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/695536758/original.jpg",
+   "sourceSHA256": "eba6140c6cfcf1c612c0c3866e774574a87c65a58bdd5efb002685a7b88ad1d1",
+   "photo": "695536758",
+   "thumbnailSize": [
+    480,
+    477
+   ]
+  },
+  "avibase-1D1C9EDA": {
+   "size": [
+    1440,
+    1920
+   ],
+   "sourceSize": [
+    1536,
+    2048
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/229864257/original.jpg",
+   "sourceSHA256": "622127f7bb86b31660841c6c9d090baef357b2dc53a79b79d0753c33effb922e",
+   "photo": "229864257",
+   "thumbnailSize": [
+    360,
+    480
+   ]
+  },
+  "avibase-1DEBB8DB": {
+   "size": [
+    1920,
+    1255
+   ],
+   "sourceSize": [
+    2048,
+    1339
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/439014042/original.jpeg",
+   "sourceSHA256": "b8af83cce7218a52ccff8b40bbc7c6caa3a941fbd14941dc5502b23fb76418da",
+   "thumbnailCrop": [
+    768,
+    326,
+    1648,
+    986
+   ],
+   "reason": "subject-too-small-or-obscured",
+   "photo": "439014042",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-24B205AA": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/3085401/original.jpg",
+   "sourceSHA256": "70777897f106e9da6f1b285bfd1dbe74834a231b86c80353780d71f53865471c",
+   "photo": "3085401",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-26536ACF": {
+   "size": [
+    1080,
+    719
+   ],
+   "sourceSize": [
+    1080,
+    719
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/250874646/original.jpg",
+   "sourceSHA256": "50282787d3e872486542bd146c77ba223d2a3a7e2deea2e09cb1b956c82fa4de",
+   "photo": "250874646",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-2A07367C": {
+   "size": [
+    1608,
+    1793
+   ],
+   "sourceSize": [
+    1608,
+    1793
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/138583603/original.jpeg",
+   "sourceSHA256": "53a32153cfabe410ec8ad617237e0b98ec32fe9bd745eb0190ffdb2f100f5aac",
+   "photo": "138583603",
+   "thumbnailSize": [
+    430,
+    480
+   ]
+  },
+  "avibase-2ABFA6CC": {
+   "size": [
+    1920,
+    1080
+   ],
+   "sourceSize": [
+    2048,
+    1152
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/484043043/original.jpg",
+   "sourceSHA256": "051fbdc7994a7989357e007d0ac4541a41aaa31b4d8f051b6cb130a885826226",
+   "thumbnailCrop": [
+    993,
+    323,
+    1730,
+    876
+   ],
+   "reason": "subject-too-small-or-obscured",
+   "photo": "484043043",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-33352866": {
+   "size": [
+    1635,
+    1260
+   ],
+   "sourceSize": [
+    1635,
+    1260
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/113699834/original.jpg",
+   "sourceSHA256": "67d80700cd0759beaf065e0d7706a3c21f138be21e367f20cf9c5c9f9a5c0acc",
+   "thumbnailCrop": [
+    475,
+    405,
+    1075,
+    855
+   ],
+   "reason": "unclear-subject",
+   "photo": "113699834",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-3881816B": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/555969649/original.jpg",
+   "sourceSHA256": "adb856445b815f5dc47487367c6bcc960ac620a862e787d1b6d92bdb6972674c",
+   "photo": "555969649",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-40123D94": {
+   "size": [
+    1920,
+    1425
+   ],
+   "sourceSize": [
+    2048,
+    1520
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/393156955/original.jpg",
+   "sourceSHA256": "3b6a52b45e6812222dd140f7dde0cfa1e543ecd90cd159fc803f454263676b49",
+   "photo": "393156955",
+   "thumbnailSize": [
+    480,
+    356
+   ]
+  },
+  "avibase-40373FE1": {
+   "size": [
+    1920,
+    1884
+   ],
+   "sourceSize": [
+    2048,
+    2010
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/158730584/original.jpg",
+   "sourceSHA256": "5dee96ee5c16ff70126d42efebeaeee0c4caf6ba3c679cf63fb698a1de816e80",
+   "photo": "158730584",
+   "thumbnailSize": [
+    480,
+    471
+   ]
+  },
+  "avibase-40866A35": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/460518296/original.jpg",
+   "sourceSHA256": "5c31811802bbdf1847d93f0157b5c8875a086f9e8dfef62683a9194c28dfa833",
+   "photo": "460518296",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-42ABCF92": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62567369/original.jpeg",
+   "sourceSHA256": "81aecfc5ecb34a6d10b893276e3c2f62fa4a51653b9f1b20b9e93d5d7e0121a4",
+   "photo": "62567369",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-43F4D13C": {
+   "size": [
+    1234,
+    823
+   ],
+   "sourceSize": [
+    1234,
+    823
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/53875653/original.jpg",
+   "sourceSHA256": "f70ff64a0c05fb735f7ff50d0077f572f86fac611f6b8b7f83e00a2835d7afe3",
+   "thumbnailCrop": [
+    840,
+    403,
+    1234,
+    699
+   ],
+   "reason": "subject-too-small-or-obscured",
+   "photo": "53875653",
+   "thumbnailSize": [
+    394,
+    296
+   ]
+  },
+  "avibase-44A7DA22": {
+   "size": [
+    1920,
+    1080
+   ],
+   "sourceSize": [
+    2048,
+    1152
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/609849516/original.jpg",
+   "sourceSHA256": "cb9c4bb36a5feea140875373e603dd6dc046b6151702d460c8f62fd744b07ba1",
+   "photo": "609849516",
+   "thumbnailSize": [
+    480,
+    270
+   ]
+  },
+  "avibase-4544C16E": {
+   "size": [
+    1288,
+    1382
+   ],
+   "sourceSize": [
+    1288,
+    1382
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/335748241/original.jpg",
+   "sourceSHA256": "85de455f1f7b7b3aebea6dcd9b8f379220c4bbbef5078cfacc57a8ee2728af5b",
+   "photo": "335748241",
+   "thumbnailSize": [
+    447,
+    480
+   ]
+  },
+  "avibase-4778FAB7": {
+   "size": [
+    886,
+    582
+   ],
+   "sourceSize": [
+    886,
+    582
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/419417112/original.jpg",
+   "sourceSHA256": "6591526fc6c027d173313b6dd79ff90381bd6bd4398756a5d6e436b017240e8f",
+   "photo": "419417112",
+   "thumbnailSize": [
+    480,
+    315
+   ]
+  },
+  "avibase-4B1B2550": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/588664614/original.jpg",
+   "sourceSHA256": "e800cca793dff02bc64eac4bd9f92ffa3c94429725d8f4547c6c128c8378731e",
+   "photo": "588664614",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-4D6FC74F": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/541763481/original.jpg",
+   "sourceSHA256": "735baba64adfc58beb22f6522b83c3013caa132aed42a5cc8d6861aaa8113cd4",
+   "thumbnailCrop": [
+    512,
+    398,
+    1126,
+    858
+   ],
+   "reason": "subject-too-small-or-obscured",
+   "photo": "541763481",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-4E83271D": {
+   "size": [
+    1920,
+    1152
+   ],
+   "sourceSize": [
+    2000,
+    1200
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/168992426/original.jpeg",
+   "sourceSHA256": "93a8dc4f054ae8a6516a963b7335bfc87e3ce2f49314165a4a7d53db9c1e62ad",
+   "photo": "168992426",
+   "thumbnailSize": [
+    480,
+    288
+   ]
+  },
+  "avibase-4E869790": {
+   "size": [
+    1280,
+    1920
+   ],
+   "sourceSize": [
+    1365,
+    2048
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/765257569/original.jpg",
+   "sourceSHA256": "6b5c5631b2686426a8618398ab14b42800ac382bb6eaabd8eed27ac042dd115f",
+   "photo": "765257569",
+   "thumbnailSize": [
+    320,
+    480
+   ]
+  },
+  "avibase-50BF77FB": {
+   "size": [
+    1920,
+    1492
+   ],
+   "sourceSize": [
+    2048,
+    1591
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/160856154/original.jpeg",
+   "sourceSHA256": "3b6a50db0d8065fb6b169701e30efc89f6a7a0fd09293578baa6b2dde0289202",
+   "photo": "160856154",
+   "thumbnailSize": [
+    480,
+    373
+   ]
+  },
+  "avibase-5284C27B": {
+   "size": [
+    1920,
+    1277
+   ],
+   "sourceSize": [
+    2048,
+    1362
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/89129814/original.jpg",
+   "sourceSHA256": "9374e251c5cd3fc7d6c52a0d15e4f24f5b2b24c7bd98f261bc67068ee3b7475e",
+   "photo": "89129814",
+   "thumbnailSize": [
+    480,
+    319
+   ]
+  },
+  "avibase-5306D33E": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/701568817/original.jpg",
+   "sourceSHA256": "b027942ee0f1fadda02f14ac17fd9badf0af6b2a4ab05fa83e1d4dfbd3d88e86",
+   "thumbnailCrop": [
+    910,
+    195,
+    1646,
+    747
+   ],
+   "reason": "subject-too-small-or-obscured",
+   "photo": "701568817",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-57D97C57": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/13815750/original.jpg",
+   "sourceSHA256": "4ffcad40f48ed0924122e4ca29c2863cc6de00f494fc56dc7650c941ea55f2b2",
+   "photo": "13815750",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-5C686F54": {
+   "size": [
+    1920,
+    1278
+   ],
+   "sourceSize": [
+    2048,
+    1363
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/121204183/original.jpg",
+   "sourceSHA256": "75d2d3312947383785226919e253c9d2d0b543cb8e32897513120110329c9914",
+   "photo": "121204183",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-5D56DAAA": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/385756342/original.jpeg",
+   "sourceSHA256": "2c517f4f8386fee25d228970e16ab425c6081ad6b94450bdaab8fb36b3ec237b",
+   "photo": "385756342",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-5FE42C6D": {
+   "size": [
+    1500,
+    1000
+   ],
+   "sourceSize": [
+    1500,
+    1000
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/226376/original.jpg",
+   "sourceSHA256": "8a2731f4ac189d2cd7e99e328f5ba71035798831b6b3f81ba744b4799d0f66a7",
+   "photo": "226376",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-664698E5": {
+   "size": [
+    1800,
+    1201
+   ],
+   "sourceSize": [
+    1800,
+    1201
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/170560014/original.jpg",
+   "sourceSHA256": "59c5e13c07e072b44b4799fe0a523cfb9b4e6feb50a4d8b33d94378b2dd23e63",
+   "photo": "170560014",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-6D2680D0": {
+   "size": [
+    1920,
+    1200
+   ],
+   "sourceSize": [
+    2000,
+    1250
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4891783/original.jpg",
+   "sourceSHA256": "5a3ca609342fbe54332079220af19b144b45bb924783230101e5a025de245311",
+   "photo": "4891783",
+   "thumbnailSize": [
+    480,
+    300
+   ]
+  },
+  "avibase-715D4DDE": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/74432029/original.jpeg",
+   "sourceSHA256": "187f794ae3156c41a8bbba141da9830d25b26eb1d1da359cf0aaf97e35406b41",
+   "photo": "74432029",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-73BDA8FB": {
+   "size": [
+    1800,
+    1200
+   ],
+   "sourceSize": [
+    1800,
+    1200
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/555231/original.jpg",
+   "sourceSHA256": "41f0d128c97537fb289ff6e6a9eba59a743f41e0c55c20156f64d918428b4066",
+   "photo": "555231",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-749E7B3C": {
+   "size": [
+    1920,
+    1324
+   ],
+   "sourceSize": [
+    2048,
+    1412
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/246940505/original.jpg",
+   "sourceSHA256": "2e003e867f09c20d92356763a714aa63377f948603e028a273f18f3bbfa73c72",
+   "photo": "246940505",
+   "thumbnailSize": [
+    480,
+    331
+   ]
+  },
+  "avibase-76B35118": {
+   "size": [
+    1626,
+    1053
+   ],
+   "sourceSize": [
+    1626,
+    1053
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/108058156/original.jpg",
+   "sourceSHA256": "acf3eeebffc8e82fab510d776e514e22f152d8d8bb46eb81d304237ea78e1d60",
+   "photo": "108058156",
+   "thumbnailSize": [
+    480,
+    311
+   ]
+  },
+  "avibase-791DED18": {
+   "size": [
+    1920,
+    1080
+   ],
+   "sourceSize": [
+    2048,
+    1152
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28107500/original.jpg",
+   "sourceSHA256": "d62c9c8e06607d7181345c9f161e7b5bd656b777b6a99e99d6fba2deba21ff11",
+   "photo": "28107500",
+   "thumbnailSize": [
+    480,
+    270
+   ]
+  },
+  "avibase-79C8806A": {
+   "size": [
+    1920,
+    1327
+   ],
+   "sourceSize": [
+    2048,
+    1415
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/263837073/original.jpg",
+   "sourceSHA256": "c7b09b15902929b9a2dd254e2522b84157f085ac03e308094e3bd948e842e0f9",
+   "photo": "263837073",
+   "thumbnailSize": [
+    480,
+    332
+   ]
+  },
+  "avibase-7A2734EB": {
+   "size": [
+    800,
+    529
+   ],
+   "sourceSize": [
+    800,
+    529
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/12615149/original.jpeg",
+   "sourceSHA256": "beba07045f0a10d229d46cac1674c78f807ffe6493031609af0eaedbc84d5f9b",
+   "photo": "12615149",
+   "thumbnailSize": [
+    480,
+    317
+   ]
+  },
+  "avibase-7B454390": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/469676151/original.jpeg",
+   "sourceSHA256": "69a6bf3e0ec475af7ca9ef7219d96d2765be6c406121a4f6bc015329dccdfd54",
+   "photo": "469676151",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-807E1277": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/101285278/original.jpeg",
+   "sourceSHA256": "fe5586709a4d744f01e4db151d02ba9de64110b6c749423a1fcd3c5015ce2bb9",
+   "photo": "101285278",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-874C8B3C": {
+   "size": [
+    1920,
+    1526
+   ],
+   "sourceSize": [
+    2048,
+    1628
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/639886928/original.jpg",
+   "sourceSHA256": "0373633261eee55fd11d75e6e0d183eba4972d66327920022b52a815c20c70e3",
+   "photo": "639886928",
+   "thumbnailSize": [
+    480,
+    382
+   ]
+  },
+  "avibase-9132B347": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/8837843/original.jpeg",
+   "sourceSHA256": "666f3053377cc1e60f99a9e5b226197cd0cc027575e263cf1ee808ce00ad98fa",
+   "photo": "8837843",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-91A4FA36": {
+   "size": [
+    1558,
+    1169
+   ],
+   "sourceSize": [
+    1558,
+    1169
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/286764098/original.jpg",
+   "sourceSHA256": "de77919e1dacb1effe5899353554be4ec1195863fecb3886ec26956890409c7c",
+   "photo": "286764098",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-91BD7FA4": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/453498977/original.jpg",
+   "sourceSHA256": "218826c14a165ce99fad0c14c21f1a93ff0bdb7081a7e14cb1b9747f5c6d90c0",
+   "photo": "453498977",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-94A44032": {
+   "size": [
+    1920,
+    1657
+   ],
+   "sourceSize": [
+    2048,
+    1767
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/488854941/original.jpg",
+   "sourceSHA256": "d3a7bc5601191731da6b7e33363722d0ba4a18bf8dea553fdd2003a7abede00c",
+   "photo": "488854941",
+   "thumbnailSize": [
+    480,
+    414
+   ]
+  },
+  "avibase-9A3A0C23": {
+   "size": [
+    1022,
+    844
+   ],
+   "sourceSize": [
+    1022,
+    844
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/742077232/original.jpg",
+   "sourceSHA256": "d7c0c7833bd1c46f24015d87abfde01ed9dcd559eadbf5ae23d41fda004c430e",
+   "photo": "742077232",
+   "thumbnailSize": [
+    480,
+    396
+   ]
+  },
+  "avibase-9A6974DC": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/334272652/original.jpg",
+   "sourceSHA256": "746e5b758df41c8607633afbe03f8e7e422d851aafb354c79a2a3e7370a532ec",
+   "photo": "334272652",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-9B036853": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/328692469/original.jpg",
+   "sourceSHA256": "3eac9c38bafa8b6ee136d48287fd5bc73a969270c61cc44f6a3f4f1b70f5dbe2",
+   "thumbnailCrop": [
+    328,
+    230,
+    1925,
+    1428
+   ],
+   "reason": "too-dark-or-blurred",
+   "photo": "328692469",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-9E174B20": {
+   "size": [
+    1920,
+    1329
+   ],
+   "sourceSize": [
+    2048,
+    1418
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/473581446/original.jpeg",
+   "sourceSHA256": "824439aa091c1349cbc73267debe582eacb9c832eb30d617a4e600317194aebc",
+   "photo": "473581446",
+   "thumbnailSize": [
+    480,
+    332
+   ]
+  },
+  "avibase-9F3603B0": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/697111491/original.jpg",
+   "sourceSHA256": "8ed4f38c616dc6c1f806c6ea048aeb97939ff529870d86c83a905abcf03666fa",
+   "photo": "697111491",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-A8A394CF": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    1920,
+    1280
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/765129730/original.jpg",
+   "sourceSHA256": "be197f463d8f179ef512096cd0092a269e055e80680c5473b0977265c127e391",
+   "photo": "765129730",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-AB08B1DE": {
+   "size": [
+    1920,
+    1159
+   ],
+   "sourceSize": [
+    2048,
+    1236
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/28648629/original.jpeg",
+   "sourceSHA256": "16d332f9247fbd942e3cebf9be5a8f5cbda0ccbfd7ad3b5741a5d4566c8a6cd1",
+   "photo": "28648629",
+   "thumbnailSize": [
+    480,
+    290
+   ]
+  },
+  "avibase-ACA4FEFE": {
+   "size": [
+    1920,
+    1206
+   ],
+   "sourceSize": [
+    2048,
+    1286
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/19719328/original.jpeg",
+   "sourceSHA256": "3d997c90957b2385150e9a7272eabaaf73da9f4910d4ff99906d6c912e6c8111",
+   "photo": "19719328",
+   "thumbnailSize": [
+    480,
+    302
+   ]
+  },
+  "avibase-ADF166DE": {
+   "size": [
+    1920,
+    1315
+   ],
+   "sourceSize": [
+    2048,
+    1403
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/614702934/original.jpg",
+   "sourceSHA256": "300ef991cb39c4dfcc957c5bd0c238efc94d811dadeb7ae3212d0e6d543d76f1",
+   "photo": "614702934",
+   "thumbnailSize": [
+    480,
+    329
+   ]
+  },
+  "avibase-B3C302A3": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58127360/original.jpeg",
+   "sourceSHA256": "e16fc82606932a30e7da763c77806450da91d61f7988a48cf05372b20f7dd3cd",
+   "thumbnailCrop": [
+    668,
+    568,
+    1405,
+    1121
+   ],
+   "reason": "subject-too-small-or-obscured",
+   "photo": "58127360",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-B655AA73": {
+   "size": [
+    1355,
+    1355
+   ],
+   "sourceSize": [
+    1355,
+    1355
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/406708962/original.jpg",
+   "sourceSHA256": "89ad7fa3d8ba760a30e162139c533350d4d10ea0d89e6b30933aea2a3e432b3b",
+   "photo": "406708962",
+   "thumbnailSize": [
+    480,
+    480
+   ]
+  },
+  "avibase-B9BAB929": {
+   "size": [
+    1920,
+    1469
+   ],
+   "sourceSize": [
+    2048,
+    1567
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/253200025/original.jpg",
+   "sourceSHA256": "65dbdca111243db06334b009deb7b181d43400e83021f150216c1d85288efb58",
+   "photo": "253200025",
+   "thumbnailSize": [
+    480,
+    367
+   ]
+  },
+  "avibase-B9D5E209": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/499160361/original.jpeg",
+   "sourceSHA256": "4d733dd3698a98602b980d1ad67b90bc3c9c72af81aba16a9b6d9a221de5d9ea",
+   "thumbnailCrop": [
+    748,
+    837,
+    1178,
+    1159
+   ],
+   "reason": "subject-too-small-or-obscured",
+   "photo": "499160361",
+   "thumbnailSize": [
+    430,
+    322
+   ]
+  },
+  "avibase-BAA5995B": {
+   "size": [
+    1920,
+    1078
+   ],
+   "sourceSize": [
+    2048,
+    1150
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/458730624/original.jpeg",
+   "sourceSHA256": "3e359e8d3e8d0635ee5ed1a32d9d4bc531bb7798d2495656e9c752c3c8fbc7ce",
+   "thumbnailCrop": [
+    604,
+    310,
+    1218,
+    770
+   ],
+   "reason": "subject-too-small-or-obscured",
+   "photo": "458730624",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-BC190F25": {
+   "size": [
+    847,
+    755
+   ],
+   "sourceSize": [
+    847,
+    755
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/587617690/original.jpg",
+   "sourceSHA256": "36084e01dae758404ebde2f2fe846db6fb8c1bd7a75ce752be2ad6c6a9fdd19a",
+   "photo": "587617690",
+   "thumbnailSize": [
+    480,
+    428
+   ]
+  },
+  "avibase-BC678304": {
+   "size": [
+    1379,
+    940
+   ],
+   "sourceSize": [
+    1379,
+    940
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/441838074/original.jpeg",
+   "sourceSHA256": "e77b8ad61199837ffd8d4943c7c7810eeb3271cd1fc6d378a351ff81c0ae8a08",
+   "photo": "441838074",
+   "thumbnailSize": [
+    480,
+    327
+   ]
+  },
+  "avibase-C193474D": {
+   "size": [
+    1920,
+    1279
+   ],
+   "sourceSize": [
+    2048,
+    1364
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/597440163/original.jpg",
+   "sourceSHA256": "e6d3b4d5d25444db95d37ff0801f3c2b4d1ab3434d2335e70520ef34a838bd08",
+   "photo": "597440163",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-C86D078E": {
+   "size": [
+    1920,
+    1537
+   ],
+   "sourceSize": [
+    2048,
+    1639
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/127552700/original.jpeg",
+   "sourceSHA256": "b5be0ef7e0ded28c4c0c0c867b2b5e492d7346cda51c8e610ccd665cbd1dd8cc",
+   "photo": "127552700",
+   "thumbnailSize": [
+    480,
+    384
+   ]
+  },
+  "avibase-CAFBA217": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/50051647/original.jpeg",
+   "sourceSHA256": "682ebb5b22b2598bd91f8e0b0ab6b7dc6840621c298fb4d5dffbcc7bce9eecde",
+   "photo": "50051647",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-CB1E8753": {
+   "size": [
+    1827,
+    1920
+   ],
+   "sourceSize": [
+    1949,
+    2048
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/466221697/original.jpeg",
+   "sourceSHA256": "83593e5c430f26fcb67e1f173526747712acaecbffc076a534529fe78f622b39",
+   "photo": "466221697",
+   "thumbnailSize": [
+    457,
+    480
+   ]
+  },
+  "avibase-CE62EFDD": {
+   "size": [
+    960,
+    640
+   ],
+   "sourceSize": [
+    960,
+    640
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/1628258/original.jpg",
+   "sourceSHA256": "dbf14df514a9ce3e28fb86f547626750c4285755e186a1ebd93f1cdf34344cc2",
+   "photo": "1628258",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-DA3F921A": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/62171171/original.jpg",
+   "sourceSHA256": "37ceab6535012d762d24e672ca18b3aab1e69a9f7c915b435a75080e6b08e74f",
+   "photo": "62171171",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-DF676564": {
+   "size": [
+    1350,
+    900
+   ],
+   "sourceSize": [
+    1350,
+    900
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/364372883/original.jpg",
+   "sourceSHA256": "3e431450570ee95707f940a8abf79786ea0320e008e86c0bb5ef778ef8855cc2",
+   "photo": "364372883",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-E44AF02D": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/427690013/original.jpeg",
+   "sourceSHA256": "90fe20a026b3d7a3cbc686c542da62fcffe7ab25d0a8da5e7d2a75c6118aa8af",
+   "photo": "427690013",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-EDB18078": {
+   "size": [
+    1920,
+    1564
+   ],
+   "sourceSize": [
+    2048,
+    1668
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63377970/original.jpeg",
+   "sourceSHA256": "674ce55f8ca14364851261037217a7d3f48c5a5eef9cf253844fdc46b61f8a05",
+   "photo": "63377970",
+   "thumbnailSize": [
+    480,
+    391
+   ]
+  },
+  "avibase-F4F588DC": {
+   "size": [
+    1920,
+    1280
+   ],
+   "sourceSize": [
+    2048,
+    1365
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/3287389/original.jpg",
+   "sourceSHA256": "73a74d8f688f30515a8043abfc18c16e27405d2c9a81c7f1e583510be0e9cfc1",
+   "photo": "3287389",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  },
+  "avibase-F7EBE5E3": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/43751915/original.jpeg",
+   "sourceSHA256": "fd44e6266bb38cb94d5825c9fde85b2a4ffb71c11ccc137ac48be99726df0ba2",
+   "photo": "43751915",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-FC1BE879": {
+   "size": [
+    1920,
+    1440
+   ],
+   "sourceSize": [
+    2048,
+    1536
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58209422/original.jpeg",
+   "sourceSHA256": "508a8f86d1cfd26235eae2dc83f3bacf8beb8133ead72bca86fa9ebdfb8655ba",
+   "photo": "58209422",
+   "thumbnailSize": [
+    480,
+    360
+   ]
+  },
+  "avibase-FCF63BDD": {
+   "size": [
+    1920,
+    1472
+   ],
+   "sourceSize": [
+    2048,
+    1570
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/243867590/original.jpeg",
+   "sourceSHA256": "cc518751c4bb710e8589f1dd07a0c6125723aae7e4bcdd4a4fe52a8e07062072",
+   "photo": "243867590",
+   "thumbnailSize": [
+    480,
+    368
+   ]
+  },
+  "avibase-FEA2C3CD": {
+   "size": [
+    1920,
+    1281
+   ],
+   "sourceSize": [
+    2048,
+    1366
+   ],
+   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/395183374/original.jpg",
+   "sourceSHA256": "3972eafcaede07ee059b3077bf9ddea1edb4eae1a4a2e4ef3d8f861ccedb7135",
+   "photo": "395183374",
+   "thumbnailSize": [
+    480,
+    320
+   ]
+  }
+ },
+ "externalMedia": {
+  "avibase-1EA06986": {
+   "macaulayPhoto": "372453621"
+  },
+  "avibase-33352866": {
+   "macaulayPhoto": "172463001"
+  },
+  "avibase-433EF57B": {
+   "macaulayPhoto": "630253542"
+  },
+  "avibase-5306D33E": {
+   "macaulayPhoto": "644216159"
+  },
+  "avibase-60679E85": {
+   "macaulayVideo": "457925",
+   "macaulayPhoto": "274925931"
+  },
+  "avibase-869D13F7": {
+   "macaulayPhoto": "363516921"
+  },
+  "avibase-978ECDF0": {
+   "macaulayPhoto": "622511319"
+  },
+  "avibase-AB4BDC23": {
+   "macaulayPhoto": "242816591"
+  },
+  "avibase-AF7F8395": {
+   "macaulayPhoto": "395703821"
+  },
+  "avibase-C12E5EDD": {
+   "macaulayPhoto": "609974952"
+  }
+ }
+}

@@ -70,11 +70,14 @@ def main():
     rows = avilist.read_source(args.avilist_json)
     identifiers = {bird["id"]: bird["latin"] for bird in avilist.make_records(rows)}
     extra = birdnet_links(args.birdnet_zip, identifiers)
+    review_path = Path(__file__).resolve().parents[1] / "data/photo-quality-review.json"
+    reviewed_media = json.loads(review_path.read_bytes())["externalMedia"]
     records = {}
     for row in rows:
         if row[1] == "species":
             links = avilist_links(row)
             links.update(extra.get(row[19], {}))
+            links.update(reviewed_media.get(row[19], {}))
             if links:
                 records[row[19]] = links
     metadata = {

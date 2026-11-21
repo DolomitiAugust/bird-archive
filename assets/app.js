@@ -1,4 +1,4 @@
-import {language, t, count, chooseLanguage, syncLanguageUrl} from './i18n.js?v=3';
+import {language, t, count, chooseLanguage, syncLanguageUrl} from './i18n.js?v=6';
 
 const el = id => document.getElementById(id);
 const gallery = 'gallery';
@@ -76,7 +76,7 @@ function loadPhotos() {
       photoByLatin.set(photo.latin, photo);
     }
     photos = rows;
-    historyPhotos = photos.filter(photo => photo.file?.startsWith('history-') && photo.photographed);
+    historyPhotos = photos.filter(photo => photo.historicalPhoto);
     indexSelectedTaxa();
     directories = galleryData = coverage = undefined;
   }).catch(err => { photoRequest = undefined; throw err; });
@@ -160,11 +160,18 @@ function buildPhotos() {
     const localized=names?.names?.[species.latin];
     const name=localized?.zh || species.en || species.latin;
     const localThumb=/^photos\/archive\/(?:[a-zA-Z\d_-]+\/)*[a-zA-Z\d_-]+\.(?:webp|jpg|jpeg|png)$/i.test(asset.localThumb) ? asset.localThumb : '';
+    const localFull=/^photos\/plates\/[0-9a-f]{8}-\d+\.webp$/.test(asset.localFull) ? asset.localFull : '';
+    const photoId=String(asset.photoId || '');
+    const sameSource=/^\d+$/.test(photoId) && asset.sourceUrl==='https://www.inaturalist.org/photos/'+photoId;
+    const native=asset.imageUrl.match(/^https:\/\/inaturalist-open-data\.s3\.amazonaws\.com\/photos\/(\d+)\/large\.(jpe?g|png|webp)$/i);
+    const avi=asset.imageUrl.match(/^https:\/\/static\.avicommons\.org\/[a-z0-9]+-(\d+)-900\.jpg$/);
+    const originalUrl=sameSource && native?.[1]===photoId ? asset.imageUrl.replace('/large.','/original.') : '';
+    const originalPrefix=sameSource && asset.sourceId==='avicommons' && avi?.[1]===photoId ? 'photos/'+photoId+'/original.' : '';
     const photo={
       id,name,en:species.en,latin:species.latin,order:species.order,family:species.family,
       sourceCollection:({avicommons:'Avicommons / iNaturalist','birdnet-inaturalist':'BirdNET+ / iNaturalist','inaturalist-api':'iNaturalist',commons:'Wikimedia Commons','wikimedia-commons':'Wikimedia Commons'})[asset.sourceId || 'avicommons'] || '',
       captive:asset.captive===true || asset.basis==='captive-observation',basis:asset.basis,
-      imageUrl:asset.imageUrl,thumbUrl:secureUrl(asset.thumbUrl) || asset.imageUrl,localThumb,
+      imageUrl:asset.imageUrl,thumbUrl:secureUrl(asset.thumbUrl) || asset.imageUrl,localThumb,localFull,originalUrl,originalPrefix,
       sourcePhotoUrl:asset.sourceUrl,observationUrl:secureUrl(asset.observationUrl),
       credit:{filePage:secureUrl(asset.filePage) || asset.sourceUrl,author:asset.author,license:asset.license,licenseUrl:asset.licenseUrl},
       changes: localThumb ? '本馆缩略图经缩小并转为 WebP，总览按画框裁切。' : '总览按画框裁切，详情保留来源图像的比例。',
@@ -350,28 +357,80 @@ function birdLink(route, id, className, label) {
 }
 function photoFigure(photo, full=false) {
   const img = new Image();
-  const src = photo.file ? 'photos/'+photo.file : (full ? photo.imageUrl : photo.localThumb || photo.thumbUrl);
-  img.alt = full ? displayName(photo)+t('，摄影：',', photographed by ')+photo.credit.author : '';
+  const originalFile=full && photo.preserveFrame && /^sources\/observation-\d+\.jpg$/.test(photo.originalFile) ? photo.originalFile : '';
+  const src = photo.file ? 'photos/'+(originalFile || (!full && photo.thumbnail ? photo.thumbnail.file : photo.file)) :
+    (full ? photo.localFull || photo.imageUrl : photo.localThumb || photo.thumbUrl);
+  img.alt = full ? [displayName(photo), photoType(photo), photo.credit.author].filter(Boolean).join(' · ') : '';
   img.decoding = 'async';
   img.loading = full ? 'eager' : 'lazy';
-  img.src = src;
+  if (full && (photo.originalUrl || photo.originalPrefix)) {
+    // Keep the archived preview visible while a larger copy of the same photograph loads.
+    img.src=photo.localThumb || photo.thumbUrl;
+    async function display(url) {
+      if (!url) return false;
+      const candidate=new Image();
+      candidate.src=url;
+      try { await candidate.decode(); } catch { return false; }
+      img.src=url;
+      return true;
+    }
+    (async () => {
+      if (await display(photo.localFull)) return;
+      if (!photo.originalUrl && photo.originalPrefix) {
+        // Avicommons supplies a cropped JPEG but does not preserve the original extension.
+        const bucket='https://inaturalist-open-data.s3.amazonaws.com/';
+        const query=new URLSearchParams({'list-type':'2',prefix:photo.originalPrefix,'max-keys':'1'});
+        try {
+          const response=await fetch(bucket+'?'+query,{signal:globalThis.AbortSignal?.timeout?.(8000)});
+          if (response.ok) {
+            const xml=new DOMParser().parseFromString(await response.text(),'application/xml');
+            const key=xml.querySelector('Contents > Key')?.textContent || '';
+            if (key.startsWith(photo.originalPrefix) && /^(?:jpe?g|png|webp)$/i.test(key.slice(photo.originalPrefix.length))) {
+              photo.originalUrl=bucket+key;
+            }
+          }
+        } catch { /* The existing source rendition is also available without a bucket listing. */ }
+      }
+      if (await display(photo.originalUrl) || await display(photo.imageUrl)) return;
+      const unavailable=() => img.replaceWith(element('span','unavailable-photo',t('照片暂时无法载入','Photo unavailable')));
+      img.addEventListener('error',unavailable,{once:true});
+      if (img.complete && !img.naturalWidth) unavailable();
+    })();
+    return img;
+  }
+  const fallbacks = full ? [originalFile && 'photos/'+photo.file,photo.imageUrl,photo.localThumb] : [photo.thumbUrl];
+  const alternatives = [...new Set(fallbacks.filter(url => url && url !== src))];
   img.addEventListener('error',() => {
-    const fallback=photo.localThumb && (full ? photo.localThumb : photo.thumbUrl);
-    if (fallback && !img.dataset.fallback) {
-      img.dataset.fallback='true';
-      img.src=fallback;
+    if (alternatives.length) {
+      img.src=alternatives.shift();
       return;
     }
     img.replaceWith(element('span','unavailable-photo',t('照片暂时无法载入','Photo unavailable')));
   });
+  img.src = src;
   return img;
+}
+function photoType(photo) {
+  if (photo.kind==='specimen') return t('馆藏标本','Museum specimen');
+  if (photo.kind==='historical') return t('历史影像','Historical photograph');
+  return '';
+}
+function photoForScope(record,scope) {
+  if (scope==='history' && record?.historicalPhoto) {
+    const {id,name,en,latin,order,family,aliases}=record;
+    return {id,name,en,latin,order,family,aliases,...record.historicalPhoto,kind:'historical'};
+  }
+  return record;
 }
 function photoCards(rows,route) {
   const grid = element('div','photo-grid');
   grid.dataset.scope=route.scope;
   const firstRow=window.matchMedia('(max-width: 740px)').matches ? 5 : 8;
-  for (const [index,photo] of rows.entries()) {
+  for (const [index,record] of rows.entries()) {
+    const photo=photoForScope(record,route.scope);
     const link = birdLink(route,photo.id,'bird-card');
+    if (photo.kind) link.dataset.photoKind=photo.kind;
+    if (photo.preserveFrame) link.dataset.preserveFrame='true';
     const frame = element('span','image-frame');
     const img=photoFigure(photo);
     if (index < firstRow) img.loading = 'eager';
@@ -383,7 +442,7 @@ function photoCards(rows,route) {
     if (route.scope==='history') {
       const date=t(photo.photographed,photo.enPhotographed || photo.photographed);
       if (date) caption.append(element('span','plate-date',date));
-    }
+    } else if (photo.kind==='specimen') caption.append(element('span','plate-date',photoType(photo)));
     link.append(frame,caption);
     grid.append(link);
   }
@@ -515,9 +574,11 @@ function fact(list,label,value) {
 function readingLinks(group,species,photo) {
   const item=references?.[species?.id] || {};
   const links=[];
+  if (/^\d+$/.test(item.macaulayPhoto)) links.push(external('https://macaulaylibrary.org/asset/'+item.macaulayPhoto,t('康奈尔鸟类学实验室 · 实拍照片','Cornell Lab of Ornithology · Photograph')));
   if (item.ebird && /^[a-z\d_-]+$/i.test(item.ebird)) links.push(external('https://ebird.org/species/'+item.ebird,t('eBird 照片与声音','eBird photos and sounds')));
   if (secureUrl(item.birdlife)) links.push(external(item.birdlife,'BirdLife'));
   if (secureUrl(item.bow)) links.push(external(item.bow,'Birds of the World'));
+  if (/^\d+$/.test(item.macaulayVideo)) links.push(external('https://macaulaylibrary.org/asset/'+item.macaulayVideo,t('康奈尔鸟类学实验室 · 野外影像','Cornell Lab of Ornithology · Field footage')));
   if (/^\d+$/.test(item.inat)) links.push(external('https://www.inaturalist.org/taxa/'+item.inat,t('iNaturalist 物种记录','iNaturalist species record')));
   if (/^\d+$/.test(item.gbif)) links.push(external('https://www.gbif.org/species/'+item.gbif,'GBIF'));
   if (!item.inat) {
@@ -558,7 +619,47 @@ async function showAccount(group,id) {
   group.replaceChildren(element('h2','',heading),paragraph,credit);
   group.hidden=false;
 }
-function showRecord(route,photo,species) {
+function recordFigure(photo,lazy=false) {
+  const figure=element('figure','folio-plate');
+  const mount=element('div','plate-mount');
+  const img=photoFigure(photo,true);img.className='record-photo';
+  if (lazy) img.loading='lazy';
+  mount.append(img);
+  const caption=element('figcaption');
+  const label=photoType(photo);
+  if (label) {
+    const provenance=element('p','plate-provenance',label);
+    if (photo.source) provenance.append(' · ',external(photo.url,t(photo.source,photo.enSource)));
+    caption.append(provenance);
+  }
+  const byline=element('p','plate-credit');
+  if (photo.sourcePhotoUrl) {
+    byline.append(t('摄影 · ','Photo · '),photo.credit.author,' · ',external(photo.credit.licenseUrl,photo.credit.license),
+      ' · ',external(photo.sourcePhotoUrl,t('原始照片','Original photograph')));
+    if (photo.observationUrl && photo.observationUrl!==photo.sourcePhotoUrl) byline.append(' · ',external(photo.observationUrl,t('原始观测','Original observation')));
+    if (photo.sourceCollection) byline.append(' · ',photo.sourceCollection);
+    if (photo.credit.license.includes('NC')) byline.append(t(' · 限非商业使用',' · Noncommercial use only'));
+  } else {
+    byline.append(t('摄影 · ','Photo · '),...creditLinks(photo));
+  }
+  const date=t(photo.photographed,photo.enPhotographed);
+  if (date) byline.append(' · ', date);
+  caption.append(byline);
+  if (photo.captive) caption.append(element('p','',t('圈养活体摄影','Photograph of a captive bird')));
+  if (photo.basis==='photographer-identification') caption.append(element('p','',t('物种由摄影者鉴定，这条观测仍待社区复核。','Species identified by the photographer. Community review of the observation is pending.')));
+  const context=t(photo.imageContext,photo.enImageContext);
+  if (context) caption.append(element('p','',context));
+  const changes=t(photo.changes,photo.enChanges || 'Gallery thumbnails are cropped. The record shows the original proportions.');
+  if (changes) {
+    const processing=element('details','plate-processing');
+    processing.append(element('summary','',t('图像处理说明','Image processing')),element('p','',changes));
+    caption.append(processing);
+  }
+  figure.append(mount,caption);
+  return figure;
+}
+function showRecord(route,record,species) {
+  const photo=photoForScope(record,route.scope);
   const folio=element('article','record-folio'+(photo?'':' without-photo'));
   const index=element('div','folio-index');
   const identifier=element('span','folio-identifier');
@@ -595,10 +696,13 @@ function showRecord(route,photo,species) {
   const note=photo && t(photo.note,photo.enNote);
   if (note) {
     const identification=element('section','record-section');
-    identification.append(element('h2','',t('辨识要点','Identification')),element('p','note',note));
-    const source = element('p','source-link',t('辨识资料 · ','Identification source · '));
-    source.append(external(photo.url,t(photo.source,photo.enSource || new URL(photo.url).hostname)));
-    identification.append(source);
+    const historical=photo.kind==='historical';
+    identification.append(element('h2','',historical ? t('影像记录','Photographic record') : t('辨识要点','Identification')),element('p','note',note));
+    if (!historical) {
+      const source=element('p','source-link',t('辨识资料 · ','Identification source · '));
+      source.append(external(photo.url,t(photo.source,photo.enSource || new URL(photo.url).hostname)));
+      identification.append(source);
+    }
     body.append(identification);
   }
   const account=element('section','record-section species-account');
@@ -632,36 +736,13 @@ function showRecord(route,photo,species) {
     if (links.isConnected) readingLinks(links,species,photo);
   });
   spread.append(heading);
-  if (photo) {
-    const figure=element('figure','folio-plate');
-    const mount=element('div','plate-mount');
-    const img=photoFigure(photo,true);img.className='record-photo';
-    mount.append(img);
-    const caption=element('figcaption');
-    const byline=element('p','plate-credit');
-    if (photo.sourcePhotoUrl) {
-      byline.append(t('摄影 · ','Photo · '),photo.credit.author,' · ',external(photo.credit.licenseUrl,photo.credit.license),
-        ' · ',external(photo.sourcePhotoUrl,t('原始照片','Original photograph')));
-      if (photo.observationUrl && photo.observationUrl!==photo.sourcePhotoUrl) byline.append(' · ',external(photo.observationUrl,t('原始观测','Original observation')));
-      if (photo.sourceCollection) byline.append(' · ',photo.sourceCollection);
-      if (photo.credit.license.includes('NC')) byline.append(t(' · 限非商业使用',' · Noncommercial use only'));
-    } else {
-      byline.append(t('摄影 · ','Photo · '),...creditLinks(photo));
-    }
-    const date=t(photo.photographed,photo.enPhotographed);
-    if (date) byline.append(' · ', date);
-    caption.append(byline);
-    if (photo.captive) caption.append(element('p','',t('圈养活体摄影','Photograph of a captive bird')));
-    const context=t(photo.imageContext,photo.enImageContext);
-    if (context) caption.append(element('p','',context));
-    const changes=t(photo.changes,photo.enChanges || 'Gallery thumbnails are cropped. The record shows the original proportions.');
-    if (changes) {
-      const processing=element('details','plate-processing');
-      processing.append(element('summary','',t('图像处理说明','Image processing')),element('p','',changes));
-      caption.append(processing);
-    }
-    figure.append(mount,caption);
-    spread.append(figure);
+  if (photo) spread.append(recordFigure(photo));
+  if (record?.historicalPhoto && photo.kind!=='historical') {
+    const historic=photoForScope(record,'history');
+    const archive=element('details','record-section historical-plate');
+    const date=t(historic.photographed,historic.enPhotographed);
+    archive.append(element('summary','',t('历史影像','Historical photograph')+' · '+date),recordFigure(historic,true));
+    body.prepend(archive);
   }
   spread.append(classification);
   const notes=element('div','folio-notes');
@@ -770,7 +851,13 @@ function showSources() {
     t(' 授权使用。本馆提取种级条目和分类字段，并保留分布原文。','. The archive uses species-level records and preserves the original range descriptions.'));
   const list=element('ul','source-list');
   for (const photo of photos || []) {
-    const li=element('li','',displayName(photo)+' · ');li.append(...creditLinks(photo));list.append(li);
+    const images=photo.historicalPhoto ? [photo,photoForScope(photo,'history')] : [photo];
+    for (const image of images) {
+      const label=[displayName(photo),photoType(image)].filter(Boolean).join(' · ');
+      const li=element('li','',label+' · ');
+      li.append(...creditLinks(image));
+      list.append(li);
+    }
   }
   const nameInfo=element('p');
   nameInfo.append(t('中文索引整理自 BirdNET Team 的 ','Chinese names come from the BirdNET Team’s '),
@@ -789,7 +876,7 @@ function showSources() {
   gapLink.href=t('data/gaps.csv','data/gaps-en.csv');
   gapLink.download=t('鸟类档案馆-待补资料.csv','bird-archive-missing-materials.csv');
   gaps.append(gapLink);
-  content.replaceChildren(text,nameInfo,element('p','',t('摄影选集的照片来自 Wikimedia Commons。选集使用等比例缩小的 WebP，卡片裁切展示，详情保留完整构图。','Selected photographs come from Wikimedia Commons. They are resized proportionally and converted to WebP. Gallery cards crop the image, and each species record shows the full composition.')),list,otherPhotos,gaps);
+  content.replaceChildren(text,nameInfo,element('p','',t('每张照片的出处、作者和使用许可列在物种档案中。总览使用缩略图，详情展示较大的版本。馆藏标本和历史照片另有标记。','Each species record credits the photographer and links to the source and license. The gallery uses thumbnails, with larger images in the records. Museum specimens and historical photographs are labeled.')),list,otherPhotos,gaps);
   if (!el('sources-dialog').open) el('sources-dialog').showModal();
 }
 const cabinet=el('cabinet-controls');
@@ -799,16 +886,11 @@ if (cabinet) {
   applySize();
   narrow.addEventListener('change',applySize);
 }
-for (const button of document.querySelectorAll('button[data-lang]')) {
-  button.addEventListener('click',()=>{
-    const refresh={languageChange:true, scroll:window.scrollY, focus:document.activeElement};
-    const previous=language;
-    chooseLanguage(button.dataset.lang);
-    if (previous===language) return;
-    if (el('sources-dialog').open) showSources();
-    routePage(refresh);
-  });
-}
+el('language-select').addEventListener('change',event=>{
+  const refresh={languageChange:true, scroll:window.scrollY, focus:document.activeElement};
+  chooseLanguage(event.currentTarget.value);
+  routePage(refresh);
+});
 document.addEventListener('click',event => {
   if (event.button!==0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
   const link=event.target.closest('a[data-nav],a[data-back],a.skip-link');

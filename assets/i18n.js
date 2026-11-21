@@ -31,9 +31,7 @@ function paintLanguage() {
     if (attribute) node.setAttribute(attribute, t(zh, en));
     else node.textContent = t(zh, en);
   }
-  for (const button of document.querySelectorAll('button[data-lang]')) {
-    button.setAttribute('aria-pressed', String(button.dataset.lang === language));
-  }
+  document.getElementById('language-select').value = language;
 }
 export function chooseLanguage(value) {
   if (!known(value)) return;

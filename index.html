@@ -9,11 +9,11 @@
   <title>鸟类档案馆</title>
   <link rel="icon" type="image/jpeg" href="assets/blue-footed-booby.jpg">
   <link rel="preload" href="assets/fonts/archive-song.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/site.css?v=5">
+  <link rel="stylesheet" href="assets/site.css?v=6">
   <link rel="stylesheet" href="assets/catalog.css?v=5">
   <link rel="stylesheet" href="assets/record.css?v=5">
   <link rel="stylesheet" href="assets/type.css?v=4">
-  <script type="module" src="assets/app.js?v=5"></script>
+  <script type="module" src="assets/app.js?v=6"></script>
 </head>
 <body>
   <a class="skip-link" data-en="Skip to main content" href="#content">跳到主要内容</a>
@@ -24,11 +24,14 @@
         <a href="#gallery" data-nav data-section="gallery" data-en="Photo gallery">影像总览</a>
         <a href="#checklist" data-nav data-section="checklist" data-en="World checklist">全球名录</a>
       </nav>
-      <div class="language-picker" role="group" aria-label="界面语言" data-en-aria="Interface language">
-        <button type="button" id="lang-zh" data-lang="zh" lang="zh-CN" aria-pressed="true">中文</button>
-        <span aria-hidden="true">/</span>
-        <button type="button" id="lang-en" data-lang="en" lang="en" aria-pressed="false">English</button>
-      </div>
+      <label class="language-picker">
+        <span class="language-globe" aria-hidden="true"></span>
+        <span class="sr-only" data-en="Interface language">界面语言</span>
+        <select id="language-select">
+          <option value="zh" lang="zh-CN" selected>中文</option>
+          <option value="en" lang="en">English</option>
+        </select>
+      </label>
       <button type="button" id="theme-toggle" aria-label="深色模式" aria-pressed="true"><span class="theme-sun" aria-hidden="true">☼</span><span class="theme-moon" aria-hidden="true">☾</span></button>
     </div>
   </header>

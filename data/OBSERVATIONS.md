@@ -1,6 +1,6 @@
 # 馆藏摄影索引
 
-`observations.json` 通过 Avibase 编号把 10,665 张不同的 iNaturalist 摄影作品关联到 AviList v2026 的 10,665 个物种。8,631 张取自 Adam Jackson 编制的 Avicommons，1,318 张来自 BirdNET+ Taxonomy 的 iNaturalist 摄影索引，716 张通过 iNaturalist 官方 API 核实。每张照片都有仓库内的 WebP 缩略图。[Avicommons 项目](https://github.com/rawcomposition/avicommons) · [采用的 Avicommons 索引版本](https://github.com/rawcomposition/avicommons/blob/44305ddac3df99474e8f0fca33b23907ca35eedb/public/2025.json) · [BirdNET+ 官方发布](https://birdnet.cornell.edu/taxonomy/download) · [iNaturalist API](https://api.inaturalist.org/v2/docs/)
+2026 年 11 月 20 日的导入快照通过 Avibase 编号把 10,665 张不同的 iNaturalist 摄影作品关联到 AviList v2026 的 10,665 个物种。8,631 张取自 Adam Jackson 编制的 Avicommons，1,318 张来自 BirdNET+ Taxonomy 的 iNaturalist 摄影索引，716 张通过 iNaturalist 官方 API 核实。每张照片都有仓库内的 WebP 缩略图。[Avicommons 项目](https://github.com/rawcomposition/avicommons) · [采用的 Avicommons 索引版本](https://github.com/rawcomposition/avicommons/blob/44305ddac3df99474e8f0fca33b23907ca35eedb/public/2025.json) · [BirdNET+ 官方发布](https://birdnet.cornell.edu/taxonomy/download) · [iNaturalist API](https://api.inaturalist.org/v2/docs/)
 
 ## 物种与照片匹配
 
@@ -24,13 +24,13 @@
 
 最后一轮复核替换了 6 张来源失效的 BirdNET+ 图片，另补入 19 个物种。新增的 25 张中，22 张有研究级观测，3 张为当代圈养活体的观测。后者在详情单独标出。部分研究级记录使用来源认可的异名，或使用 AviList 确认归属该种的亚种名。保留原观测学名及观测链接。[复核记录](inaturalist-final-evidence.json)
 
-摄影选集另收录 5 种灭绝鸟类的历史生前照片。每条附拍摄年代、馆藏或文件页，并说明野外或圈养背景。[选集照片档案](photos.json)
+五种灭绝鸟类在总览中使用已核对身份的彩色馆藏标本照。打开档案后，可展开历史生前照片，查看拍摄年代和来源。[选集照片档案](photos.json)
 
 ## 署名和许可
 
 照片权利归各创作者所有。Avicommons 提供裁切、构图和缩放版本。每条记录保留作者、原照片链接、缩略图和较大尺寸图片的地址、许可名称与许可链接。任何本地格式转换、裁切或缩放应在图片说明中注明。网站的代码许可不可替代单张照片的许可。[来源使用说明](https://github.com/rawcomposition/avicommons/blob/main/README.md) · [来源许可问答](https://github.com/rawcomposition/avicommons/blob/main/FAQ.md)
 
-8,927 张采用含非商业条款的许可，分别为 CC BY-NC 8,687 张、CC BY-NC-SA 240 张。其余为 CC BY 1,037 张、CC BY-SA 369 张、CC0 332 张。各许可的具体版本和适用地域以记录为准。本馆按个人非商业用途展示。
+11 月 20 日的导入快照中，8,927 张采用含非商业条款的许可，分别为 CC BY-NC 8,687 张、CC BY-NC-SA 240 张。其余为 CC BY 1,037 张、CC BY-SA 369 张、CC0 332 张。各许可的具体版本和适用地域以记录为准。本馆按个人非商业用途展示。
 
 索引保留 Avicommons 已明确给出的有效许可版本。仅给出 iNaturalist 短代码（如 `cc-by-nc`）时，按平台公开映射给出 CC 4.0 或 CC0 1.0；所有指向不存在的 CC0 版本（如“CC0 3.0”）的记录均留待重新查证。[iNaturalist 许可代码与链接](https://github.com/inaturalist/inaturalist/blob/965832c83ab93b7a277d3c4918f43b0ac3c7211d/app/models/shared/license_module.rb)
 
@@ -42,4 +42,10 @@ BirdNET+ 来源的索引资料署名为 *BirdNET+ Taxonomy v0.5-Nov2026, https:/
 
 实际更新时先使用 `python scripts/import_observations.py --output data/base.part` 生成前两组，再运行 `python scripts/supplement_inaturalist.py --base data/base.part --output data/full.part` 使用已存快照复现第三组。要重新找照片，第二条命令另加 `--refresh --birdnet <版本ZIP> --photos <Avicommons索引>`。采集器串行请求，每次请求至少间隔 1.2 秒，支持有限次数重试；官方活数据会变化，核对新快照后再更新发布版本。
 
-最后运行 `python scripts/supplement_inaturalist.py --base data/full.part --snapshot data/inaturalist-final-evidence.json --output data/final.part`，再执行 `python scripts/cache_observation_photos.py --index data/final.part`。确认缩略图全部就绪后，用生成文件更新 `data/observations.json`。`scripts/review_remaining_photos.py --help` 列出重新查找最后一批观测所需的参数。
+最后运行 `python scripts/supplement_inaturalist.py --base data/full.part --snapshot data/inaturalist-final-evidence.json --output data/final.part`，再执行 `python scripts/apply_photo_review.py --index data/final.part` 应用最新逐图复核，最后执行 `python scripts/cache_observation_photos.py --index data/final.part`。确认缩略图全部就绪后，用生成文件更新 `data/observations.json`。`scripts/review_remaining_photos.py --help` 列出重新查找最后一批观测所需的参数。
+
+## 照片清晰度复核
+
+2026 年 11 月 21 日扫描了 10,692 张馆内图片，并把疑似单色、失焦、主体过小的图片制成联系表，按卡片大小目视复核。人工比对候选原片中的鸟、来源物种、拍摄者和许可。发现插画、翻拍屏幕、路牌或无法辨认的鸟时，撤下旧图；缺少合适本地照片的档案保留物种资料和外部观测链接。[复核记录](photo-quality-review.json) · [馆藏作品及逐图来源](photos.json)
+
+明确复核的详情图按原比例输出，最长边上限 1920 像素，不放大小原片；个别野外照片使用经过记录的主体裁框制作缩略图。历史图版有独立的出处和制作说明。其他观测照片在点开档案后检索同一张照片的来源原片，原图不可用时使用现有版本。每张照片的实际分辨率取决于来源。

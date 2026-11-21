@@ -3,6 +3,7 @@
 import argparse
 from collections import Counter
 import csv
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -28,10 +29,38 @@ def validate():
     references = read(DATA / "references.json")["species"]
     assert references.keys() <= species.keys(), "unmatched external references"
     photographed, local_photos = set(), set()
+    curated_files = set()
     for row in read(DATA / "photos.json"):
         sid = latin_ids[row["latin"]]
-        assert sid not in photographed and (ROOT / "photos" / row["file"]).is_file(), row["id"]
-        assert all(row["credit"].get(k) for k in ("author", "filePage", "license", "licenseUrl")), sid
+        assert sid not in photographed, row["id"]
+        images = [row]
+        if "historicalPhoto" in row:
+            historic = row["historicalPhoto"]
+            assert all(historic.get(k) for k in ("source", "enSource", "url", "photographed", "enPhotographed")), sid
+            images.append(historic)
+        if row.get("kind") == "specimen":
+            assert row["source"] and row["enSource"] and len(row["sourceSize"]) == 2, sid
+            assert max(row["size"]) == min(1920, max(row["sourceSize"])), sid
+            thumb = row["thumbnail"]
+            assert 0 < min(thumb["size"]) <= max(thumb["size"]) <= min(480, max(row["sourceSize"])), sid
+        for image in images:
+            local_original = image.get("originalFile")
+            pages = "https://dolomitiaugust.github.io/bird-archive/photos/"
+            source_url = image["credit"]["imageUrl"]
+            if source_url.startswith(pages):
+                local_original = source_url[len(pages):]
+            if local_original:
+                assert re.fullmatch(r"sources/[a-z0-9-]+\.jpe?g", local_original), sid
+                raw = (ROOT / "photos" / local_original).read_bytes()
+                assert hashlib.sha1(raw).hexdigest() == image["sourceSHA1"], sid
+            filenames = [image["file"]]
+            if "thumbnail" in image:
+                filenames.append(image["thumbnail"]["file"])
+            for filename in filenames:
+                assert Path(filename).name == filename and filename not in curated_files, filename
+                assert (ROOT / "photos" / filename).is_file(), filename
+                curated_files.add(filename)
+            assert all(image["credit"].get(k) for k in ("author", "filePage", "license", "licenseUrl", "imageUrl")), image["file"]
         photographed.add(sid)
         local_photos.add(sid)
     observations = read(DATA / "observations.json")["bySpecies"]
@@ -44,6 +73,10 @@ def validate():
             assert re.fullmatch(r"photos/archive/[0-9a-f]{2}/[0-9a-f]{8}-[0-9]+\.webp", thumb), sid
             assert (ROOT / thumb).is_file() and (ROOT / thumb).stat().st_size > 0, sid
             local_photos.add(sid)
+        if row.get("localFull"):
+            filename = f"{sid[8:].lower()}-{row['photoId']}.webp"
+            assert row["localFull"] == f"photos/plates/{filename}", sid
+            assert (ROOT / row["localFull"]).is_file() and row.get("localThumb"), sid
         photographed.add(sid)
     archives = {}
     for folder, languages in (("accounts", {"zh", "en"}), ("accounts-en", {"en"})):

@@ -3,17 +3,16 @@
 import argparse
 from datetime import date
 from html.parser import HTMLParser
-from io import BytesIO
 import json
 from pathlib import Path
 import re
 from tempfile import NamedTemporaryFile
 import time
 
-from PIL import Image, ImageOps
+from PIL import Image
 
-from import_chinese_names import read_url
 from import_wiki_accounts import request_json
+from sync_photos import read_original, renditions, restore_rendition
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,17 +34,15 @@ def plain(value):
     return " ".join(" ".join(parser.parts).split())
 
 
-def save_picture(source, destination):
-    with Image.open(BytesIO(read_url(source))) as original:
-        image = ImageOps.exif_transpose(original).convert("RGB")
-        image.thumbnail((900, 900), Image.Resampling.LANCZOS)
-        with NamedTemporaryFile(dir=destination.parent, delete=False, suffix=".part") as handle:
-            temp = Path(handle.name)
-        try:
-            image.save(temp, "WEBP", quality=85, method=4)
-            temp.replace(destination)
-        finally:
-            temp.unlink(missing_ok=True)
+def save_pictures(row, photo_dir):
+    original = read_original(row)
+    row["sourceSize"] = list(original.size)
+    for version in renditions(row):
+        target = photo_dir / version.file
+        restore_rendition(original, target, version)
+        destination = row if version.file == row["file"] else row["thumbnail"]
+        with Image.open(target) as image:
+            destination["size"] = list(image.size)
 
 
 def checked_record(species, localized, review, page, photo_dir):
@@ -69,8 +66,7 @@ def checked_record(species, localized, review, page, photo_dir):
     if not author or not license_match or license_url != f"https://creativecommons.org/licenses/{license_match[1].lower()}/{license_match[2]}/":
         raise ValueError("Review attribution and terms for " + page["title"])
     page_id = page["pageid"]
-    filename = f"commons-{page_id}.webp"
-    save_picture(info["thumburl"], photo_dir / filename)
+    filename = f"commons-{page_id}-hd.webp"
     bird = localized["names"].get(species["latin"], {})
     row = {
         "id": f"BH-C{page_id}", "avibaseId": species["id"], "file": filename, "name": bird.get("zh") or species["en"],
@@ -79,13 +75,14 @@ def checked_record(species, localized, review, page, photo_dir):
         "family": localized["families"].get(species["family"], {}).get("zh", species["family"]),
         "aliases": " ".join(bird.get("aliases", [])), "note": "", "source": "Wikimedia Commons", "url": info["descriptionurl"],
         "sourceId": "commons-p18", "basis": "camera-photograph",
+        "sourceSHA1": info["sha1"], "thumbnail": {"file": f"commons-{page_id}.webp", "size": None},
         "imageContext": "活体实拍", "enImageContext": "Photograph of a living bird",
         "credit": {
             "author": author, "filePage": info["descriptionurl"], "imageUrl": info["url"],
             "license": license_name, "licenseUrl": license_url, "sourceId": "commons-p18",
         },
-        "acquired": date.today().isoformat(), "changes": "保留原比例，缩小后转为 WebP。总览卡片按框裁切。",
-        "enChanges": "Resized without changing proportions and converted to WebP. Gallery cards crop the preview.",
+        "acquired": date.today().isoformat(), "changes": "保留原图画幅，转为 WebP。详情图长边最多 1920 像素，卡片预览长边最多 480 像素，均保留原比例。",
+        "enChanges": "Full-frame WebP versions at the original aspect ratio, up to 1920 pixels for the record and 480 pixels for the card.",
         "evidence": {"wikidata": review["qid"], "commonsPageId": page_id, "sha1": info["sha1"], "cameraModel": camera,
                      "identification": review["identityText"], "visualReview": "living bird"},
     }
@@ -94,6 +91,7 @@ def checked_record(species, localized, review, page, photo_dir):
     capture_date = ext.get("DateTimeOriginal", "")
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}(?: \d\d:\d\d:\d\d)?", capture_date):
         row["photographed"] = row["enPhotographed"] = capture_date[:10]
+    save_pictures(row, photo_dir)
     return row
 
 
@@ -112,7 +110,7 @@ def main():
         group = {r["pageId"]: r for r in reviews[start:start + 10]}
         response = request_json(API, {
             "action": "query", "format": "json", "formatversion": 2, "prop": "imageinfo",
-            "iiprop": "url|metadata|extmetadata|mime|sha1", "iiurlwidth": 960, "iiextmetadatalanguage": "en",
+            "iiprop": "url|metadata|extmetadata|mime|sha1", "iiextmetadatalanguage": "en",
             "maxlag": 5, "pageids": "|".join(str(pid) for pid in group),
         })
         for page in response["query"]["pages"]:
