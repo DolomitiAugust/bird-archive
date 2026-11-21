@@ -434,11 +434,16 @@ function drawList(route) {
   fillFilters(route,sourceRows);
   el('reset').hidden = !(route.q || route.order || route.family || route.media);
   const words = normalize(route.q).split(/\s+/).filter(Boolean);
+  const scientificQuery = words.join(' ');
+  const exactSpecies = words.length === 2
+    ? speciesByLatin.get(scientificQuery.charAt(0).toUpperCase() + scientificQuery.slice(1))
+    : undefined;
   const order=curatedTaxa.get(route.order) || route.order;
   const family=curatedTaxa.get(route.family) || route.family;
   const matching = sourceRows.filter(row => {
     const species = isDirectory ? row.species : speciesByLatin.get(row.latin) || row;
-    return (!order || species.order === order) &&
+    return (!exactSpecies || species.latin === exactSpecies.latin) &&
+      (!order || species.order === order) &&
       (!isDirectory || !route.media || Boolean(row.photo) === (route.media === 'with')) &&
       (!family || species.family === family) && words.every(w => row.search.includes(w));
   });
