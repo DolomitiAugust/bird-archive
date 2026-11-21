@@ -1,0 +1,157 @@
+/* The index and the photographic plates share a baseline, like facing book pages. */
+.catalog-layout {
+  --page-rule: color-mix(in srgb, var(--rule) 64%, var(--paper));
+  --plate-rule: color-mix(in srgb, var(--rule) 80%, var(--paper));
+  grid-template-columns: clamp(158px, 13.2vw, 206px) minmax(0, 1fr);
+  column-gap: clamp(22px, 2.7vw, 45px);
+  padding-top: clamp(21px, 2.3vw, 35px);
+}
+.archive-sidebar {
+  border: 0;
+  border-top: 2px solid var(--ink);
+  padding: 0;
+}
+.cabinet-body {
+  background-image: radial-gradient(ellipse at 2px 4px, color-mix(in srgb, var(--subtle) 5%, transparent) .45px, transparent .8px),
+                    radial-gradient(ellipse at 5px 1px, color-mix(in srgb, var(--subtle) 4%, transparent) .5px, transparent .85px);
+  background-size: 7px 11px, 11px 9px;
+}
+.archive-sidebar summary {
+  gap: 9px;
+  min-height: 44px;
+  border-bottom: 1px solid var(--page-rule);
+  font-size: 1.07rem;
+}
+.drawer-symbol {
+  width: 7px;
+  height: 12px;
+  border: 0;
+  border-radius: 0;
+  background: var(--stamp);
+  clip-path: polygon(0 0,100% 0,100% 100%,50% 77%,0 100%);
+}
+.collection-info { gap: 0; margin: 8px 0 14px; }
+.collection-info a {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  column-gap: 6px;
+  padding: 7px 0 7px 11px;
+  border: 0;
+  line-height: 1.4;
+  color: var(--subtle);
+}
+.collection-info a[aria-current], .collection-info a:hover { background: transparent; color: var(--ink); }
+.collection-info a[aria-current]::after {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  top: calc(50% - 7px);
+  height: 14px;
+  border-inline-start: 2px solid var(--accent);
+}
+.collection-info a:has(.collection-count)::before {
+  content: "";
+  order: 1;
+  flex: 1 1 6px;
+  min-width: 3px;
+  margin-inline: 1px;
+  border-bottom: 1px dotted var(--rule);
+}
+.collection-info a[aria-current] .collection-label { font-weight: 600; }
+.collection-count { order: 2; color: var(--subtle); font: .75rem/1.1 var(--mono); font-variant-numeric: tabular-nums; }
+.index-row { border-color: var(--page-rule); padding-top: 16px; }
+.index-label { margin-bottom: 10px; font-size: .76rem; }
+.select-group { gap: 13px; }
+.select-group label { font-size: .81rem; }
+.select-group select {
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 0;
+  min-height: 34px;
+  padding: 3px 0 5px;
+  background: transparent;
+}
+.select-group option { color: var(--ink); background: var(--field); }
+.paper-tabs { gap: 1px; }
+.tab, .tab[aria-pressed=true] {
+  min-height: 30px;
+  padding: 4px 8px 4px 11px;
+  border: 0;
+  border-inline-start: 1px solid var(--page-rule);
+  background: transparent;
+  text-align: start;
+}
+.tab[aria-pressed=true] { border-inline-start: 2px solid var(--accent); padding-inline-start: 10px; }
+.catalog-results { min-width: 0; }
+.catalog-head { min-height: 46px; margin-bottom: 15px; padding-bottom: 11px; align-items: baseline; }
+#browse-title { font-size: clamp(1.48rem, 2vw, 2.05rem); }
+.heading-group { gap: 3px 12px; }
+.total { font-size: .76rem; }
+#search-form {
+  width: clamp(180px, 19vw, 280px);
+  align-self: center;
+  padding: 0 3px;
+  gap: 10px;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  border-radius: 0;
+  background: transparent;
+}
+#search-form:focus-within { border-color: var(--accent); }
+#query { height: 30px; font-size: .84rem; }
+.photo-grid { column-gap: clamp(8px, .85vw, 15px); row-gap: clamp(14px, 1.2vw, 22px); }
+.bird-card {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--plate-rule);
+  background: transparent;
+}
+.image-frame { aspect-ratio: 1.34; background: var(--field); }
+.caption { padding: 7px 0 10px; gap: 2px; }
+.card-name { font: 550 clamp(.92rem, 1.05vw, 1.12rem)/1.42 var(--serif); text-wrap: pretty; }
+.card-latin { font: italic clamp(.73rem, .8vw, .83rem)/1.33 var(--serif); color: var(--subtle); }
+.plate-date { margin-top: 4px; font: .76rem/1.4 var(--sans); color: var(--subtle); }
+.photo-grid[data-scope=history] .image-frame { background: #20221e; }
+.photo-grid[data-scope=history] img { object-fit: contain; }
+@media (min-width: 741px) {
+  .photo-grid[data-scope=history] { --columns: 5; }
+}
+@media (hover: hover) {
+  .bird-card:hover { border-color: var(--stamp); box-shadow: none; }
+  .bird-card:hover img { transform: none; }
+  .bird-card:hover .card-name, .collection-info a:hover .collection-label { text-decoration: underline; text-underline-offset: .21em; }
+  .tab:hover { background: transparent; text-decoration: underline; }
+}
+.directory { background: transparent; }
+.directory th { background: transparent; border-bottom-color: var(--rule); }
+.directory td { border-bottom-color: var(--page-rule); }
+.directory th:first-child, .directory td:first-child { padding-inline-start: 0; }
+.pager { justify-content: space-between; padding: 18px 0 0; }
+.pager .line-button { background: transparent; }
+.pager .line-button:disabled { visibility: hidden; }
+@media (min-width: 741px) and (max-width: 959px) {
+  .catalog-layout { grid-template-columns: 146px minmax(0,1fr); column-gap: 19px; }
+}
+@media (max-width: 740px) {
+  .catalog-layout { grid-template-columns: minmax(0,1fr); row-gap: 14px; padding-top: 14px; }
+  .archive-sidebar { border: 0; border-block: 1px solid var(--rule); border-radius: 0; background: transparent; }
+  .archive-sidebar summary { min-height: 36px; border: 0; font-size: .97rem; }
+  .cabinet-body { border-top-color: var(--page-rule); }
+  .collection-info { column-gap: 16px; row-gap: 2px; margin: 6px 0 8px; }
+  .collection-info a { gap: 6px; }
+  .collection-info a:has(.collection-count)::before { display: none; }
+  .paper-tabs { gap: 5px; }
+  .index-row { padding-block: 12px; }
+  .photo-grid { column-gap: 7px; row-gap: 12px; }
+  .caption { padding: 6px 0 8px; }
+}
+@media (max-width: 520px) {
+  .catalog-head { gap: 7px; min-height: 0; padding-bottom: 9px; align-items: stretch; }
+  #search-form { width: 100%; }
+  .photo-grid { gap: 10px 6px; }
+  .image-frame { aspect-ratio: 1.2; }
+  .caption { padding: 5px 0 7px; }
+  .card-name { font-size: .89rem; }
+  .plate-date { margin-top: 1px; font-size: .69rem; }
+}

@@ -7,18 +7,19 @@
   <script src="assets/appearance.js?v=4"></script>
   <meta name="description" data-en-content="Explore bird photography and search the world checklist by Chinese, English or scientific name and taxonomy." content="浏览真实的鸟类摄影，按中文名、英文名、学名或分类检索世界鸟类档案。">
   <title>鸟类档案馆</title>
-  <link rel="icon" type="image/svg+xml" href="assets/emblem.svg">
+  <link rel="icon" type="image/jpeg" href="assets/blue-footed-booby.jpg">
   <link rel="preload" href="assets/fonts/archive-song.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/site.css?v=4">
-  <link rel="stylesheet" href="assets/record.css?v=4">
+  <link rel="stylesheet" href="assets/site.css?v=5">
+  <link rel="stylesheet" href="assets/catalog.css?v=5">
+  <link rel="stylesheet" href="assets/record.css?v=5">
   <link rel="stylesheet" href="assets/type.css?v=4">
-  <script type="module" src="assets/app.js?v=4.1"></script>
+  <script type="module" src="assets/app.js?v=5"></script>
 </head>
 <body>
   <a class="skip-link" data-en="Skip to main content" href="#content">跳到主要内容</a>
   <header class="masthead">
     <div class="shell head-inner">
-      <a class="brand" href="#gallery" data-nav><img src="assets/emblem.svg" alt="" width="38" height="38"><span data-en="Bird Archive">鸟类档案馆</span></a>
+      <a class="brand" href="#gallery" data-nav><span class="brand-portrait"><img src="assets/blue-footed-booby.jpg" alt="" width="940" height="940"></span><span data-en="Bird Archive">鸟类档案馆</span></a>
       <nav class="primary-nav" aria-label="馆内导航" data-en-aria="Main navigation">
         <a href="#gallery" data-nav data-section="gallery" data-en="Photo gallery">影像总览</a>
         <a href="#checklist" data-nav data-section="checklist" data-en="World checklist">全球名录</a>
@@ -35,22 +36,26 @@
     <section id="archive-cover" aria-labelledby="cover-title">
       <div class="cover-inner shell">
         <div class="cover-copy">
-          <div class="cover-edition"><span>AviList</span><span>v2026</span></div>
+          <div class="cover-edition"><span lang="la">Ornithologia</span><span>AviList v2026</span></div>
           <h1 id="cover-title" data-en="The World Bird Archive">世界鸟类图录</h1>
-          <p class="cover-intro" data-en="Explore the world's birds through photographs and species records.">从一张实拍照片，查阅一个物种的档案。</p>
           <dl class="cover-stats">
             <div><dt data-en="Species">收录物种</dt><dd id="cover-species">11,172</dd></div>
             <div><dt data-en="Orders">目</dt><dd id="cover-orders">45</dd></div>
             <div><dt data-en="Families">科</dt><dd id="cover-families">250</dd></div>
           </dl>
         </div>
-        <div class="cover-display">
-          <a class="cover-plate" id="link-cover-bullfinch" href="#bird/BH-0005" data-nav data-opener="cover-bullfinch">
-            <span class="cover-print"><img src="photos/bullfinch.webp" fetchpriority="high" alt="" width="900" height="643"></span>
-            <span class="cover-slip"><span><strong data-en="Eurasian Bullfinch">红腹灰雀</strong><i lang="la">Pyrrhula pyrrhula</i></span><span class="accession">BH-0005</span></span>
+        <figure class="frontispiece">
+          <a class="cover-plate" id="link-cover-booby" href="#bird/avibase-649F85B5?from=gallery" data-nav data-opener="cover-booby" aria-labelledby="plate-name plate-latin">
+            <img src="assets/blue-footed-booby.jpg" alt="" width="940" height="940" fetchpriority="high">
           </a>
-          <span class="cover-credit"><a href="https://commons.wikimedia.org/wiki/File:Bullfinch_male.jpg">© Francis C. Franklin</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></span>
-        </div>
+          <figcaption class="specimen-ticket">
+            <span class="ticket-heading" data-en="Cover photograph">扉页摄影</span>
+            <a class="ticket-name" id="plate-name" href="#bird/avibase-649F85B5?from=gallery" data-nav data-opener="cover-booby" data-en="Blue-footed Booby">蓝脚鲣鸟</a>
+            <i id="plate-latin" lang="la">Sula nebouxii</i>
+            <span class="ticket-id">Avibase · 649F85B5</span>
+            <span class="ticket-credit"><span data-en="From the archive owner">馆主提供</span> · <a href="assets/blue-footed-booby.jpg" target="_blank" rel="noopener" data-en="Full image">查看原图</a></span>
+          </figcaption>
+        </figure>
       </div>
     </section>
     <section id="browse" class="catalog-layout shell" aria-labelledby="browse-title">

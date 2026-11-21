@@ -15,7 +15,7 @@ const speciesById = new Map();
 const speciesByLatin = new Map();
 const observationPhotos = new Map();
 const accountShards = new Map();
-let photos, catalog, names, directories, namesWarning = false;
+let photos, historyPhotos, catalog, names, directories, namesWarning = false;
 let photoRequest, catalogRequest, namesRequest;
 let observationIndex, observationRequest, observationWarning = false, galleryData;
 let references, referencesRequest, coverage;
@@ -76,6 +76,7 @@ function loadPhotos() {
       photoByLatin.set(photo.latin, photo);
     }
     photos = rows;
+    historyPhotos = photos.filter(photo => photo.file?.startsWith('history-') && photo.photographed);
     indexSelectedTaxa();
     directories = galleryData = coverage = undefined;
   }).catch(err => { photoRequest = undefined; throw err; });
@@ -207,9 +208,10 @@ function readRoute() {
     try { id = decodeURIComponent(encoded); } catch { id = encoded; }
   }
   const view=section === checklist || (section === 'bird' && (params.get('from') === checklist || (params.get('from')!==gallery && id.startsWith('avibase-')))) ? checklist : gallery;
+  const scope=params.get('scope');
   return {
     view,
-    all:view===gallery && params.get('scope')!=='selected',
+    scope:view===gallery ? (['selected','history'].includes(scope) ? scope : 'all') : '',
     id, q:params.get('q') || '', order:params.get('order') || '', family:params.get('family') || '',
     media:view===checklist && ['with','missing'].includes(params.get('media')) ? params.get('media') : '',
     page: Math.max(1,parseInt(params.get('page'),10) || 1)
@@ -218,7 +220,7 @@ function readRoute() {
 function urlFor(route) {
   const params = new URLSearchParams();
   if (route.id && (route.view === checklist || route.id.startsWith('avibase-'))) params.set('from',route.view);
-  if (route.all===false && route.view===gallery) params.set('scope','selected');
+  if (route.view===gallery && ['selected','history'].includes(route.scope)) params.set('scope',route.scope);
   for (const key of ['q','order','family','media']) if (route[key]) params.set(key,route[key]);
   if (route.page > 1) params.set('page',String(route.page));
   const search = params.toString();
@@ -252,7 +254,12 @@ function toggle(section, hasDetail) {
   }
 }
 function backButton(route) {
-  const a = element('a','return',route.view === checklist ? t('返回全球名录','Back to world checklist') : t('返回影像总览','Back to photo gallery'));
+  const labels={
+    all:t('返回影像总览','Back to photo gallery'),
+    selected:t('返回摄影选集','Back to selected photographs'),
+    history:t('返回历史影像','Back to historical photographs')
+  };
+  const a = element('a','return',labels[route.scope] || t('返回全球名录','Back to world checklist'));
   a.href = urlFor({...route,id:''});
   a.dataset.back = '';
   return a;
@@ -288,7 +295,7 @@ function optionList(select, values, current, label, kind) {
   select.value = current;
 }
 function fillFilters(route, rows) {
-  const isDirectory = route.view === checklist || route.all;
+  const isDirectory = route.view === checklist || route.scope==='all';
   el('photo-filter').hidden = route.view !== checklist;
   el('media').value = route.media || '';
   const tabs = el('paper-tabs');
@@ -361,16 +368,22 @@ function photoFigure(photo, full=false) {
 }
 function photoCards(rows,route) {
   const grid = element('div','photo-grid');
+  grid.dataset.scope=route.scope;
+  const firstRow=window.matchMedia('(max-width: 740px)').matches ? 5 : 8;
   for (const [index,photo] of rows.entries()) {
     const link = birdLink(route,photo.id,'bird-card');
     const frame = element('span','image-frame');
     const img=photoFigure(photo);
-    if (index < 3) img.loading = 'eager';
+    if (index < firstRow) img.loading = 'eager';
     frame.append(img);
     const name=displayName(photo);
     const caption=element('span','caption');
     caption.append(element('span','card-name',name));
     if (photo.latin && photo.latin !== name) caption.append(element('i','card-latin',photo.latin));
+    if (route.scope==='history') {
+      const date=t(photo.photographed,photo.enPhotographed || photo.photographed);
+      if (date) caption.append(element('span','plate-date',date));
+    }
     link.append(frame,caption);
     grid.append(link);
   }
@@ -403,10 +416,18 @@ function navigationLink(text,route) {
 function showCollectionInfo(route) {
   const info=el('collection-info');
   if (route.view===gallery) {
-    const selected=navigationLink(t('摄影选集','Selected photographs'),{view:gallery,all:false,q:route.q});
-    const all=navigationLink(t('全部实拍','All photographs'),{view:gallery,all:true,q:route.q});
-    (route.all ? all : selected).setAttribute('aria-current','page');
-    info.replaceChildren(all,selected);
+    const links=[
+      ['all',t('全部实拍','All photographs'),observationIndex && galleryData?.length],
+      ['selected',t('摄影选集','Selected photographs'),photos?.length],
+      ['history',t('历史影像','Historical photographs'),historyPhotos?.length]
+    ].map(([scope,label,total])=>{
+      const link=navigationLink('',{view:gallery,scope,q:route.q});
+      link.append(element('span','collection-label',label));
+      if (Number.isInteger(total)) link.append(element('span','collection-count',count(total)));
+      if (route.scope===scope) link.setAttribute('aria-current','page');
+      return link;
+    });
+    info.replaceChildren(...links);
     return;
   }
   if (!coverage) {
@@ -425,8 +446,11 @@ function showCollectionInfo(route) {
 function drawList(route) {
   const isDirectory = route.view === checklist;
   const combinedReady=catalog && (observationIndex || observationWarning) && (names || namesWarning);
-  const pendingGallery=!isDirectory && route.all && !combinedReady;
-  const sourceRows = isDirectory ? (catalog ? prepareDirectory() : null) : (route.all && combinedReady ? buildPhotos() : photos);
+  const pendingGallery=route.scope==='all' && !combinedReady;
+  let sourceRows = photos;
+  if (isDirectory) sourceRows=catalog ? prepareDirectory() : null;
+  else if (route.scope==='history') sourceRows=historyPhotos;
+  else if (route.scope==='all' && combinedReady) sourceRows=buildPhotos();
   if (!sourceRows) return;
   results.setAttribute('aria-busy',String(pendingGallery));
   showCollectionInfo(route);
@@ -479,7 +503,7 @@ function drawList(route) {
     const box=statusBox(t('中文名称暂时未载入，可用英文名和学名检索。','Chinese names are unavailable. Search by English or scientific name.'),routePage);
     results.prepend(box);
   }
-  if ((isDirectory || route.all) && observationWarning) results.append(statusBox(t('扩展实拍索引暂时无法载入，已保留可用档案。','The extended photo index could not load. Available records are shown.'),routePage));
+  if ((isDirectory || route.scope==='all') && observationWarning) results.append(statusBox(t('扩展实拍索引暂时无法载入，已保留可用档案。','The extended photo index could not load. Available records are shown.'),routePage));
 }
 function creditLinks(photo) {
   return [external(photo.credit.filePage,photo.credit.author),' · ',external(photo.credit.licenseUrl,t(photo.credit.license,photo.credit.enLicense || photo.credit.license))];
@@ -655,20 +679,25 @@ async function routePage(preserve) {
   el('pager').hidden = true;
   const target=detail ? el('record') : results;
   if (!detail) {
-    el('browse-title').textContent=route.view===gallery ? t('馆藏影像','Bird photographs') : t('全球鸟类名录','World bird checklist');
+    const titles={
+      all:t('馆藏影像','Bird photographs'),
+      selected:t('摄影选集','Selected photographs'),
+      history:t('历史影像','Historical photographs')
+    };
+    el('browse-title').textContent=titles[route.scope] || t('全球鸟类名录','World bird checklist');
     document.title=el('browse-title').textContent+' · '+archiveName();
     el('total').textContent='';
     if (route.view===gallery) showCollectionInfo(route);
     else el('collection-info').replaceChildren();
     query.value=route.q;
-    el('paper-tabs').hidden=route.view!==gallery || route.all;
-    el('taxonomy').hidden=route.view!==checklist && !route.all;
+    el('paper-tabs').hidden=route.view!==gallery || route.scope==='all';
+    el('taxonomy').hidden=route.view!==checklist && route.scope!=='all';
     results.setAttribute('aria-busy','true');
     el('reset').hidden=true;
   }
   if (!preserve?.languageChange) target.replaceChildren(statusBox(t('正在读取档案…','Loading records…')));
   try {
-    const needCatalog = detail ? !route.id.startsWith('BH-') : route.view===checklist || route.all;
+    const needCatalog = detail ? !route.id.startsWith('BH-') : route.view===checklist || route.scope==='all';
     if (!detail && route.view===gallery && !galleryData) {
       // Offer the local collection and its filters while the global indexes load.
       await loadPhotos().catch(()=>{});
@@ -716,15 +745,17 @@ async function routePage(preserve) {
   } catch {
     if (token!==revision) return;
     results.setAttribute('aria-busy','false');
-    if (!detail && route.view===gallery && route.all && !photos) {
+    if (!detail && route.scope==='all' && !photos) {
       await loadPhotos().catch(()=>{});
       if (token!==revision) return;
     }
-    if (!detail && route.view===gallery && route.all && photos) {
-      const fallback={...readRoute(),view:gallery,all:false,order:'',family:'',page:1};
+    if (!detail && route.scope==='all' && photos) {
+      const fallback={...readRoute(),view:gallery,scope:'selected',order:'',family:'',page:1};
       history.replaceState(history.state,'',urlFor(fallback));
+      el('browse-title').textContent=t('摄影选集','Selected photographs');
+      document.title=el('browse-title').textContent+' · '+archiveName();
       drawList(fallback);
-      results.append(statusBox(t('扩展名录尚未载入，当前显示摄影选集。','The extended checklist could not load. Showing selected photographs.'),()=>navigate(urlFor({...readRoute(),all:true}))));
+      results.append(statusBox(t('扩展名录尚未载入，当前显示摄影选集。','The extended checklist could not load. Showing selected photographs.'),()=>navigate(urlFor({...readRoute(),scope:'all'}))));
       return;
     }
     const box=statusBox(t('资料暂时无法载入，请检查网络后重试。','The data could not load. Check your connection and try again.'),routePage);

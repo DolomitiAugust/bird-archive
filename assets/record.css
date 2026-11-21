@@ -3,12 +3,9 @@
   --record-muted: #536153;
   --record-rule: #c7c1ab;
   --record-paper: #fbf8ed;
-  --record-index: #edead9;
   --record-edge: #ebe6d5;
-  --record-tab: #233f35;
-  --record-tab-text: #fff8df;
-  --record-mount: #203a31;
-  --record-brass: #938863;
+  --record-mount: #e3decc;
+  --record-spine: #544b3026;
   --record-row: #e4dfce;
 }
 html[data-theme="dark"] #record {
@@ -16,12 +13,9 @@ html[data-theme="dark"] #record {
   --record-muted: #bcc7b8;
   --record-rule: #465648;
   --record-paper: #1c2923;
-  --record-index: #25362e;
   --record-edge: #121b16;
-  --record-tab: #d2b880;
-  --record-tab-text: #223429;
-  --record-mount: #122019;
-  --record-brass: #88784e;
+  --record-mount: #50564a;
+  --record-spine: #07140e85;
   --record-row: #39493e;
 }
 html[data-theme="dark"] .record-folio a {
@@ -33,7 +27,6 @@ html[data-theme="dark"] .record-folio a:hover {
   text-decoration-color: currentColor;
 }
 html[data-theme="dark"] #record :focus-visible { outline-color: #edd199; }
-html[data-theme="dark"] .folio-classification h2 { border-top-color: var(--record-brass); }
 html[data-theme="dark"] #record .unavailable-photo {
   color: var(--record-muted);
   background: var(--record-mount);
@@ -59,32 +52,31 @@ html[data-theme="dark"] #record .unavailable-photo {
 }
 #record .return:hover { text-decoration: underline; }
 .record-folio {
+  --page-gutter: clamp(19px,3.4vw,46px);
   color: var(--record-ink);
-  background: var(--record-paper);
-  border: 1px solid var(--record-rule);
-  box-shadow: 0 3px 0 -1px var(--record-edge), 0 4px 0 -1px var(--record-rule);
+  background-color: var(--record-paper);
+  background-image: url("grain.png"), linear-gradient(90deg,var(--record-spine),transparent 11px);
+  background-blend-mode: soft-light, normal;
+  padding-top: clamp(16px,2.4vw,32px);
+  border-inline-start: 1px solid var(--record-rule);
+  box-shadow: 0 2px var(--record-edge), 0 3px var(--record-rule), 0 6px 9px -6px #0e140d8a;
 }
 .folio-index {
   display: flex;
-  align-items: stretch;
+  align-items: baseline;
   justify-content: space-between;
   gap: 10px;
-  min-height: 41px;
-  border-bottom: 1px solid var(--record-rule);
-  background: var(--record-index);
+  margin-inline: var(--page-gutter);
+  padding-block-end: 9px;
+  border-bottom: 3px double var(--record-rule);
 }
 .folio-tab {
-  display: flex;
-  align-items: center;
-  padding: 0 30px 0 21px;
-  background: var(--record-tab);
-  color: var(--record-tab-text);
-  clip-path: polygon(0 0,100% 0,calc(100% - 11px) 100%,0 100%);
-  font: 500 .89rem/1.3 var(--serif);
-  letter-spacing: .1em;
+  color: var(--record-ink);
+  font: 550 .99rem/1.3 var(--serif);
+  letter-spacing: .075em;
+  font-variant-caps: small-caps;
 }
 .folio-identifier {
-  padding: 8px clamp(12px,2vw,28px) 8px 0;
   display: inline-flex;
   align-items: center;
   flex-wrap: wrap;
@@ -100,12 +92,12 @@ html[data-theme="dark"] #record .unavailable-photo {
 }
 .folio-spread {
   display: grid;
-  grid-template-columns: minmax(0,1.2fr) minmax(0,1fr);
+  grid-template-columns: minmax(0,1.26fr) minmax(0,1fr);
   grid-template-areas: "plate heading" "plate classification";
   grid-template-rows: auto 1fr;
   align-items: start;
   gap: 0 clamp(22px,4vw,60px);
-  padding: clamp(19px,3.4vw,46px);
+  padding: clamp(22px,3vw,40px) var(--page-gutter);
 }
 .folio-heading { grid-area: heading; padding: 2px 0 clamp(18px,2.5vw,32px); }
 .folio-heading h1 {
@@ -123,20 +115,16 @@ html:lang(en) .folio-heading h1 { letter-spacing: -.035em; }
 }
 .folio-plate { grid-area: plate; min-width: 0; margin: 0; }
 .plate-mount {
-  position: relative;
-  display: grid;
-  place-items: center;
-  min-height: 150px;
-  padding: clamp(11px,1.6vw,22px);
-  background: var(--record-mount);
-  border: 1px solid var(--record-rule);
-}
-.plate-mount::after {
-  position: absolute;
-  content: "";
-  inset: clamp(5px,.65vw,9px);
-  border: 1px solid var(--record-brass);
-  pointer-events: none;
+  --mat: clamp(11px,1.35vw,20px);
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+  padding: var(--mat) var(--mat) calc(var(--mat) * 1.55);
+  background-color: var(--record-mount);
+  background-image: url("grain.png");
+  background-blend-mode: soft-light;
+  box-shadow: inset 0 1px 0 #ffffff2e, inset 0 -1px 0 #0002,
+    0 1px 2px #10170e33, 0 5px 8px -5px #10170e96;
 }
 .plate-mount .record-photo {
   display: block;
@@ -146,16 +134,18 @@ html:lang(en) .folio-heading h1 { letter-spacing: -.035em; }
   max-height: min(58vh,540px);
   background: transparent;
   object-fit: contain;
+  outline: 1px solid #1b241c61;
+  box-shadow: 0 1px 0 1px #ffffff45;
 }
 .folio-plate figcaption {
   color: var(--record-muted);
-  padding: 13px 0 0;
+  padding: 15px 0 0;
   font-size: .82rem;
   line-height: 1.65;
   overflow-wrap: anywhere;
 }
 .folio-plate figcaption p { margin: 0 0 3px; }
-.folio-plate .plate-credit { font-size: .88rem; color: var(--record-ink); }
+.folio-plate .plate-credit { font: 500 .88rem/1.6 var(--serif); color: var(--record-ink); }
 .plate-processing { display: inline-block; margin-top: 3px; }
 .plate-processing summary { font-size: .78rem; }
 .plate-processing p { padding-top: 4px; }
@@ -164,8 +154,7 @@ html:lang(en) .folio-heading h1 { letter-spacing: -.035em; }
   margin: 0;
   color: var(--record-ink);
   font: 500 1.16rem/1.35 var(--serif);
-  padding: 11px 0;
-  border-top: 2px solid var(--record-ink);
+  padding: 2px 0 10px;
   border-bottom: 1px solid var(--record-rule);
 }
 .folio-classification .facts {
@@ -182,7 +171,7 @@ html:lang(en) .folio-heading h1 { letter-spacing: -.035em; }
 }
 .folio-classification .facts dt,.folio-classification .facts dd {
   padding: 8px 0;
-  border-bottom: 1px solid var(--record-row);
+  border-bottom: 1px dotted var(--record-rule);
 }
 .folio-classification .facts dt { color: var(--record-muted); padding-right: 12px; }
 .folio-classification .facts dd { margin: 0; }
@@ -193,8 +182,9 @@ html:lang(en) .folio-heading h1 { letter-spacing: -.035em; }
   grid-template-columns: minmax(0,1.48fr) minmax(0,.72fr);
   gap: clamp(22px,5vw,72px);
   align-items: start;
-  padding: clamp(19px,3.4vw,46px);
-  border-top: 1px solid var(--record-rule);
+  margin-inline: var(--page-gutter);
+  padding-block: clamp(20px,3vw,40px);
+  border-top: 3px double var(--record-rule);
 }
 .record-folio .record-section { max-width: 78ch; margin: 0; }
 .record-folio .record-section + .record-section { margin-top: 26px; }
@@ -206,7 +196,7 @@ html:lang(en) .folio-heading h1 { letter-spacing: -.035em; }
 .record-folio .record-body .note { margin: 0 0 8px; font-size: 1rem; line-height: 1.8; }
 .record-folio .source-link { color: var(--record-muted); font-size: .82rem; line-height: 1.65; }
 .folio-references {
-  border-left: 1px solid var(--record-rule);
+  border-left: 1px solid var(--record-row);
   padding-left: clamp(15px,2.8vw,35px);
   min-width: 0;
 }
@@ -242,9 +232,9 @@ html:lang(en) .folio-heading h1 { letter-spacing: -.035em; }
   .folio-references { padding: 18px 0 0; border-left: 0; border-top: 1px solid var(--record-rule); }
 }
 @media (max-width:400px) {
-  .folio-tab { padding-inline: 12px 24px; letter-spacing: .03em; }
+  .record-folio { --page-gutter: 15px; }
+  .folio-tab { letter-spacing: .03em; }
   .folio-identifier { max-width: 65%; }
-  .folio-index { min-height: 36px; }
-  .folio-spread,.folio-notes { padding: 15px; }
+  .folio-spread { padding-block: 18px; }
   .folio-classification .facts { font-size: .88rem; }
 }
