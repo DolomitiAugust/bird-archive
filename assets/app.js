@@ -89,6 +89,15 @@ function loadCatalog() {
       speciesByLatin.set(species.latin, species);
     }
     catalog = data;
+    const totals = {
+      'cover-species': data.species.length,
+      'cover-orders': new Set(data.species.map(row => row.order).filter(Boolean)).size,
+      'cover-families': new Set(data.species.map(row => row.family).filter(Boolean)).size
+    };
+    for (const [id, total] of Object.entries(totals)) {
+      const field = el(id);
+      if (field) field.textContent = count(total);
+    }
   }).catch(err => { catalogRequest = undefined; throw err; });
   return catalogRequest;
 }
@@ -235,6 +244,8 @@ function updateList(changes, pageTop = false) {
 function toggle(section, hasDetail) {
   el('browse').hidden = hasDetail;
   el('record').hidden = !hasDetail;
+  const cover = el('archive-cover');
+  if (cover) cover.hidden = hasDetail || section !== gallery;
   for (const link of document.querySelectorAll('[data-section]')) {
     if (link.dataset.section === section) link.setAttribute('aria-current','page');
     else link.removeAttribute('aria-current');
@@ -291,34 +302,36 @@ function fillFilters(route, rows) {
       const latin=speciesByLatin.get(photo.latin)?.order || photo.order;
       if (latin && !orders.has(latin)) orders.set(latin,t(names?.orders?.[latin]?.zh || photo.order,taxonLabel('orders',latin)));
     }
-    if (tabs.childElementCount !== orders.size || tabs.dataset.language!==language) {
+    const labelsChanged=Array.from(tabs.children).some(button=>orders.get(button.dataset.order)!==button.textContent);
+    if (tabs.childElementCount !== orders.size || labelsChanged) {
       tabs.replaceChildren(...Array.from(orders,([order,label]) => {
         const btn = element('button','tab',label);
         btn.type='button';
         btn.dataset.order = order;
         return btn;
       }));
-      tabs.dataset.language=language;
     }
     const selected=curatedTaxa.get(route.order) || route.order;
     for (const button of tabs.children) button.setAttribute('aria-pressed', String(selected === button.dataset.order));
     return;
   }
-  const key=[route.view,rows.length,namesWarning,language,Boolean(englishTaxa)].join(':');
+  const order=curatedTaxa.get(route.order) || route.order;
+  const family=curatedTaxa.get(route.family) || route.family;
+  const key=[route.view,rows.length,Boolean(catalog),Boolean(names),language,Boolean(englishTaxa)].join(':');
   const taxon=row=>row.species || speciesByLatin.get(row.latin) || row;
   if (el('order').dataset.version !== key) {
     const orders = [...new Set(rows.map(r=>taxon(r).order))].filter(Boolean);
-    optionList(el('order'),orders,route.order,t('全部目','All orders'),'orders');
+    optionList(el('order'),orders,order,t('全部目','All orders'),'orders');
     el('order').dataset.version = key;
     delete el('family').dataset.order;
   }
-  el('order').value = route.order;
-  if (el('family').dataset.order !== route.order) {
-    const familyRows = route.order ? rows.filter(r => taxon(r).order === route.order) : rows;
-    optionList(el('family'), [...new Set(familyRows.map(r=>taxon(r).family))].filter(Boolean), route.family,t('全部科','All families'),'families');
-    el('family').dataset.order = route.order;
+  el('order').value = order;
+  if (el('family').dataset.order !== order) {
+    const familyRows = order ? rows.filter(r => taxon(r).order === order) : rows;
+    optionList(el('family'), [...new Set(familyRows.map(r=>taxon(r).family))].filter(Boolean), family,t('全部科','All families'),'families');
+    el('family').dataset.order = order;
   }
-  el('family').value = route.family;
+  el('family').value = family;
 }
 function birdLink(route, id, className, label) {
   const link = element('a',className,label);
@@ -354,7 +367,11 @@ function photoCards(rows,route) {
     const img=photoFigure(photo);
     if (index < 3) img.loading = 'eager';
     frame.append(img);
-    link.append(frame,element('span','caption',displayName(photo)));
+    const name=displayName(photo);
+    const caption=element('span','caption');
+    caption.append(element('span','card-name',name));
+    if (photo.latin && photo.latin !== name) caption.append(element('i','card-latin',photo.latin));
+    link.append(frame,caption);
     grid.append(link);
   }
   return grid;
@@ -389,7 +406,7 @@ function showCollectionInfo(route) {
     const selected=navigationLink(t('摄影选集','Selected photographs'),{view:gallery,all:false,q:route.q});
     const all=navigationLink(t('全部实拍','All photographs'),{view:gallery,all:true,q:route.q});
     (route.all ? all : selected).setAttribute('aria-current','page');
-    info.replaceChildren(all,selected,navigationLink(t('查阅全球名录','Explore the checklist'),{view:checklist,q:route.q}));
+    info.replaceChildren(all,selected);
     return;
   }
   if (!coverage) {
@@ -408,35 +425,41 @@ function showCollectionInfo(route) {
 function drawList(route) {
   const isDirectory = route.view === checklist;
   const combinedReady=catalog && (observationIndex || observationWarning) && (names || namesWarning);
-  const sourceRows = isDirectory ? (catalog ? prepareDirectory() : null) : (route.all ? (combinedReady ? buildPhotos() : null) : photos);
+  const pendingGallery=!isDirectory && route.all && !combinedReady;
+  const sourceRows = isDirectory ? (catalog ? prepareDirectory() : null) : (route.all && combinedReady ? buildPhotos() : photos);
   if (!sourceRows) return;
+  results.setAttribute('aria-busy',String(pendingGallery));
   showCollectionInfo(route);
   query.value = route.q;
   fillFilters(route,sourceRows);
   el('reset').hidden = !(route.q || route.order || route.family || route.media);
   const words = normalize(route.q).split(/\s+/).filter(Boolean);
   const order=curatedTaxa.get(route.order) || route.order;
+  const family=curatedTaxa.get(route.family) || route.family;
   const matching = sourceRows.filter(row => {
     const species = isDirectory ? row.species : speciesByLatin.get(row.latin) || row;
     return (!order || species.order === order) &&
       (!isDirectory || !route.media || Boolean(row.photo) === (route.media === 'with')) &&
-      (!route.family || species.family === route.family) && words.every(w => row.search.includes(w));
+      (!family || species.family === family) && words.every(w => row.search.includes(w));
   });
   const limit=isDirectory ? perPage : photosPerPage;
   lastPage = Math.max(1,Math.ceil(matching.length/limit));
-  currentPage = Math.min(lastPage,route.page);
+  currentPage = pendingGallery ? route.page : Math.min(lastPage,route.page);
   if (route.page !== currentPage) {
     route.page=currentPage;
     history.replaceState(history.state,'',urlFor(route));
   }
-  el('total').textContent = speciesCount(matching.length);
-  el('status').textContent = t('找到 '+speciesCount(matching.length)+'鸟',speciesCount(matching.length)+' found');
-  el('pager').hidden = lastPage < 2;
+  const loadingText=t('正在读取全部实拍…','Loading the complete gallery…');
+  el('total').textContent = pendingGallery ? loadingText : speciesCount(matching.length);
+  el('status').textContent = pendingGallery ? loadingText : t('找到 '+speciesCount(matching.length)+'鸟',speciesCount(matching.length)+' found');
+  el('pager').hidden = pendingGallery || lastPage < 2;
   el('previous').disabled = currentPage===1;
   el('next').disabled = currentPage===lastPage;
   el('page-number').textContent = currentPage+' / '+lastPage;
   el('page-number').setAttribute('aria-label',t('第 '+currentPage+' 页，共 '+lastPage+' 页','Page '+currentPage+' of '+lastPage));
-  if (!matching.length) {
+  if (pendingGallery && (!matching.length || currentPage>lastPage)) {
+    results.replaceChildren(statusBox(loadingText));
+  } else if (!matching.length) {
     const box = statusBox(t('没有找到符合条件的鸟种。','No species match your search.'));
     if (!isDirectory && route.q) {
       const a = element('a','text-button',t('在全球名录中查找','Search the world checklist'));
@@ -507,14 +530,20 @@ async function showAccount(group,id) {
   group.hidden=false;
 }
 function showRecord(route,photo,species) {
-  const body=element('article','record-body');
-  const top=element('div','record-top');
-  top.append(element('span','record-stamp',t('物种档案','Species record')),element('span','record-id',photo?.id || species.id));
+  const folio=element('article','record-folio'+(photo?'':' without-photo'));
+  const index=element('div','folio-index');
+  const identifier=element('span','folio-identifier');
+  identifier.append(t('档案编号','Catalogue no.'), element('b','',photo?.id || species.id));
+  index.append(element('span','folio-tab',t('物种档案','Species record')),identifier);
+  const spread=element('div','folio-spread');
+  const heading=element('header','folio-heading');
   const name=displayName(photo || species);
   const title=element('h1','',name);
   title.id='record-title';title.tabIndex=-1;
   document.title=name+' · '+archiveName();
-  body.append(top,title,element('p','scientific',photo?.latin || species.latin));
+  heading.append(title,element('p','scientific',photo?.latin || species.latin));
+  const classification=element('section','folio-classification');
+  classification.append(element('h2','',t('分类记录','Classification')));
   const facts=element('dl','facts');
   if (language==='zh') fact(facts,'英文名',photo?.en || species?.en);
   else {
@@ -532,60 +561,83 @@ function showRecord(route,photo,species) {
   fact(facts,t('属','Genus'),species?.genus || photo?.latin.split(' ')[0]);
   if (species?.extinction) fact(facts,t('名录状态（原文）','Checklist status'),species.extinction);
   if (!photo) fact(facts,t('影像','Photograph'),t('照片待补','Awaiting a photograph'));
-  body.append(facts);
+  classification.append(facts);
+  const body=element('div','record-body');
   const note=photo && t(photo.note,photo.enNote);
   if (note) {
-    body.append(element('h2','',t('辨识要点','Identification')),element('p','note',note));
+    const identification=element('section','record-section');
+    identification.append(element('h2','',t('辨识要点','Identification')),element('p','note',note));
     const source = element('p','source-link',t('辨识资料 · ','Identification source · '));
-    source.append(external(photo.url,t(photo.source,photo.enSource || new URL(photo.url).hostname)));body.append(source);
+    source.append(external(photo.url,t(photo.source,photo.enSource || new URL(photo.url).hostname)));
+    identification.append(source);
+    body.append(identification);
   }
-  const account=element('section','species-account');
+  const account=element('section','record-section species-account');
   account.hidden=true;
   body.append(account);
+  const distribution=element('section','record-section');
   if (species?.range) {
     const heading=element('h2','range-title',t('分布范围（英文原文）','Distribution'));
     const description=element('p','note',species.range);description.lang='en';
-    body.append(heading,description);
+    distribution.append(heading,description);
   }
   if (species) {
     const source=element('p','source-link',t('名录与分布资料 · ','Taxonomy and distribution · '));
     source.append(external(taxonomyPage,'AviList '+catalog.version),' · ',external(attributionLicense,'CC BY 4.0'));
-    body.append(source);
+    if (species.range) {
+      distribution.append(source);
+      body.append(distribution);
+    } else classification.append(source);
   }
+  const referencesPanel=element('aside','folio-references');
   const links=element('div','reading-links');
   readingLinks(links,species,photo);
-  body.append(links);
+  referencesPanel.append(links);
   const feedback=element('p','source-link feedback');
   const issue=new URL('https://github.com/DolomitiAugust/bird-archive/issues/new');
   issue.searchParams.set('title',t('档案修订 · ','Record correction · ')+name+' ('+(species?.latin || photo.latin)+')');
   issue.searchParams.set('body',t('档案编号：','Record ID: ')+(species?.id || photo.id)+t('\n原始照片或资料出处：\n建议修改：','\nPhoto or original source: \nSuggested correction: '));
   feedback.append(external(issue.toString(),t('反馈这份档案的图片或资料问题','Report a photo or record issue')));
-  body.append(feedback);
+  referencesPanel.append(feedback);
   if (!references) loadReferences().then(()=>{
     if (links.isConnected) readingLinks(links,species,photo);
   });
-  const folio=element('div','folio'+(photo?'':' no-photo'));
+  spread.append(heading);
   if (photo) {
-    const figure=element('figure');
+    const figure=element('figure','folio-plate');
+    const mount=element('div','plate-mount');
     const img=photoFigure(photo,true);img.className='record-photo';
+    mount.append(img);
     const caption=element('figcaption');
+    const byline=element('p','plate-credit');
     if (photo.sourcePhotoUrl) {
-      caption.append(t('摄影 · ','Photo · '),photo.credit.author,' · ',external(photo.credit.licenseUrl,photo.credit.license),
+      byline.append(t('摄影 · ','Photo · '),photo.credit.author,' · ',external(photo.credit.licenseUrl,photo.credit.license),
         ' · ',external(photo.sourcePhotoUrl,t('原始照片','Original photograph')));
-      if (photo.observationUrl && photo.observationUrl!==photo.sourcePhotoUrl) caption.append(' · ',external(photo.observationUrl,t('原始观测','Original observation')));
-      caption.append(element('br'),photo.sourceCollection);
-      if (photo.credit.license.includes('NC')) caption.append(t(' · 限非商业使用',' · Noncommercial use only'));
+      if (photo.observationUrl && photo.observationUrl!==photo.sourcePhotoUrl) byline.append(' · ',external(photo.observationUrl,t('原始观测','Original observation')));
+      if (photo.sourceCollection) byline.append(' · ',photo.sourceCollection);
+      if (photo.credit.license.includes('NC')) byline.append(t(' · 限非商业使用',' · Noncommercial use only'));
     } else {
-      caption.append(t('摄影 · ','Photo · '),...creditLinks(photo));
+      byline.append(t('摄影 · ','Photo · '),...creditLinks(photo));
     }
-    if (photo.captive) caption.append(element('br'),t('圈养活体摄影','Photograph of a captive bird'));
+    const date=t(photo.photographed,photo.enPhotographed);
+    if (date) byline.append(' · ', date);
+    caption.append(byline);
+    if (photo.captive) caption.append(element('p','',t('圈养活体摄影','Photograph of a captive bird')));
     const context=t(photo.imageContext,photo.enImageContext);
-    if (context) caption.append(element('br'),context);
+    if (context) caption.append(element('p','',context));
     const changes=t(photo.changes,photo.enChanges || 'Gallery thumbnails are cropped. The record shows the original proportions.');
-    if (changes) caption.append(element('br'),changes);
-    figure.append(img,caption);folio.append(figure);
+    if (changes) {
+      const processing=element('details','plate-processing');
+      processing.append(element('summary','',t('图像处理说明','Image processing')),element('p','',changes));
+      caption.append(processing);
+    }
+    figure.append(mount,caption);
+    spread.append(figure);
   }
-  folio.append(body);
+  spread.append(classification);
+  const notes=element('div','folio-notes');
+  notes.append(body,referencesPanel);
+  folio.append(index,spread,notes);
   el('record').replaceChildren(backButton(route),folio);
   if (species) showAccount(account,species.id);
 }
@@ -601,31 +653,28 @@ async function routePage(preserve) {
     el('browse-title').textContent=route.view===gallery ? t('馆藏影像','Bird photographs') : t('全球鸟类名录','World bird checklist');
     document.title=el('browse-title').textContent+' · '+archiveName();
     el('total').textContent='';
-    el('collection-info').replaceChildren();
+    if (route.view===gallery) showCollectionInfo(route);
+    else el('collection-info').replaceChildren();
     query.value=route.q;
-    el('paper-tabs').hidden=route.view!==gallery;
-    el('taxonomy').hidden=route.view!==checklist;
+    el('paper-tabs').hidden=route.view!==gallery || route.all;
+    el('taxonomy').hidden=route.view!==checklist && !route.all;
+    results.setAttribute('aria-busy','true');
     el('reset').hidden=true;
   }
   if (!preserve?.languageChange) target.replaceChildren(statusBox(t('正在读取档案…','Loading records…')));
   try {
     const needCatalog = detail ? !route.id.startsWith('BH-') : route.view===checklist || route.all;
-    if (needCatalog) {
-      // Paint the locally hosted collection before downloading the larger global indexes.
-      if (!detail && route.view===gallery && !galleryData) {
-        await loadPhotos().catch(()=>{});
+    if (!detail && route.view===gallery && !galleryData) {
+      // Offer the local collection and its filters while the global indexes load.
+      await loadPhotos().catch(()=>{});
+      if (token!==revision) return;
+      if (photos) {
+        drawList(readRoute());
+        await new Promise(resolve=>requestAnimationFrame(resolve));
         if (token!==revision) return;
-        const current=readRoute();
-        if (photos && current.page===1 && !current.order && !current.family && !current.q) {
-          el('total').textContent=t('正在读取全部实拍…','Loading the complete gallery…');
-          el('paper-tabs').hidden=true;
-          el('taxonomy').hidden=true;
-          showCollectionInfo(current);
-          results.replaceChildren(photoCards(photos.slice(0,24),current));
-          await new Promise(resolve=>requestAnimationFrame(resolve));
-          if (token!==revision) return;
-        }
       }
+    }
+    if (needCatalog) {
       await Promise.all([loadCatalog(),loadNames(),loadObservations(),loadEnglishTaxa(),loadPhotos().catch(()=>{})]);
       indexSelectedTaxa();
       buildPhotos();
@@ -661,6 +710,7 @@ async function routePage(preserve) {
     } else restorePosition(token,detail);
   } catch {
     if (token!==revision) return;
+    results.setAttribute('aria-busy','false');
     if (!detail && route.view===gallery && route.all && !photos) {
       await loadPhotos().catch(()=>{});
       if (token!==revision) return;
@@ -669,7 +719,7 @@ async function routePage(preserve) {
       const fallback={...readRoute(),view:gallery,all:false,order:'',family:'',page:1};
       history.replaceState(history.state,'',urlFor(fallback));
       drawList(fallback);
-      results.append(statusBox(t('扩展名录尚未载入，当前显示摄影选集。','The extended checklist could not load. Showing selected photographs.'),()=>navigate(urlFor(route))));
+      results.append(statusBox(t('扩展名录尚未载入，当前显示摄影选集。','The extended checklist could not load. Showing selected photographs.'),()=>navigate(urlFor({...readRoute(),all:true}))));
       return;
     }
     const box=statusBox(t('资料暂时无法载入，请检查网络后重试。','The data could not load. Check your connection and try again.'),routePage);
@@ -706,6 +756,13 @@ function showSources() {
   content.replaceChildren(text,nameInfo,element('p','',t('摄影选集的照片来自 Wikimedia Commons。选集使用等比例缩小的 WebP，卡片裁切展示，详情保留完整构图。','Selected photographs come from Wikimedia Commons. They are resized proportionally and converted to WebP. Gallery cards crop the image, and each species record shows the full composition.')),list,otherPhotos,gaps);
   if (!el('sources-dialog').open) el('sources-dialog').showModal();
 }
+const cabinet=el('cabinet-controls');
+if (cabinet) {
+  const narrow=window.matchMedia('(max-width: 740px)');
+  const applySize=()=>{ cabinet.open=!narrow.matches; };
+  applySize();
+  narrow.addEventListener('change',applySize);
+}
 for (const button of document.querySelectorAll('button[data-lang]')) {
   button.addEventListener('click',()=>{
     const refresh={languageChange:true, scroll:window.scrollY, focus:document.activeElement};
@@ -723,7 +780,7 @@ document.addEventListener('click',event => {
   event.preventDefault();
   if (link.classList.contains('skip-link')) { el('content').focus(); return; }
   if (link.hasAttribute('data-back') && history.state?.entered) { history.back(); return; }
-  navigate(link.hash,link.dataset.bird);
+  navigate(link.hash,link.dataset.opener || link.dataset.bird);
 });
 el('paper-tabs').addEventListener('click',e => {
   const button=e.target.closest('button[data-order]');
@@ -735,6 +792,7 @@ el('media').addEventListener('change',e=>updateList({media:e.target.value}));
 query.addEventListener('input',()=>updateList({q:query.value}));
 el('search-form').addEventListener('submit',e=>{
   e.preventDefault();
+  if (results.getAttribute('aria-busy')==='true') return;
   const links=results.querySelectorAll('a[data-bird]');
   if (links.length===1) links[0].click();
 });

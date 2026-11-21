@@ -2,9 +2,9 @@
 
 按真实摄影浏览鸟种，也可以按鸟名、学名或分类查阅全球名录。[打开档案馆](https://dolomitiaugust.github.io/bird-archive/)
 
-首次访问默认中文。页首的「中文 / English」可随时切换，保留当前档案、筛选条件和页码，并记住访客的选择。也可直接打开[英文版](https://dolomitiaugust.github.io/bird-archive/?lang=en)。
+首次访问默认中文和暗色。页首可切换语言及明暗外观，两项偏好分别保存。切换时保留当前档案、筛选条件和页码。也可直接打开[英文版](https://dolomitiaugust.github.io/bird-archive/?lang=en)。
 
-图库每格保留一张实拍和鸟名。打开档案可查分类、英文分布原文、已有简介、照片出处和使用许可。在[全球名录](https://dolomitiaugust.github.io/bird-archive/#checklist)中，可用中文名、地区别名、英文名或学名检索，也可按目、科或照片收录情况筛选。没有可靠照片的物种同样保留独立档案。[查看照片待补的物种](https://dolomitiaugust.github.io/bird-archive/#checklist?media=missing)
+封面照片可直接打开对应档案。图库左侧是分类目录，右侧的照片签列鸟名与学名，窄屏上简化为鸟名。打开档案可查分类、英文分布原文、已有简介、照片出处和使用许可。在全球名录中，可用中文名、地区别名、英文名或学名检索，也可按目、科或照片收录情况筛选。没有可靠照片的物种同样保留独立档案。[查看照片待补的物种](https://dolomitiaugust.github.io/bird-archive/#checklist?media=missing)
 
 ## 本地运行
 
