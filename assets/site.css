@@ -85,7 +85,6 @@ html:lang(en) #cover-title { font-size:clamp(2.6rem,4.35vw,4.65rem); letter-spac
 .ticket-name:hover,.ticket-name:focus-visible { text-decoration:underline; }
 .specimen-ticket i { font:italic .91rem/1.4 var(--serif); margin:3px 0 14px; }
 .ticket-id { border-top:1px solid #9ba79070; padding-top:9px; font:.73rem/1.5 var(--mono); color:#d5d9ca; }
-.ticket-credit { margin-top:6px; font-size:.72rem; color:#d5d9ca; line-height:1.5; }
 @media(min-width:1050px) { .cover-copy { padding-left:clamp(10px,1.3vw,22px); } }
 .catalog-layout { display:grid; grid-template-columns:clamp(158px,13.5vw,210px) minmax(0,1fr); gap:clamp(18px,2.2vw,38px); padding-top:28px; align-items:start; }
 .archive-sidebar { border-right:1px solid var(--fine); padding-right:clamp(12px,1.4vw,25px); }
@@ -180,7 +179,6 @@ dialog::backdrop { background:#0e1713c9; }
   .cover-plate { width:clamp(108px,19vw,146px); padding:3px 3px 5px; }
   .ticket-heading { margin-bottom:5px; font-size:.68rem; }
   .ticket-id { display:none; }
-  .ticket-credit { margin-top:3px; font-size:.68rem; }
   .specimen-ticket i { margin:2px 0 4px; font-size:.76rem; }
 
 }
@@ -211,7 +209,6 @@ dialog::backdrop { background:#0e1713c9; }
   .specimen-ticket { align-items:center; text-align:center; }
   .ticket-heading,.specimen-ticket i,.ticket-id { display:none; }
   .ticket-name { font-size:.78rem; }
-  .ticket-credit { font-size:.62rem; margin:1px 0 0; }
   .catalog-head { align-items:flex-start; flex-direction:column; gap:8px; margin-bottom:10px; }
   #search-form { width:100%; }
   #query { height:37px; }
